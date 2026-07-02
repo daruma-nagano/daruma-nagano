@@ -1,0 +1,20 @@
+{
+  "phone": "080-8372-3790",
+  "phoneHref": "tel:08083723790",
+  "company": {
+    "事業者名": "株式会社Nexus Trading",
+    "屋号": "だるま買取長野店",
+    "所在地": "長野県松本市深志2丁目3-30 俊栄ビル1F",
+    "古物商許可番号": "第481322500084号",
+    "許可公安委員会": "長野県公安委員会",
+    "適格請求書発行事業者登録番号": "T6100003008033"
+  },
+  "company_en": {
+    "Business operator": "Nexus Trading Co., Ltd.",
+    "Shop name": "Daruma Kaitori Nagano",
+    "Address": "Shunei Bldg. 1F, 2-3-30 Fukashi, Matsumoto, Nagano",
+    "Secondhand dealer license number": "No. 481322500084",
+    "Public Safety Commission": "Nagano Prefectural Public Safety Commission",
+    "Qualified invoice issuer registration number": "T6100003008033"
+  }
+}

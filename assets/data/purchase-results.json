@@ -1,0 +1,4386 @@
+{
+  "sourceFile": "店頭買取ケース_20260624_112201.csv",
+  "note": "公開用データです。BOX、PSA・鑑定品、シングルカードに割り振れる実績のみを掲載します。買取価格、数量、件数、原価、粗利率、スタッフ名、ID類、鑑定品シリアルは含めていません。",
+  "items": [
+    {
+      "id": "R0001",
+      "name": "ポケモンカードゲームMEGA 拡張パック「アビスアイ」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0002",
+      "name": "ポケモンカードゲームMEGA ハイクラスパック「MEGAドリームex」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0003",
+      "name": "ワンピースカードゲーム ブースターパック「決戦の刻」ボックス",
+      "category": "ワンピースカード / ボックス",
+      "title": "ワンピースカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0004",
+      "name": "【シュリンクなし】ポケモンカードゲームMEGA 拡張パック「アビスアイ」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0005",
+      "name": "ポケモンカードゲームMEGA 拡張パック「ムニキスゼロ」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0006",
+      "name": "ポケモンカードゲームMEGA 拡張パック「ニンジャスピナー」 ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0007",
+      "name": "ポケモンカードゲームMEGA 拡張パック「インフェルノX」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0008",
+      "name": "ポケモンカードゲーム スカーレット&バイオレット 拡張パック「バトルパートナーズ」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0009",
+      "name": "ポケモンカードゲーム MEGA ハイクラスパック MEGAドリームex BOX",
+      "category": "その他",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0010",
+      "name": "ポケモンカードゲーム スカーレット&バイオレット スペシャルBOX「ポケモンセンターヒロシマ」",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0011",
+      "name": "ポケモンカードゲームMEGA 拡張パック「メガシンフォニア」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0012",
+      "name": "ワンピースカードゲーム ブースターパック「神の島の冒険」ボックス",
+      "category": "ワンピースカード / ボックス",
+      "title": "ワンピースカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0013",
+      "name": "244/193 キチキギスex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「MEGAドリームex」",
+      "expansion": "ハイクラスパック「MEGAドリームex」",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0014",
+      "name": "OP16-015 モンキー・Ｄ・ルフィ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "インペルダウン/麦わらの一味",
+      "expansion": "インペルダウン/麦わらの一味",
+      "rarity": "SR",
+      "aliases": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ],
+      "searchKeywords": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ]
+    },
+    {
+      "id": "R0015",
+      "name": "たしぎ　OP14-029 SP",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "OP-14",
+      "expansion": "",
+      "rarity": "",
+      "aliases": [
+        "OP 14",
+        "OP-014",
+        "OP-14",
+        "OP014",
+        "OP14"
+      ],
+      "searchKeywords": [
+        "OP 14",
+        "OP-014",
+        "OP-14",
+        "OP014",
+        "OP14"
+      ]
+    },
+    {
+      "id": "R0016",
+      "name": "ポケモンカードゲーム スカーレット&バイオレット スペシャルBOX「ポケモンセンターフクオカ」",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0017",
+      "name": "ポケモンカードゲーム スカーレット&バイオレット ハイクラスパック「テラスタルフェスex」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0018",
+      "name": "ポケモンカードゲーム スカーレット&バイオレット 強化拡張パック 「ポケモンカード151」 BOX",
+      "category": "その他",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0019",
+      "name": "ポケモンカードゲーム スカーレット&バイオレット 強化拡張パック「熱風のアリーナ」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0020",
+      "name": "ポケモンカードゲーム スカーレット&バイオレット 拡張パック「ホワイトフレア」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0021",
+      "name": "バンダイ(BANDAI) ONE PIECEカードゲーム スタートデッキEX ルフィ＆エース【ST-30】",
+      "category": "ワンピースカード / ボックス",
+      "title": "ワンピースカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": "",
+      "aliases": [
+        "ST 30",
+        "ST-030",
+        "ST-30",
+        "ST030",
+        "ST30"
+      ],
+      "searchKeywords": [
+        "ST 30",
+        "ST-030",
+        "ST-30",
+        "ST030",
+        "ST30"
+      ]
+    },
+    {
+      "id": "R0022",
+      "name": "ワンピースカードゲーム エクストラブースター「ワンピース ヒロインズエディション」ボックス",
+      "category": "ワンピースカード / ボックス",
+      "title": "ワンピースカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0023",
+      "name": "ワンピースカードゲーム ブースターパック「受け継がれる意志」ボックス",
+      "category": "ワンピースカード / ボックス",
+      "title": "ワンピースカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0024",
+      "name": "ワンピースカードゲーム ブースターパック「新たなる皇帝」ボックス",
+      "category": "ワンピースカード / ボックス",
+      "title": "ワンピースカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0025",
+      "name": "PSA10 098/SV-P 名探偵ピカチュウ",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "",
+      "expansion": "",
+      "rarity": "P",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0026",
+      "name": "PSA10 230/193 メガゲンガーex",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "[M2a]MEGAドリームeⅹ",
+      "expansion": "",
+      "rarity": "MA",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0027",
+      "name": "014/036 ケルディオ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "コンセプトパック「幻・伝説ドリームキラコレクション」",
+      "expansion": "コンセプトパック「幻・伝説ドリームキラコレクション」",
+      "rarity": ""
+    },
+    {
+      "id": "R0028",
+      "name": "027/071 ピカチュウ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック「Pokémon GO」",
+      "expansion": "強化拡張パック「Pokémon GO」",
+      "rarity": "C"
+    },
+    {
+      "id": "R0029",
+      "name": "032/190 ラプラスVMAX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「シャイニースターV」",
+      "expansion": "ハイクラスパック「シャイニースターV」",
+      "rarity": "RRR"
+    },
+    {
+      "id": "R0030",
+      "name": "044/193 ピカチュウex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "[M2a]MEGAドリームeⅹ",
+      "expansion": "",
+      "rarity": "RR(ダブルレア)"
+    },
+    {
+      "id": "R0031",
+      "name": "073/071 ピカチュウ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック「ダークファンタズマ」",
+      "expansion": "強化拡張パック「ダークファンタズマ」",
+      "rarity": "CHR"
+    },
+    {
+      "id": "R0032",
+      "name": "083/066 ゲッコウガex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック『クリムゾンヘイズ』",
+      "expansion": "強化拡張パック『クリムゾンヘイズ』",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0033",
+      "name": "084/067 ナタネの活気",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「タイムゲイザー」",
+      "expansion": "拡張パック「タイムゲイザー」",
+      "rarity": "HR"
+    },
+    {
+      "id": "R0034",
+      "name": "113/080 メガサメハダーex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「インフェルノX」",
+      "expansion": "拡張パック「インフェルノX」",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0035",
+      "name": "117/083 チラチーノex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「ニンジャスピナー」",
+      "expansion": "拡張パック「ニンジャスピナー」",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0036",
+      "name": "117/100 Nのゾロアークex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック『バトルパートナーズ』",
+      "expansion": "拡張パック『バトルパートナーズ』",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0037",
+      "name": "127/101 オーガポンいどのめんex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック『変幻の仮面』",
+      "expansion": "拡張パック『変幻の仮面』",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0038",
+      "name": "137/108 オモダカ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック『黒炎の支配者』",
+      "expansion": "拡張パック『黒炎の支配者』",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0039",
+      "name": "183/165 ミュウツー",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック『ポケモンカード151』",
+      "expansion": "強化拡張パック『ポケモンカード151』",
+      "rarity": "AR"
+    },
+    {
+      "id": "R0040",
+      "name": "190/172 ガラルファイヤー",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック 「VSTARユニバース」",
+      "expansion": "ハイクラスパック 「VSTARユニバース」",
+      "rarity": "AR"
+    },
+    {
+      "id": "R0041",
+      "name": "205/193 ロケット団のミミッキュ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「MEGAドリームex」",
+      "expansion": "ハイクラスパック「MEGAドリームex」",
+      "rarity": "AR"
+    },
+    {
+      "id": "R0042",
+      "name": "215/187 スナノケガワex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『テラスタルフェスex』",
+      "expansion": "ハイクラスパック『テラスタルフェスex』",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0043",
+      "name": "225/172 ザシアンV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック 「VSTARユニバース」",
+      "expansion": "ハイクラスパック 「VSTARユニバース」",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0044",
+      "name": "236/190 ピカチュウ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『シャイニートレジャーex』",
+      "expansion": "ハイクラスパック『シャイニートレジャーex』",
+      "rarity": "S"
+    },
+    {
+      "id": "R0045",
+      "name": "237/190 ライチュウ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『シャイニートレジャーex』",
+      "expansion": "ハイクラスパック『シャイニートレジャーex』",
+      "rarity": "S"
+    },
+    {
+      "id": "R0046",
+      "name": "360/190 コライドンex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『シャイニートレジャーex』",
+      "expansion": "ハイクラスパック『シャイニートレジャーex』",
+      "rarity": "UR"
+    },
+    {
+      "id": "R0047",
+      "name": "ブラッキーV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ｓ8ｂ",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0048",
+      "name": "モンスターボールミラー 025/165 ピカチュウ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック『ポケモンカード151』",
+      "expansion": "強化拡張パック『ポケモンカード151』",
+      "rarity": "C"
+    },
+    {
+      "id": "R0049",
+      "name": "ラブラブボールミラー 032/193 コダック",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「MEGAドリームex」",
+      "expansion": "ハイクラスパック「MEGAドリームex」",
+      "rarity": ""
+    },
+    {
+      "id": "R0050",
+      "name": "OP16-032 ボア・ハンコック",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "インペルダウン/王下七武海/九蛇海賊団",
+      "expansion": "インペルダウン/王下七武海/九蛇海賊団",
+      "rarity": "SR",
+      "aliases": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ],
+      "searchKeywords": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ]
+    },
+    {
+      "id": "R0051",
+      "name": "OP16-048 バギー",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "インペルダウン/バギー海賊団",
+      "expansion": "インペルダウン/バギー海賊団",
+      "rarity": "SR",
+      "aliases": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ],
+      "searchKeywords": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ]
+    },
+    {
+      "id": "R0052",
+      "name": "OP16-056 Mr.3ギャルディーノ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "インペルダウン/元B・W",
+      "expansion": "インペルダウン/元B・W",
+      "rarity": "SR",
+      "aliases": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ],
+      "searchKeywords": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ]
+    },
+    {
+      "id": "R0053",
+      "name": "OP16-098 ヤマト",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "ワノ国",
+      "expansion": "ワノ国",
+      "rarity": "SR",
+      "aliases": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ],
+      "searchKeywords": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ]
+    },
+    {
+      "id": "R0054",
+      "name": "OP16-108 シリュウ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "インペルダウン/黒ひげ海賊団",
+      "expansion": "インペルダウン/黒ひげ海賊団",
+      "rarity": "SR",
+      "aliases": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ],
+      "searchKeywords": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ]
+    },
+    {
+      "id": "R0055",
+      "name": "未開封/一番くじロゴ/illust:otton OP13-001 モンキー・D・ルフィ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "一番くじ ONE PIECE CARD GAME",
+      "expansion": "一番くじ ONE PIECE CARD GAME",
+      "rarity": "L",
+      "aliases": [
+        "OP 13",
+        "OP-013",
+        "OP-13",
+        "OP013",
+        "OP13"
+      ],
+      "searchKeywords": [
+        "OP 13",
+        "OP-013",
+        "OP-13",
+        "OP013",
+        "OP13"
+      ]
+    },
+    {
+      "id": "R0056",
+      "name": "【シュリンクなし】ポケモンカードゲームMEGA 拡張パック「インフェルノX」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0057",
+      "name": "【シュリンクなし】ポケモンカードゲームMEGA 拡張パック「ニンジャスピナー」 ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0058",
+      "name": "【シュリンクなし】ポケモンカードゲームMEGA 拡張パック「メガブレイブ」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0059",
+      "name": "ポケモンカードゲーム MEGA 拡張パック ニンジャスピナー BOX",
+      "category": "その他",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0060",
+      "name": "ポケモンカードゲーム スカーレット&バイオレット 強化拡張パック 「レイジングサーフ」 ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0061",
+      "name": "ポケモンカードゲーム スカーレット&バイオレット 拡張パック 「クレイバースト (クレバ) 」 ボックス(スノーハザード&クレイバースト)",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0062",
+      "name": "ポケモンカードゲーム スカーレット&バイオレット 拡張パック 「サイバージャッジ」 ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0063",
+      "name": "ポケモンカードゲーム スカーレット&バイオレット 拡張パック 「黒炎の支配者」 ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0064",
+      "name": "ポケモンカードゲーム スカーレット&バイオレット 拡張パック「ステラミラクル」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0065",
+      "name": "ポケモンカードゲーム スカーレット&バイオレット 拡張パック「ブラックボルト」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0066",
+      "name": "ポケモンカードゲーム スカーレット&バイオレット 拡張パック「超電ブレイカー」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0067",
+      "name": "ポケモンカードゲーム ソード&シールド 拡張パック スターバース ボックス (スタバ)",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0068",
+      "name": "ポケモンカードゲームMEGA 拡張パック「メガブレイブ」ボックス",
+      "category": "ポケモンカード / ボックス",
+      "title": "ポケモンカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0069",
+      "name": "【シュリンクなし】ワンピースカードゲーム ブースターパック「神の島の冒険」ボックス",
+      "category": "ワンピースカード / ボックス",
+      "title": "ワンピースカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0070",
+      "name": "ワンピースカードゲーム エクストラブースター「エッグヘッドクライシス」ボックス",
+      "category": "ワンピースカード / ボックス",
+      "title": "ワンピースカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0071",
+      "name": "ワンピースカードゲーム ブースターパック「師弟の絆」ボックス",
+      "category": "ワンピースカード / ボックス",
+      "title": "ワンピースカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0072",
+      "name": "ワンピースカードゲーム ブースターパック「神速の拳」ボックス",
+      "category": "ワンピースカード / ボックス",
+      "title": "ワンピースカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0073",
+      "name": "ワンピースカードゲーム ブースターパック「蒼海の七傑」 ボックス",
+      "category": "ワンピースカード / ボックス",
+      "title": "ワンピースカード",
+      "type": "BOX",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0074",
+      "name": "237/193 ロケット団のミュウツーex",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "ハイクラスパック「MEGAドリームex」",
+      "expansion": "ハイクラスパック「MEGAドリームex」",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0075",
+      "name": "FB-09 Dragon Ball Fusion World Dual Evolution [ボックス]",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "",
+      "expansion": "",
+      "rarity": "",
+      "aliases": [
+        "FB 09",
+        "FB-009",
+        "FB-09",
+        "FB009",
+        "FB09"
+      ],
+      "searchKeywords": [
+        "FB 09",
+        "FB-009",
+        "FB-09",
+        "FB009",
+        "FB09"
+      ]
+    },
+    {
+      "id": "R0076",
+      "name": "PSA10 001/S-P ピカチュウ",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "その他",
+      "expansion": "その他",
+      "rarity": "P",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0077",
+      "name": "PSA10 069/063 マーシャドー",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "拡張パック「メガブレイブ」",
+      "expansion": "拡張パック「メガブレイブ」",
+      "rarity": "AR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0078",
+      "name": "PSA10 080/071 タギングル",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "[SV2D]クレイバースト",
+      "expansion": "",
+      "rarity": "AR(アートレア)",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0079",
+      "name": "PSA10 091/080 プクリン",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "[M2]インフェルノX",
+      "expansion": "",
+      "rarity": "AR(アートレア)",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0080",
+      "name": "PSA10 103/098 ロケット団のソーナンス",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "拡張パック『ロケット団の栄光』",
+      "expansion": "拡張パック『ロケット団の栄光』",
+      "rarity": "AR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0081",
+      "name": "PSA10 114/098 ロケット団のミュウツーex",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "[SV10]ロケット団の栄光",
+      "expansion": "",
+      "rarity": "SR(スーパーレア)",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10",
+        "SV 10",
+        "SV-010",
+        "SV-10",
+        "SV010",
+        "SV10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10",
+        "SV 10",
+        "SV-010",
+        "SV-10",
+        "SV010",
+        "SV10"
+      ]
+    },
+    {
+      "id": "R0082",
+      "name": "PSA10 134/108 リザードンex",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "拡張パック『黒炎の支配者』",
+      "expansion": "拡張パック『黒炎の支配者』",
+      "rarity": "SAR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0083",
+      "name": "PSA10 200/165 フシギバナex",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "強化拡張パック『ポケモンカード151』",
+      "expansion": "強化拡張パック『ポケモンカード151』",
+      "rarity": "SAR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0084",
+      "name": "PSA10 205/172 ピカチュウ",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "ハイクラスパック 「VSTARユニバース」",
+      "expansion": "ハイクラスパック 「VSTARユニバース」",
+      "rarity": "AR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0085",
+      "name": "PSA10 205/193 ロケット団のミミッキュ",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "[M2a]MEGAドリームeⅹ",
+      "expansion": "",
+      "rarity": "AR(アートレア)",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0086",
+      "name": "PSA10 210/193 Nのゼクロム",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "[M2a]MEGAドリームeⅹ",
+      "expansion": "",
+      "rarity": "AR(アートレア)",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0087",
+      "name": "PSA10 211/172 リザードンV",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "ハイクラスパック 「VSTARユニバース」",
+      "expansion": "ハイクラスパック 「VSTARユニバース」",
+      "rarity": "SAR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0088",
+      "name": "PSA10 232/SV-P ナンジャモのカイデン",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "[PROMO]スカーレット&バイオレットシリーズ",
+      "expansion": "",
+      "rarity": "プロモカード",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0089",
+      "name": "PSA10 25th 021/025 ゼクロム",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "プロモカードパック 25th ANNIVERSARY edition",
+      "expansion": "プロモカードパック 25th ANNIVERSARY edition",
+      "rarity": "P",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0090",
+      "name": "PSA10 307/190 リザードンV",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "ハイクラスパック「シャイニースターV」",
+      "expansion": "ハイクラスパック「シャイニースターV」",
+      "rarity": "SSR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0091",
+      "name": "PSA10 Classicキラ 003/032 リザードン",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "ポケモンカードゲームClassic",
+      "expansion": "ポケモンカードゲームClassic",
+      "rarity": "",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0092",
+      "name": "PSA10 SA 063/049 ソルガレオ＆ルナアーラGX",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "強化拡張パック「ドリームリーグ」",
+      "expansion": "強化拡張パック「ドリームリーグ」",
+      "rarity": "SR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10",
+        "SA 063",
+        "SA-063",
+        "SA063"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10",
+        "SA 063",
+        "SA-063",
+        "SA063"
+      ]
+    },
+    {
+      "id": "R0093",
+      "name": "PSA10 SA 078/070 ガラルファイヤーV",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "強化拡張パック「双璧のファイター」",
+      "expansion": "強化拡張パック「双璧のファイター」",
+      "rarity": "SR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10",
+        "SA 078",
+        "SA-078",
+        "SA078"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10",
+        "SA 078",
+        "SA-078",
+        "SA078"
+      ]
+    },
+    {
+      "id": "R0094",
+      "name": "PSA10 SA 110/098 ルギアV",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "拡張パック「パラダイムトリガー」",
+      "expansion": "拡張パック「パラダイムトリガー」",
+      "rarity": "SR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10",
+        "SA 110",
+        "SA-110",
+        "SA110"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10",
+        "SA 110",
+        "SA-110",
+        "SA110"
+      ]
+    },
+    {
+      "id": "R0095",
+      "name": "PSA10 SA 189/S-P エーフィVMAX",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "強化拡張パック「イーブイヒーローズ」",
+      "expansion": "強化拡張パック「イーブイヒーローズ」",
+      "rarity": "P",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10",
+        "SA 189",
+        "SA-189",
+        "SA189"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10",
+        "SA 189",
+        "SA-189",
+        "SA189"
+      ]
+    },
+    {
+      "id": "R0096",
+      "name": "PSA10 YU NAGABA 067/SV-P ブラッキー",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "",
+      "expansion": "",
+      "rarity": "P",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0097",
+      "name": "PSA10 マスターボールミラー 130/165 ギャラドス",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "強化拡張パック『ポケモンカード151』",
+      "expansion": "強化拡張パック『ポケモンカード151』",
+      "rarity": "R",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0098",
+      "name": "PSA10 ヤドン 082/078",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "",
+      "expansion": "",
+      "rarity": "AR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0099",
+      "name": "PSA10 ライチュウ【AR】{074/071} [SV2D]",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "",
+      "expansion": "",
+      "rarity": "",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0100",
+      "name": "PSA10　128/086 ダゲキ",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "拡張パック『ホワイトフレア』",
+      "expansion": "拡張パック『ホワイトフレア』",
+      "rarity": "AR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0101",
+      "name": "PSA10　カメックスEX　202/165",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "",
+      "expansion": "",
+      "rarity": "SAR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0102",
+      "name": "PSA10　ピカチュウ柄緑 101/SV-P バティックシャツのピカチュウ",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "",
+      "expansion": "",
+      "rarity": "P",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0103",
+      "name": "PSA9 024/028 そらをとぶピカチュウVMAX",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "[S8a]25thアニバーサリーコレクション",
+      "expansion": "",
+      "rarity": "RRR",
+      "aliases": [
+        "PSA 9",
+        "PSA-9",
+        "PSA9"
+      ],
+      "searchKeywords": [
+        "PSA 9",
+        "PSA-9",
+        "PSA9"
+      ]
+    },
+    {
+      "id": "R0104",
+      "name": "PSA9　25th 022/028 なみのりピカチュウVMAX",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "その他",
+      "expansion": "その他",
+      "rarity": "RRR",
+      "aliases": [
+        "PSA 9",
+        "PSA-9",
+        "PSA9"
+      ],
+      "searchKeywords": [
+        "PSA 9",
+        "PSA-9",
+        "PSA9"
+      ]
+    },
+    {
+      "id": "R0105",
+      "name": "RR仕様 322/S-P ルギアV",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "その他",
+      "expansion": "その他",
+      "rarity": "P"
+    },
+    {
+      "id": "R0106",
+      "name": "〔PSA10鑑定済〕カビゴン【AR】{181/165}",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "",
+      "expansion": "",
+      "rarity": "AR"
+    },
+    {
+      "id": "R0107",
+      "name": "〔PSA10鑑定済〕カビゴン【CHR】{077/071}",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "",
+      "expansion": "",
+      "rarity": "CHR"
+    },
+    {
+      "id": "R0108",
+      "name": "〔PSA10鑑定済〕トウコ【SR】{166/086}",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "",
+      "expansion": "",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0109",
+      "name": "〔PSA10鑑定済〕ニャース【AR】{259/SV-P}",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "",
+      "expansion": "",
+      "rarity": "PROMO"
+    },
+    {
+      "id": "R0110",
+      "name": "〔PSA10鑑定済〕バンギラス【AR】{079/071} [その他]",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "",
+      "expansion": "",
+      "rarity": "AR"
+    },
+    {
+      "id": "R0111",
+      "name": "〔PSA10鑑定済〕ポッチャマ【AR】{085/080}",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "",
+      "expansion": "",
+      "rarity": "AR"
+    },
+    {
+      "id": "R0112",
+      "name": "〔PSA10鑑定済〕メラルバ【AR】{108/106}",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "",
+      "expansion": "",
+      "rarity": "AR"
+    },
+    {
+      "id": "R0113",
+      "name": "〔PSA10鑑定済〕ルギアV【RR】{079/098}",
+      "category": "ポケモンカード / シングルカード / 鑑定品",
+      "title": "ポケモンカード",
+      "type": "PSA・鑑定品",
+      "series": "",
+      "expansion": "",
+      "rarity": "RR"
+    },
+    {
+      "id": "R0114",
+      "name": "PSA10  OP05-119 パラレル)モンキー・D・ルフィ",
+      "category": "ワンピースカード / シングルカード / 鑑定品",
+      "title": "ワンピースカード",
+      "type": "PSA・鑑定品",
+      "series": "[OP05]新時代の主役",
+      "expansion": "SEC☆",
+      "rarity": "",
+      "aliases": [
+        "OP 05",
+        "OP-005",
+        "OP-05",
+        "OP005",
+        "OP05",
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "OP 05",
+        "OP-005",
+        "OP-05",
+        "OP005",
+        "OP05",
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0115",
+      "name": "PSA10 OP06-069 ヴィンスモーク・レイジュ",
+      "category": "ワンピースカード / シングルカード / 鑑定品",
+      "title": "ワンピースカード",
+      "type": "PSA・鑑定品",
+      "series": "フラッグシップバトル",
+      "expansion": "フラッグシップバトル",
+      "rarity": "SR",
+      "aliases": [
+        "OP 06",
+        "OP-006",
+        "OP-06",
+        "OP006",
+        "OP06",
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "OP 06",
+        "OP-006",
+        "OP-06",
+        "OP006",
+        "OP06",
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0116",
+      "name": "PSA10 パラレル/SP/ OP06-101[OP07] おナミ",
+      "category": "ワンピースカード / シングルカード / 鑑定品",
+      "title": "ワンピースカード",
+      "type": "PSA・鑑定品",
+      "series": "ブースターパック 500年後の未来【OP-07】",
+      "expansion": "ブースターパック 500年後の未来【OP-07】",
+      "rarity": "SP",
+      "aliases": [
+        "OP 06",
+        "OP 07",
+        "OP-006",
+        "OP-007",
+        "OP-06",
+        "OP-07",
+        "OP006",
+        "OP007",
+        "OP06",
+        "OP07",
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "OP 06",
+        "OP 07",
+        "OP-006",
+        "OP-007",
+        "OP-06",
+        "OP-07",
+        "OP006",
+        "OP007",
+        "OP06",
+        "OP07",
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0117",
+      "name": "PSA10 パラレル/漫画背景/漫画絵 EB01-006 トニートニー・チョッパー",
+      "category": "ワンピースカード / シングルカード / 鑑定品",
+      "title": "ワンピースカード",
+      "type": "PSA・鑑定品",
+      "series": "メモリアルコレクション【EB-01】",
+      "expansion": "メモリアルコレクション【EB-01】",
+      "rarity": "SR/SP",
+      "aliases": [
+        "EB 01",
+        "EB-001",
+        "EB-01",
+        "EB001",
+        "EB01",
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "EB 01",
+        "EB-001",
+        "EB-01",
+        "EB001",
+        "EB01",
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0118",
+      "name": "PSA10 フルアート/foil/illust:Koushi Rokushiro ST01-007 ナミ",
+      "category": "ワンピースカード / シングルカード / 鑑定品",
+      "title": "ワンピースカード",
+      "type": "PSA・鑑定品",
+      "series": "スタンダードバトル優勝",
+      "expansion": "スタンダードバトル優勝",
+      "rarity": "C",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10",
+        "ST 01",
+        "ST-001",
+        "ST-01",
+        "ST001",
+        "ST01"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10",
+        "ST 01",
+        "ST-001",
+        "ST-01",
+        "ST001",
+        "ST01"
+      ]
+    },
+    {
+      "id": "R0119",
+      "name": "PSA10 中国版/illust:Rofta ST10-006 モンキー・D・ルフィ",
+      "category": "ワンピースカード / シングルカード / 鑑定品",
+      "title": "ワンピースカード",
+      "type": "PSA・鑑定品",
+      "series": "中国1stANNIVERSARYSET",
+      "expansion": "中国1stANNIVERSARYSET",
+      "rarity": "SR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10",
+        "ST 10",
+        "ST-010",
+        "ST-10",
+        "ST010",
+        "ST10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10",
+        "ST 10",
+        "ST-010",
+        "ST-10",
+        "ST010",
+        "ST10"
+      ]
+    },
+    {
+      "id": "R0120",
+      "name": "001/SM-P カビゴンGX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "その他",
+      "expansion": "その他",
+      "rarity": "P"
+    },
+    {
+      "id": "R0121",
+      "name": "004/004 ピカチュウ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "その他",
+      "expansion": "その他",
+      "rarity": ""
+    },
+    {
+      "id": "R0122",
+      "name": "006/036 ビクティニ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "コンセプトパック「幻・伝説ドリームキラコレクション」",
+      "expansion": "コンセプトパック「幻・伝説ドリームキラコレクション」",
+      "rarity": ""
+    },
+    {
+      "id": "R0123",
+      "name": "008/055　ドクケイル",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0124",
+      "name": "009/100 イオルブVMAX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「仰天のボルテッカー」",
+      "expansion": "拡張パック「仰天のボルテッカー」",
+      "rarity": "RRR"
+    },
+    {
+      "id": "R0125",
+      "name": "010/059 MヘルガーEX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "その他",
+      "expansion": "その他",
+      "rarity": "RR"
+    },
+    {
+      "id": "R0126",
+      "name": "011/049 ピカチュウ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "MMB青",
+      "expansion": "MMB青",
+      "rarity": ""
+    },
+    {
+      "id": "R0127",
+      "name": "011/059 バクフーン 1st Edition",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0128",
+      "name": "012/025　ブラッキー　25th",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0129",
+      "name": "014/055 ピカチュウ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック「ナイトユニゾン」",
+      "expansion": "強化拡張パック「ナイトユニゾン」",
+      "rarity": "C"
+    },
+    {
+      "id": "R0130",
+      "name": "019/023 インフルエンサーの紹介",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "MP1",
+      "expansion": "MP1",
+      "rarity": "",
+      "aliases": [
+        "MP 1",
+        "MP-1",
+        "MP1"
+      ],
+      "searchKeywords": [
+        "MP 1",
+        "MP-1",
+        "MP1"
+      ]
+    },
+    {
+      "id": "R0131",
+      "name": "019/054 デンリュウ 1st Edition",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0132",
+      "name": "020/092　コダック　E",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0133",
+      "name": "021/067 ギャラドスVMAX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「蒼空ストリーム」",
+      "expansion": "拡張パック「蒼空ストリーム」",
+      "rarity": "RRR"
+    },
+    {
+      "id": "R0134",
+      "name": "025/087 ニョロボン",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "コンセプトパック「ポケットモンスターカードゲーム 拡張パック 20th Anniversary",
+      "expansion": "コンセプトパック「ポケットモンスターカードゲーム 拡張パック 20th Anniversary",
+      "rarity": "R"
+    },
+    {
+      "id": "R0135",
+      "name": "026/036 ジラーチ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "コンセプトパック「幻・伝説ドリームキラコレクション」",
+      "expansion": "コンセプトパック「幻・伝説ドリームキラコレクション」",
+      "rarity": ""
+    },
+    {
+      "id": "R0136",
+      "name": "027/069 ライチュウ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック「イーブイヒーローズ」",
+      "expansion": "強化拡張パック「イーブイヒーローズ」",
+      "rarity": "R"
+    },
+    {
+      "id": "R0137",
+      "name": "028/055 ゲッコウガ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック「ナイトユニゾン」",
+      "expansion": "強化拡張パック「ナイトユニゾン」",
+      "rarity": "R"
+    },
+    {
+      "id": "R0138",
+      "name": "028/070 デリバード 2009 ミラー",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0139",
+      "name": "028/071 ピカチュウ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "[S10b]Pokemon GO",
+      "expansion": "R(レア)",
+      "rarity": ""
+    },
+    {
+      "id": "R0140",
+      "name": "029/094 ミュウツー＆ミュウGX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「ミラクルツイン」",
+      "expansion": "拡張パック「ミラクルツイン」",
+      "rarity": "RR"
+    },
+    {
+      "id": "R0141",
+      "name": "030/071 ミュウツーV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック「Pokémon GO」",
+      "expansion": "強化拡張パック「Pokémon GO」",
+      "rarity": "RR"
+    },
+    {
+      "id": "R0142",
+      "name": "031/095 ピカチュウ&ゼクロムGX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "[SM9]タッグボルト",
+      "expansion": "RR(ダブルレア)",
+      "rarity": "",
+      "aliases": [
+        "SM 9",
+        "SM-9",
+        "SM9"
+      ],
+      "searchKeywords": [
+        "SM 9",
+        "SM-9",
+        "SM9"
+      ]
+    },
+    {
+      "id": "R0143",
+      "name": "033/087 ピカチュウ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "その他",
+      "expansion": "その他",
+      "rarity": "C"
+    },
+    {
+      "id": "R0144",
+      "name": "036/190 カイオーガ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「シャイニースターV」",
+      "expansion": "ハイクラスパック「シャイニースターV」",
+      "rarity": "A"
+    },
+    {
+      "id": "R0145",
+      "name": "037/059 ゾロアークBREAK",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "XY8青",
+      "expansion": "XY8青",
+      "rarity": "RR"
+    },
+    {
+      "id": "R0146",
+      "name": "040/087 サンダー",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "コンセプトパック「ポケットモンスターカードゲーム 拡張パック 20th Anniversary",
+      "expansion": "コンセプトパック「ポケットモンスターカードゲーム 拡張パック 20th Anniversary",
+      "rarity": "R"
+    },
+    {
+      "id": "R0147",
+      "name": "040/100 ミュウVMAX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「フュージョンアーツ」",
+      "expansion": "拡張パック「フュージョンアーツ」",
+      "rarity": "RRR"
+    },
+    {
+      "id": "R0148",
+      "name": "041/172 ゼラオラVMAX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック 「VSTARユニバース」",
+      "expansion": "ハイクラスパック 「VSTARユニバース」",
+      "rarity": "RRR"
+    },
+    {
+      "id": "R0149",
+      "name": "046/067 レックウザV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「蒼空ストリーム」",
+      "expansion": "拡張パック「蒼空ストリーム」",
+      "rarity": "RR"
+    },
+    {
+      "id": "R0150",
+      "name": "048/071 メルメタルVMAX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック「Pokémon GO」",
+      "expansion": "強化拡張パック「Pokémon GO」",
+      "rarity": "RRR"
+    },
+    {
+      "id": "R0151",
+      "name": "049/071 カイリューV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック「Pokémon GO」",
+      "expansion": "強化拡張パック「Pokémon GO」",
+      "rarity": "RR"
+    },
+    {
+      "id": "R0152",
+      "name": "049/078 ドータクンBREAK",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "その他",
+      "expansion": "その他",
+      "rarity": "RR"
+    },
+    {
+      "id": "R0153",
+      "name": "051/172 ミュウツーVSTAR",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック 「VSTARユニバース」",
+      "expansion": "ハイクラスパック 「VSTARユニバース」",
+      "rarity": "RRR"
+    },
+    {
+      "id": "R0154",
+      "name": "052/173 ミュウツー＆ミュウGX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック TAG TEAM タッグオールスターズ",
+      "expansion": "ハイクラスパック TAG TEAM タッグオールスターズ",
+      "rarity": "RR"
+    },
+    {
+      "id": "R0155",
+      "name": "056/184~059/184 モルペコV-UNION",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「VMAXクライマックス」",
+      "expansion": "ハイクラスパック「VMAXクライマックス」",
+      "rarity": "RRR"
+    },
+    {
+      "id": "R0156",
+      "name": "061/060 ラプラスGX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「コレクション サン」",
+      "expansion": "拡張パック「コレクション サン」",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0157",
+      "name": "064/063 フシギダネ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "[M1L]メガブレイブ",
+      "expansion": "",
+      "rarity": "AR(アートレア)"
+    },
+    {
+      "id": "R0158",
+      "name": "070/068 ミロカロス",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック「白熱のアルカナ」",
+      "expansion": "強化拡張パック「白熱のアルカナ」",
+      "rarity": "CHR"
+    },
+    {
+      "id": "R0159",
+      "name": "071/068 ルージュラ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック「白熱のアルカナ」",
+      "expansion": "強化拡張パック「白熱のアルカナ」",
+      "rarity": "CHR"
+    },
+    {
+      "id": "R0160",
+      "name": "071/070 セレビィV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「漆黒のガイスト」",
+      "expansion": "拡張パック「漆黒のガイスト」",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0161",
+      "name": "072/068 サーナイト",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック「白熱のアルカナ」",
+      "expansion": "強化拡張パック「白熱のアルカナ」",
+      "rarity": "CHR"
+    },
+    {
+      "id": "R0162",
+      "name": "073/071 ミュウツーV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック「Pokémon GO」",
+      "expansion": "強化拡張パック「Pokémon GO」",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0163",
+      "name": "074/069 シャワーズV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック「イーブイヒーローズ」",
+      "expansion": "強化拡張パック「イーブイヒーローズ」",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0164",
+      "name": "076/063 メガユキノオーex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「メガシンフォニア」",
+      "expansion": "拡張パック「メガシンフォニア」",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0165",
+      "name": "077/068 アローラロコンV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック「白熱のアルカナ」",
+      "expansion": "強化拡張パック「白熱のアルカナ」",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0166",
+      "name": "077/184 ミミッキュVMAX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「VMAXクライマックス」",
+      "expansion": "ハイクラスパック「VMAXクライマックス」",
+      "rarity": "RRR"
+    },
+    {
+      "id": "R0167",
+      "name": "078/066 イーブイ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック『クリムゾンヘイズ』",
+      "expansion": "強化拡張パック『クリムゾンヘイズ』",
+      "rarity": "AR"
+    },
+    {
+      "id": "R0168",
+      "name": "080/073 コイキング",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック『トリプレットビート』",
+      "expansion": "強化拡張パック『トリプレットビート』",
+      "rarity": "AR"
+    },
+    {
+      "id": "R0169",
+      "name": "085/067 ペリーラ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「タイムゲイザー」",
+      "expansion": "拡張パック「タイムゲイザー」",
+      "rarity": "HR"
+    },
+    {
+      "id": "R0170",
+      "name": "088/SM-P トウホクのピカチュウ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "その他",
+      "expansion": "その他",
+      "rarity": "P"
+    },
+    {
+      "id": "R0171",
+      "name": "091/078 ギャラドスex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「スカーレットex」",
+      "expansion": "拡張パック「スカーレットex」",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0172",
+      "name": "092/062 リバーサルエネルギー",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック『レイジングサーフ』",
+      "expansion": "強化拡張パック『レイジングサーフ』",
+      "rarity": "UR"
+    },
+    {
+      "id": "R0173",
+      "name": "092/063 メガサーナイトex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「メガシンフォニア」",
+      "expansion": "拡張パック「メガシンフォニア」",
+      "rarity": "MUR"
+    },
+    {
+      "id": "R0174",
+      "name": "094/064 ジェットエネルギー",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック『楽園ドラゴーナ』",
+      "expansion": "強化拡張パック『楽園ドラゴーナ』",
+      "rarity": "UR"
+    },
+    {
+      "id": "R0175",
+      "name": "095/173 アローラキュウコンGX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック TAG TEAM タッグオールスターズ",
+      "expansion": "ハイクラスパック TAG TEAM タッグオールスターズ",
+      "rarity": "RR"
+    },
+    {
+      "id": "R0176",
+      "name": "096/095 レシラム＆リザードンGX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「ダブルブレイズ」",
+      "expansion": "拡張パック「ダブルブレイズ」",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0177",
+      "name": "097/081 メガシャンデラex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「アビスアイ」",
+      "expansion": "拡張パック「アビスアイ」",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0178",
+      "name": "101/S-P イーブイVMAX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "その他",
+      "expansion": "その他",
+      "rarity": "P"
+    },
+    {
+      "id": "R0179",
+      "name": "104/081 クラッシュハンマー",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「アビスアイ」",
+      "expansion": "拡張パック「アビスアイ」",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0180",
+      "name": "106/100 ライチュウV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「スターバース」",
+      "expansion": "拡張パック「スターバース」",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0181",
+      "name": "110/094 プテラGX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「ミラクルツイン」",
+      "expansion": "拡張パック「ミラクルツイン」",
+      "rarity": "HR"
+    },
+    {
+      "id": "R0182",
+      "name": "110/172 ギラティナV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック 「VSTARユニバース」",
+      "expansion": "ハイクラスパック 「VSTARユニバース」",
+      "rarity": "RR"
+    },
+    {
+      "id": "R0183",
+      "name": "111/150 シルヴァディGX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「GXウルトラシャイニー」",
+      "expansion": "ハイクラスパック「GXウルトラシャイニー」",
+      "rarity": "RR"
+    },
+    {
+      "id": "R0184",
+      "name": "114/083 メガゲッコウガex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「ニンジャスピナー」",
+      "expansion": "拡張パック「ニンジャスピナー」",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0185",
+      "name": "115/080 メイのはげまし",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「ムニキスゼロ」",
+      "expansion": "拡張パック「ムニキスゼロ」",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0186",
+      "name": "115/190 リザードンex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『シャイニートレジャーex』",
+      "expansion": "ハイクラスパック『シャイニートレジャーex』",
+      "rarity": "RR"
+    },
+    {
+      "id": "R0187",
+      "name": "116/081 グラジオの決戦",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「アビスアイ」",
+      "expansion": "拡張パック「アビスアイ」",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0188",
+      "name": "118/081 メガダークライex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「アビスアイ」",
+      "expansion": "拡張パック「アビスアイ」",
+      "rarity": "MUR"
+    },
+    {
+      "id": "R0189",
+      "name": "120/083 メガゲッコウガex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「ニンジャスピナー」",
+      "expansion": "拡張パック「ニンジャスピナー」",
+      "rarity": "MUR"
+    },
+    {
+      "id": "R0190",
+      "name": "120/100 ヨクバリスVMAX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「フュージョンアーツ」",
+      "expansion": "拡張パック「フュージョンアーツ」",
+      "rarity": "HR"
+    },
+    {
+      "id": "R0191",
+      "name": "125/108 リザードンex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック『黒炎の支配者』",
+      "expansion": "拡張パック『黒炎の支配者』",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0192",
+      "name": "141/190 メタモンVMAX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「シャイニースターV」",
+      "expansion": "ハイクラスパック「シャイニースターV」",
+      "rarity": "RRR"
+    },
+    {
+      "id": "R0193",
+      "name": "162/150 モクロー",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「GXウルトラシャイニー」",
+      "expansion": "ハイクラスパック「GXウルトラシャイニー」",
+      "rarity": "S"
+    },
+    {
+      "id": "R0194",
+      "name": "167/165 フシギソウ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック『ポケモンカード151』",
+      "expansion": "強化拡張パック『ポケモンカード151』",
+      "rarity": "AR"
+    },
+    {
+      "id": "R0195",
+      "name": "175/150 ハブネーク",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0196",
+      "name": "183/172 ミュウ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック 「VSTARユニバース」",
+      "expansion": "ハイクラスパック 「VSTARユニバース」",
+      "rarity": "AR"
+    },
+    {
+      "id": "R0197",
+      "name": "185/172 デオキシス",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック 「VSTARユニバース」",
+      "expansion": "ハイクラスパック 「VSTARユニバース」",
+      "rarity": "AR"
+    },
+    {
+      "id": "R0198",
+      "name": "187/184 リザードン",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「VMAXクライマックス」",
+      "expansion": "ハイクラスパック「VMAXクライマックス」",
+      "rarity": "CHR"
+    },
+    {
+      "id": "R0199",
+      "name": "189/184 シャワーズ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「VMAXクライマックス」",
+      "expansion": "ハイクラスパック「VMAXクライマックス」",
+      "rarity": "CHR"
+    },
+    {
+      "id": "R0200",
+      "name": "193/184 サンダース",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「VMAXクライマックス」",
+      "expansion": "ハイクラスパック「VMAXクライマックス」",
+      "rarity": "CHR"
+    },
+    {
+      "id": "R0201",
+      "name": "194/190 ストライク",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『シャイニートレジャーex』",
+      "expansion": "ハイクラスパック『シャイニートレジャーex』",
+      "rarity": "S"
+    },
+    {
+      "id": "R0202",
+      "name": "195/172 ラティアス",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック 「VSTARユニバース」",
+      "expansion": "ハイクラスパック 「VSTARユニバース」",
+      "rarity": "AR"
+    },
+    {
+      "id": "R0203",
+      "name": "195/184 ゼクロム",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「VMAXクライマックス」",
+      "expansion": "ハイクラスパック「VMAXクライマックス」",
+      "rarity": "CHR"
+    },
+    {
+      "id": "R0204",
+      "name": "196/165 エリカの招待",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック『ポケモンカード151』",
+      "expansion": "強化拡張パック『ポケモンカード151』",
+      "rarity": "SR"
+    },
+    {
+      "id": "R0205",
+      "name": "199/193 コダック",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "[M2a]MEGAドリームeⅹ",
+      "expansion": "AR(アートレア)",
+      "rarity": ""
+    },
+    {
+      "id": "R0206",
+      "name": "201/165 リザードンex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "強化拡張パック『ポケモンカード151』",
+      "expansion": "強化拡張パック『ポケモンカード151』",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0207",
+      "name": "210/184 イーブイ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「VMAXクライマックス」",
+      "expansion": "ハイクラスパック「VMAXクライマックス」",
+      "rarity": "CHR"
+    },
+    {
+      "id": "R0208",
+      "name": "218/172 ライコウV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック 「VSTARユニバース」",
+      "expansion": "ハイクラスパック 「VSTARユニバース」",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0209",
+      "name": "219/190 ヤドン",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『シャイニートレジャーex』",
+      "expansion": "ハイクラスパック『シャイニートレジャーex』",
+      "rarity": "S"
+    },
+    {
+      "id": "R0210",
+      "name": "222/172 デオキシスVMAX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック 「VSTARユニバース」",
+      "expansion": "ハイクラスパック 「VSTARユニバース」",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0211",
+      "name": "222/184 ピカチュウV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「VMAXクライマックス」",
+      "expansion": "ハイクラスパック「VMAXクライマックス」",
+      "rarity": "CSR"
+    },
+    {
+      "id": "R0212",
+      "name": "224/187 イーブイex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『テラスタルフェスex』",
+      "expansion": "ハイクラスパック『テラスタルフェスex』",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0213",
+      "name": "224/193 メガユキメノコex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「MEGAドリームex」",
+      "expansion": "ハイクラスパック「MEGAドリームex」",
+      "rarity": "MA"
+    },
+    {
+      "id": "R0214",
+      "name": "226/184~229/184 モルペコV-UNION",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「VMAXクライマックス」",
+      "expansion": "ハイクラスパック「VMAXクライマックス」",
+      "rarity": "CSR"
+    },
+    {
+      "id": "R0215",
+      "name": "229/193 メガルチャブルex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「MEGAドリームex」",
+      "expansion": "ハイクラスパック「MEGAドリームex」",
+      "rarity": "MA"
+    },
+    {
+      "id": "R0216",
+      "name": "230/193 メガゲンガーex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「MEGAドリームex」",
+      "expansion": "ハイクラスパック「MEGAドリームex」",
+      "rarity": "MA"
+    },
+    {
+      "id": "R0217",
+      "name": "231/184 ニンフィアV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「VMAXクライマックス」",
+      "expansion": "ハイクラスパック「VMAXクライマックス」",
+      "rarity": "CSR"
+    },
+    {
+      "id": "R0218",
+      "name": "232/184 ニンフィアVMAX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「VMAXクライマックス」",
+      "expansion": "ハイクラスパック「VMAXクライマックス」",
+      "rarity": "CSR"
+    },
+    {
+      "id": "R0219",
+      "name": "232/193 メガカイリューex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「MEGAドリームex」",
+      "expansion": "ハイクラスパック「MEGAドリームex」",
+      "rarity": "MA"
+    },
+    {
+      "id": "R0220",
+      "name": "233/193 メガユキメノコex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「MEGAドリームex」",
+      "expansion": "ハイクラスパック「MEGAドリームex」",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0221",
+      "name": "243/193 マリィのオーロンゲex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「MEGAドリームex」",
+      "expansion": "ハイクラスパック「MEGAドリームex」",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0222",
+      "name": "244/184 ブラッキーV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「VMAXクライマックス」",
+      "expansion": "ハイクラスパック「VMAXクライマックス」",
+      "rarity": "CSR"
+    },
+    {
+      "id": "R0223",
+      "name": "246/193 メガカイリューex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「MEGAドリームex」",
+      "expansion": "ハイクラスパック「MEGAドリームex」",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0224",
+      "name": "248/193 カナリィ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "[M2a]MEGAドリームeⅹ",
+      "expansion": "SAR",
+      "rarity": ""
+    },
+    {
+      "id": "R0225",
+      "name": "250/193 メガカイリューex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「MEGAドリームex」",
+      "expansion": "ハイクラスパック「MEGAドリームex」",
+      "rarity": "MUR"
+    },
+    {
+      "id": "R0226",
+      "name": "25th 017/025 レントラーGLLV.X",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "プロモカードパック 25th ANNIVERSARY edition",
+      "expansion": "プロモカードパック 25th ANNIVERSARY edition",
+      "rarity": "P"
+    },
+    {
+      "id": "R0227",
+      "name": "25thミラー 007/028 カイオーガ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「25th ANNIVERSARY COLLECTION」",
+      "expansion": "拡張パック「25th ANNIVERSARY COLLECTION」",
+      "rarity": ""
+    },
+    {
+      "id": "R0228",
+      "name": "25thミラー 013/028 イベルタル",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「25th ANNIVERSARY COLLECTION」",
+      "expansion": "拡張パック「25th ANNIVERSARY COLLECTION」",
+      "rarity": ""
+    },
+    {
+      "id": "R0229",
+      "name": "25thミラー 016/028 ソルガレオ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「25th ANNIVERSARY COLLECTION」",
+      "expansion": "拡張パック「25th ANNIVERSARY COLLECTION」",
+      "rarity": ""
+    },
+    {
+      "id": "R0230",
+      "name": "274/190 ボチ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『シャイニートレジャーex』",
+      "expansion": "ハイクラスパック『シャイニートレジャーex』",
+      "rarity": "S"
+    },
+    {
+      "id": "R0231",
+      "name": "298/190 タギングル",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『シャイニートレジャーex』",
+      "expansion": "ハイクラスパック『シャイニートレジャーex』",
+      "rarity": "S"
+    },
+    {
+      "id": "R0232",
+      "name": "300/190 ブロロン",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『シャイニートレジャーex』",
+      "expansion": "ハイクラスパック『シャイニートレジャーex』",
+      "rarity": "S"
+    },
+    {
+      "id": "R0233",
+      "name": "303/SM-P ガルーラGX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "その他",
+      "expansion": "その他",
+      "rarity": "P"
+    },
+    {
+      "id": "R0234",
+      "name": "308/190 リザードンVMAX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「シャイニースターV」",
+      "expansion": "ハイクラスパック「シャイニースターV」",
+      "rarity": "SSR"
+    },
+    {
+      "id": "R0235",
+      "name": "313/190 ホシガリス",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『シャイニートレジャーex』",
+      "expansion": "ハイクラスパック『シャイニートレジャーex』",
+      "rarity": "S"
+    },
+    {
+      "id": "R0236",
+      "name": "314/190 ヨクバリス",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『シャイニートレジャーex』",
+      "expansion": "ハイクラスパック『シャイニートレジャーex』",
+      "rarity": "S"
+    },
+    {
+      "id": "R0237",
+      "name": "315/190 ストリンダーVMAX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「シャイニースターV」",
+      "expansion": "ハイクラスパック「シャイニースターV」",
+      "rarity": "SSR"
+    },
+    {
+      "id": "R0238",
+      "name": "318/190 ドラパルトVMAX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「シャイニースターV」",
+      "expansion": "ハイクラスパック「シャイニースターV」",
+      "rarity": "SSR"
+    },
+    {
+      "id": "R0239",
+      "name": "331/190 リザードンex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『シャイニートレジャーex』",
+      "expansion": "ハイクラスパック『シャイニートレジャーex』",
+      "rarity": "SSR"
+    },
+    {
+      "id": "R0240",
+      "name": "340/S-P マリィ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": "P"
+    },
+    {
+      "id": "R0241",
+      "name": "343/S-P ミュウ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": "P"
+    },
+    {
+      "id": "R0242",
+      "name": "347/190 ミュウex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『シャイニートレジャーex』",
+      "expansion": "ハイクラスパック『シャイニートレジャーex』",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0243",
+      "name": "348/190 サーナイトex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『シャイニートレジャーex』",
+      "expansion": "ハイクラスパック『シャイニートレジャーex』",
+      "rarity": "SAR"
+    },
+    {
+      "id": "R0244",
+      "name": "PSA10 071/063 フーディン",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「メガシンフォニア」",
+      "expansion": "AR",
+      "rarity": "",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0245",
+      "name": "PSA10 114/083 メガゲッコウガex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "[M4]ニンジャスピナー",
+      "expansion": "",
+      "rarity": "SAR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0246",
+      "name": "PSA10 206/187 グレイシアex",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『テラスタルフェスex』",
+      "expansion": "ハイクラスパック『テラスタルフェスex』",
+      "rarity": "SAR",
+      "aliases": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0247",
+      "name": "RR仕様 007/038 シャワーズGX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "スターターセット「炎のブースターGX」「水のシャワーズGX」「雷のサンダースGX」",
+      "expansion": "スターターセット「炎のブースターGX」「水のシャワーズGX」「雷のサンダースGX」",
+      "rarity": ""
+    },
+    {
+      "id": "R0248",
+      "name": "SA 104/100 ロトムV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「ロストアビス」",
+      "expansion": "拡張パック「ロストアビス」",
+      "rarity": "SR",
+      "aliases": [
+        "SA 104",
+        "SA-104",
+        "SA104"
+      ],
+      "searchKeywords": [
+        "SA 104",
+        "SA-104",
+        "SA104"
+      ]
+    },
+    {
+      "id": "R0249",
+      "name": "SA 110/098 ルギアV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「パラダイムトリガー」",
+      "expansion": "拡張パック「パラダイムトリガー」",
+      "rarity": "SR",
+      "aliases": [
+        "SA 110",
+        "SA-110",
+        "SA110"
+      ],
+      "searchKeywords": [
+        "SA 110",
+        "SA-110",
+        "SA110"
+      ]
+    },
+    {
+      "id": "R0250",
+      "name": "SA 267/S-P アルセウスV",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック「スターバース」",
+      "expansion": "拡張パック「スターバース」",
+      "rarity": "P",
+      "aliases": [
+        "SA 267",
+        "SA-267",
+        "SA267"
+      ],
+      "searchKeywords": [
+        "SA 267",
+        "SA-267",
+        "SA267"
+      ]
+    },
+    {
+      "id": "R0251",
+      "name": "サーナイト　CHR",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0252",
+      "name": "ゼラオラ　VSTAR　SAR",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0253",
+      "name": "ノーマル仕様 033/131 ライチュウGX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "GXスタートデッキ",
+      "expansion": "GXスタートデッキ",
+      "rarity": ""
+    },
+    {
+      "id": "R0254",
+      "name": "ノーマル仕様 091/131 ゼルネアスGX",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "GXスタートデッキ",
+      "expansion": "GXスタートデッキ",
+      "rarity": ""
+    },
+    {
+      "id": "R0255",
+      "name": "ピィ　AR",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0256",
+      "name": "ファイヤー  008 / 078 xy10 – 1st Edition",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": "",
+      "aliases": [
+        "XY 10",
+        "XY-010",
+        "XY-10",
+        "XY010",
+        "XY10"
+      ],
+      "searchKeywords": [
+        "XY 10",
+        "XY-010",
+        "XY-10",
+        "XY010",
+        "XY10"
+      ]
+    },
+    {
+      "id": "R0257",
+      "name": "マスターボールミラー 069/086 クリムガン",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "拡張パック『ホワイトフレア』",
+      "expansion": "拡張パック『ホワイトフレア』",
+      "rarity": "U"
+    },
+    {
+      "id": "R0258",
+      "name": "ミラー/ハイクラスパック仕様 003/150 フシギバナ",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「GXウルトラシャイニー」",
+      "expansion": "ハイクラスパック「GXウルトラシャイニー」",
+      "rarity": ""
+    },
+    {
+      "id": "R0259",
+      "name": "ムウマージ 030/059 XY8 - Holo - 1st Edition",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": "",
+      "aliases": [
+        "XY 8",
+        "XY-8",
+        "XY8"
+      ],
+      "searchKeywords": [
+        "XY 8",
+        "XY-8",
+        "XY8"
+      ]
+    },
+    {
+      "id": "R0260",
+      "name": "モンスターボールミラー 068/187 ニンフィア",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック『テラスタルフェスex』",
+      "expansion": "ハイクラスパック『テラスタルフェスex』",
+      "rarity": ""
+    },
+    {
+      "id": "R0261",
+      "name": "ヤドン　AR",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0262",
+      "name": "リザードン　VSTAR",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0263",
+      "name": "ルギア  058 / 078 xy10 – Holo – 1st Edition",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": "",
+      "aliases": [
+        "XY 10",
+        "XY-010",
+        "XY-10",
+        "XY010",
+        "XY10"
+      ],
+      "searchKeywords": [
+        "XY 10",
+        "XY-010",
+        "XY-10",
+        "XY010",
+        "XY10"
+      ]
+    },
+    {
+      "id": "R0264",
+      "name": "レックウザVMAX　108/172",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "s12a",
+      "expansion": "",
+      "rarity": ""
+    },
+    {
+      "id": "R0265",
+      "name": "水エネルギーミラー 032/193 コダック",
+      "category": "ポケモンカード / シングルカード",
+      "title": "ポケモンカード",
+      "type": "シングルカード",
+      "series": "ハイクラスパック「MEGAドリームex」",
+      "expansion": "ハイクラスパック「MEGAドリームex」",
+      "rarity": ""
+    },
+    {
+      "id": "R0266",
+      "name": "EB01-061 Mr.2・ボン・クレー ベンサム",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": "SEC",
+      "aliases": [
+        "EB 01",
+        "EB-001",
+        "EB-01",
+        "EB001",
+        "EB01"
+      ],
+      "searchKeywords": [
+        "EB 01",
+        "EB-001",
+        "EB-01",
+        "EB001",
+        "EB01"
+      ]
+    },
+    {
+      "id": "R0267",
+      "name": "OP06-119 サンジ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": "SEC",
+      "aliases": [
+        "OP 06",
+        "OP-006",
+        "OP-06",
+        "OP006",
+        "OP06"
+      ],
+      "searchKeywords": [
+        "OP 06",
+        "OP-006",
+        "OP-06",
+        "OP006",
+        "OP06"
+      ]
+    },
+    {
+      "id": "R0268",
+      "name": "OP08-119 カイドウ＆リンリン",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "ブースターパック 二つの伝説【OP-08】",
+      "expansion": "ブースターパック 二つの伝説【OP-08】",
+      "rarity": "SEC",
+      "aliases": [
+        "OP 08",
+        "OP-008",
+        "OP-08",
+        "OP008",
+        "OP08"
+      ],
+      "searchKeywords": [
+        "OP 08",
+        "OP-008",
+        "OP-08",
+        "OP008",
+        "OP08"
+      ]
+    },
+    {
+      "id": "R0269",
+      "name": "OP13-040　「強ェとわかってんだから・・・　始めから全開だ!!!」(絵違い)",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": "R",
+      "aliases": [
+        "OP 13",
+        "OP-013",
+        "OP-13",
+        "OP013",
+        "OP13"
+      ],
+      "searchKeywords": [
+        "OP 13",
+        "OP-013",
+        "OP-13",
+        "OP013",
+        "OP13"
+      ]
+    },
+    {
+      "id": "R0270",
+      "name": "OP16-003 エドワード・ニューゲート",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "四皇/白ひげ海賊団",
+      "expansion": "四皇/白ひげ海賊団",
+      "rarity": "SR",
+      "aliases": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ],
+      "searchKeywords": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ]
+    },
+    {
+      "id": "R0271",
+      "name": "OP16-082 錦えもん",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "ワノ国/赤鞘九人男",
+      "expansion": "ワノ国/赤鞘九人男",
+      "rarity": "SR",
+      "aliases": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ],
+      "searchKeywords": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ]
+    },
+    {
+      "id": "R0272",
+      "name": "OP16-118 ポートガス・Ｄ・エース",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "白ひげ海賊団",
+      "expansion": "白ひげ海賊団",
+      "rarity": "SEC",
+      "aliases": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ],
+      "searchKeywords": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ]
+    },
+    {
+      "id": "R0273",
+      "name": "OP16-119 マーシャル・Ｄ・ティーチ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "王下七武海/黒ひげ海賊団",
+      "expansion": "王下七武海/黒ひげ海賊団",
+      "rarity": "SEC",
+      "aliases": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ],
+      "searchKeywords": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ]
+    },
+    {
+      "id": "R0274",
+      "name": "PSA10 漫画絵 OP05-067 ゾロ十郎",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "「ONE PIECE CARD GAME 2nd ANNIVERSARY COMPLETE GUIDE」",
+      "expansion": "「ONE PIECE CARD GAME 2nd ANNIVERSARY COMPLETE GUIDE」",
+      "rarity": "R",
+      "aliases": [
+        "OP 05",
+        "OP-005",
+        "OP-05",
+        "OP005",
+        "OP05",
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ],
+      "searchKeywords": [
+        "OP 05",
+        "OP-005",
+        "OP-05",
+        "OP005",
+        "OP05",
+        "PSA 10",
+        "PSA-010",
+        "PSA-10",
+        "PSA010",
+        "PSA10"
+      ]
+    },
+    {
+      "id": "R0275",
+      "name": "illust:Makitoshi OP01-120 シャンクス",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "ブースターパック ROMANCE DAWN【OP-01】",
+      "expansion": "ブースターパック ROMANCE DAWN【OP-01】",
+      "rarity": "SEC",
+      "aliases": [
+        "OP 01",
+        "OP-001",
+        "OP-01",
+        "OP001",
+        "OP01"
+      ],
+      "searchKeywords": [
+        "OP 01",
+        "OP-001",
+        "OP-01",
+        "OP001",
+        "OP01"
+      ]
+    },
+    {
+      "id": "R0276",
+      "name": "illust:TAPIOCA OP05-119 モンキー・D・ルフィ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "ブースターパック 新時代の主役【OP-05】",
+      "expansion": "ブースターパック 新時代の主役【OP-05】",
+      "rarity": "SEC",
+      "aliases": [
+        "OP 05",
+        "OP-005",
+        "OP-05",
+        "OP005",
+        "OP05"
+      ],
+      "searchKeywords": [
+        "OP 05",
+        "OP-005",
+        "OP-05",
+        "OP005",
+        "OP05"
+      ]
+    },
+    {
+      "id": "R0277",
+      "name": "ノーマル仕様/TREASURECRUISE ST01-012 モンキー・D・ルフィ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "バトルパックVol.5",
+      "expansion": "バトルパックVol.5",
+      "rarity": "SR",
+      "aliases": [
+        "ST 01",
+        "ST-001",
+        "ST-01",
+        "ST001",
+        "ST01"
+      ],
+      "searchKeywords": [
+        "ST 01",
+        "ST-001",
+        "ST-01",
+        "ST001",
+        "ST01"
+      ]
+    },
+    {
+      "id": "R0278",
+      "name": "パラレル/SP/タロット柄 EB03-026 ボア・ハンコック",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "エクストラブースター ONE PIECE Heroines Edition【EB-03】",
+      "expansion": "エクストラブースター ONE PIECE Heroines Edition【EB-03】",
+      "rarity": "SP",
+      "aliases": [
+        "EB 03",
+        "EB-003",
+        "EB-03",
+        "EB003",
+        "EB03"
+      ],
+      "searchKeywords": [
+        "EB 03",
+        "EB-003",
+        "EB-03",
+        "EB003",
+        "EB03"
+      ]
+    },
+    {
+      "id": "R0279",
+      "name": "パラレル/SP/悪魔の実模様 EB02-052[OP15] エネル",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "エクストラブースター Anime 25th collection【EB-02】",
+      "expansion": "エクストラブースター Anime 25th collection【EB-02】",
+      "rarity": "SP",
+      "aliases": [
+        "EB 02",
+        "EB-002",
+        "EB-02",
+        "EB002",
+        "EB02",
+        "OP 15",
+        "OP-015",
+        "OP-15",
+        "OP015",
+        "OP15"
+      ],
+      "searchKeywords": [
+        "EB 02",
+        "EB-002",
+        "EB-02",
+        "EB002",
+        "EB02",
+        "OP 15",
+        "OP-015",
+        "OP-15",
+        "OP015",
+        "OP15"
+      ]
+    },
+    {
+      "id": "R0280",
+      "name": "パラレル/SP/悪魔の実模様 OP12-014[OP15] ボア・ハンコック",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "ブースターパック 師弟の絆【OP-12】",
+      "expansion": "ブースターパック 師弟の絆【OP-12】",
+      "rarity": "SP",
+      "aliases": [
+        "OP 12",
+        "OP 15",
+        "OP-012",
+        "OP-015",
+        "OP-12",
+        "OP-15",
+        "OP012",
+        "OP015",
+        "OP12",
+        "OP15"
+      ],
+      "searchKeywords": [
+        "OP 12",
+        "OP 15",
+        "OP-012",
+        "OP-015",
+        "OP-12",
+        "OP-15",
+        "OP012",
+        "OP015",
+        "OP12",
+        "OP15"
+      ]
+    },
+    {
+      "id": "R0281",
+      "name": "パラレル/SP/悪魔の実模様 ST26-005[OP15] モンキー・D・ルフィ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "スタートデッキ 紫黒 モンキー・D・ルフィ【ST-26】",
+      "expansion": "スタートデッキ 紫黒 モンキー・D・ルフィ【ST-26】",
+      "rarity": "SP",
+      "aliases": [
+        "OP 15",
+        "OP-015",
+        "OP-15",
+        "OP015",
+        "OP15",
+        "ST 26",
+        "ST-026",
+        "ST-26",
+        "ST026",
+        "ST26"
+      ],
+      "searchKeywords": [
+        "OP 15",
+        "OP-015",
+        "OP-15",
+        "OP015",
+        "OP15",
+        "ST 26",
+        "ST-026",
+        "ST-26",
+        "ST026",
+        "ST26"
+      ]
+    },
+    {
+      "id": "R0282",
+      "name": "パラレル/illust:Daisuke izuka OP16-098 ヤマト",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "ワノ国",
+      "expansion": "ワノ国",
+      "rarity": "SR/P",
+      "aliases": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ],
+      "searchKeywords": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ]
+    },
+    {
+      "id": "R0283",
+      "name": "パラレル/illust:Matsumoto Akira OP16-080 マーシャル・Ｄ・ティーチ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "王下七武海/黒ひげ海賊団",
+      "expansion": "王下七武海/黒ひげ海賊団",
+      "rarity": "L/P",
+      "aliases": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ],
+      "searchKeywords": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ]
+    },
+    {
+      "id": "R0284",
+      "name": "パラレル/illust:Minato Sashima OP16-108 シリュウ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "インペルダウン/黒ひげ海賊団",
+      "expansion": "インペルダウン/黒ひげ海賊団",
+      "rarity": "SR/P",
+      "aliases": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ],
+      "searchKeywords": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ]
+    },
+    {
+      "id": "R0285",
+      "name": "パラレル/illust:Studio Vigor Co.Ltd OP02-114 ボルサリーノ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "ブースターパック 頂上決戦【OP-02】",
+      "expansion": "ブースターパック 頂上決戦【OP-02】",
+      "rarity": "SR/P",
+      "aliases": [
+        "OP 02",
+        "OP-002",
+        "OP-02",
+        "OP002",
+        "OP02"
+      ],
+      "searchKeywords": [
+        "OP 02",
+        "OP-002",
+        "OP-02",
+        "OP002",
+        "OP02"
+      ]
+    },
+    {
+      "id": "R0286",
+      "name": "パラレル/illust:TAPIOCA OP01-024 モンキー・D・ルフィ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "プレミアムブースター ONE PIECE CARD THE BEST【PRB-01】",
+      "expansion": "プレミアムブースター ONE PIECE CARD THE BEST【PRB-01】",
+      "rarity": "SR/P",
+      "aliases": [
+        "OP 01",
+        "OP-001",
+        "OP-01",
+        "OP001",
+        "OP01",
+        "PRB 01",
+        "PRB-001",
+        "PRB-01",
+        "PRB001",
+        "PRB01"
+      ],
+      "searchKeywords": [
+        "OP 01",
+        "OP-001",
+        "OP-01",
+        "OP001",
+        "OP01",
+        "PRB 01",
+        "PRB-001",
+        "PRB-01",
+        "PRB001",
+        "PRB01"
+      ]
+    },
+    {
+      "id": "R0287",
+      "name": "パラレル/漫画絵 OP15-077 雷龍",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "ブースターパック 神の島の冒険【OP-15】",
+      "expansion": "ブースターパック 神の島の冒険【OP-15】",
+      "rarity": "R/P",
+      "aliases": [
+        "OP 15",
+        "OP-015",
+        "OP-15",
+        "OP015",
+        "OP15"
+      ],
+      "searchKeywords": [
+        "OP 15",
+        "OP-015",
+        "OP-15",
+        "OP015",
+        "OP15"
+      ]
+    },
+    {
+      "id": "R0288",
+      "name": "パラレル/漫画背景/漫画絵 OP16-063 クザン",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "大将/海軍",
+      "expansion": "大将/海軍",
+      "rarity": "R/SP",
+      "aliases": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ],
+      "searchKeywords": [
+        "OP 16",
+        "OP-016",
+        "OP-16",
+        "OP016",
+        "OP16"
+      ]
+    },
+    {
+      "id": "R0289",
+      "name": "フルアート/foil OP03-089 ブランニュー",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "プレミアムブースター ONE PIECE CARD THE BEST【PRB-01】",
+      "expansion": "プレミアムブースター ONE PIECE CARD THE BEST【PRB-01】",
+      "rarity": "R",
+      "aliases": [
+        "OP 03",
+        "OP-003",
+        "OP-03",
+        "OP003",
+        "OP03",
+        "PRB 01",
+        "PRB-001",
+        "PRB-01",
+        "PRB001",
+        "PRB01"
+      ],
+      "searchKeywords": [
+        "OP 03",
+        "OP-003",
+        "OP-03",
+        "OP003",
+        "OP03",
+        "PRB 01",
+        "PRB-001",
+        "PRB-01",
+        "PRB001",
+        "PRB01"
+      ]
+    },
+    {
+      "id": "R0290",
+      "name": "ライフ5/illust:BISAI P モンキー・D・ルフィ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "8パックバトル参加記念品",
+      "expansion": "8パックバトル参加記念品",
+      "rarity": "L"
+    },
+    {
+      "id": "R0291",
+      "name": "修正後/ライフ5/illust:AKIRA EGAWA P モンキー・D・ルフィ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "8パックバトル",
+      "expansion": "8パックバトル",
+      "rarity": "L"
+    },
+    {
+      "id": "R0292",
+      "name": "未開封/SOUTHEAST ASIAN CHAMPION CHAMPIONSHIP2023/illust:DAI-XT. ST13-001 サボ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": "L",
+      "aliases": [
+        "ST 13",
+        "ST-013",
+        "ST-13",
+        "ST013",
+        "ST13"
+      ],
+      "searchKeywords": [
+        "ST 13",
+        "ST-013",
+        "ST-13",
+        "ST013",
+        "ST13"
+      ]
+    },
+    {
+      "id": "R0293",
+      "name": "未開封/SOUTHEAST ASIAN CHAMPION CHAMPIONSHIP2023/illust:DAI-XT. ST13-002 ポートガス・D・エース",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": "L",
+      "aliases": [
+        "ST 13",
+        "ST-013",
+        "ST-13",
+        "ST013",
+        "ST13"
+      ],
+      "searchKeywords": [
+        "ST 13",
+        "ST-013",
+        "ST-13",
+        "ST013",
+        "ST13"
+      ]
+    },
+    {
+      "id": "R0294",
+      "name": "未開封/SOUTHEAST ASIAN CHAMPION CHAMPIONSHIP2023/illust:DAI-XT. ST13-003 モンキー・D・ルフィ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": "L",
+      "aliases": [
+        "ST 13",
+        "ST-013",
+        "ST-13",
+        "ST013",
+        "ST13"
+      ],
+      "searchKeywords": [
+        "ST 13",
+        "ST-013",
+        "ST-13",
+        "ST013",
+        "ST13"
+      ]
+    },
+    {
+      "id": "R0295",
+      "name": "未開封/illust:Makitoshi OP03-001 ポートガス・D・エース",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "チャンピオンシップセット2023（エース・サボ・ルフィ）",
+      "expansion": "チャンピオンシップセット2023（エース・サボ・ルフィ）",
+      "rarity": "L",
+      "aliases": [
+        "OP 03",
+        "OP-003",
+        "OP-03",
+        "OP003",
+        "OP03"
+      ],
+      "searchKeywords": [
+        "OP 03",
+        "OP-003",
+        "OP-03",
+        "OP003",
+        "OP03"
+      ]
+    },
+    {
+      "id": "R0296",
+      "name": "未開封/illust:tasaka P-001 モンキー・D・ルフィ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "セブンイレブンタイアップキャンペーン",
+      "expansion": "セブンイレブンタイアップキャンペーン",
+      "rarity": "P"
+    },
+    {
+      "id": "R0297",
+      "name": "未開封/illust:tasaka P-003 ユースタス・キッド",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "セブンイレブンタイアップキャンペーン",
+      "expansion": "セブンイレブンタイアップキャンペーン",
+      "rarity": "P"
+    },
+    {
+      "id": "R0298",
+      "name": "未開封/illust:tasaka P-041 モンキー・D・ルフィ",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "セブンイレブンタイアップキャンペーン",
+      "expansion": "セブンイレブンタイアップキャンペーン",
+      "rarity": "P"
+    },
+    {
+      "id": "R0299",
+      "name": "未開封/illust:tasaka ST03-008 トラファルガー・ロー",
+      "category": "ワンピースカード / シングルカード",
+      "title": "ワンピースカード",
+      "type": "シングルカード",
+      "series": "セブンイレブンタイアップキャンペーン",
+      "expansion": "セブンイレブンタイアップキャンペーン",
+      "rarity": "C",
+      "aliases": [
+        "ST 03",
+        "ST-003",
+        "ST-03",
+        "ST003",
+        "ST03"
+      ],
+      "searchKeywords": [
+        "ST 03",
+        "ST-003",
+        "ST-03",
+        "ST003",
+        "ST03"
+      ]
+    },
+    {
+      "id": "R0300",
+      "name": "S・Pリトルナイト　LOCH-JP028",
+      "category": "遊戯王OCG / シングルカード",
+      "title": "遊戯王OCG",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": "プリズマティックシークレット",
+      "aliases": [
+        "JP 028",
+        "JP-028",
+        "JP028"
+      ],
+      "searchKeywords": [
+        "JP 028",
+        "JP-028",
+        "JP028"
+      ]
+    },
+    {
+      "id": "R0301",
+      "name": "スタージャンク・シンクロン　LOCH-JP008",
+      "category": "遊戯王OCG / シングルカード",
+      "title": "遊戯王OCG",
+      "type": "シングルカード",
+      "series": "",
+      "expansion": "",
+      "rarity": "オーバーフレームプリムマ",
+      "aliases": [
+        "JP 008",
+        "JP-008",
+        "JP008"
+      ],
+      "searchKeywords": [
+        "JP 008",
+        "JP-008",
+        "JP008"
+      ]
+    }
+  ]
+}

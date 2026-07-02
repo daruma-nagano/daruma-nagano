@@ -1,0 +1,56 @@
+{
+  "siteUrl": "https://daruma-nagano.github.io/daruma-nagano",
+  "shop": {
+    "nameJa": "だるま買取 長野店",
+    "nameEn": "Daruma Kaitori Nagano",
+    "phone": "080-8372-3790",
+    "telHref": "tel:08083723790",
+    "postalCode": "390-0034",
+    "addressJa": "長野県松本市深志二丁目3-30 俊栄ビル1F",
+    "addressEn": "Shunei Bldg 1F, 2-3-30 Fukashi, Matsumoto, Nagano 390-0034",
+    "hoursJa": "平日 13:00〜19:00 / 土日祝 12:00〜19:00",
+    "hoursEn": "Weekdays 13:00–19:00 / Sat, Sun & holidays 12:00–19:00",
+    "weekdayOpenHour": 13,
+    "weekendHolidayOpenHour": 12,
+    "closeHour": 19,
+    "closedDaysJa": "火曜・水曜定休",
+    "closedDaysEn": "Closed Tue & Wed",
+    "mapUrl": "https://maps.app.goo.gl/VJ9paWerdHDKHwG36",
+    "instagramUrl": "https://www.instagram.com/darumakaitori.nagano",
+    "threadsUrl": "https://www.threads.com/@darumakaitori.nagano",
+    "lineUrl": "",
+    "xUrl": "https://x.com/kaitorinagano",
+    "onlineShopUrl": "https://pkc-mimishop.myshopify.com/?country=US"
+  },
+  "features": {
+    "freeAppraisal": true,
+    "fromOneCard": true,
+    "cancelBeforeAgreement": true,
+    "idRequired": true,
+    "englishSupport": true,
+    "taxFree": true,
+    "creditCard": true,
+    "boxPurchase": true,
+    "psaPurchase": true
+  },
+  "cardPriority": [
+    "Pokemon Cards",
+    "One Piece Card Game",
+    "Yu-Gi-Oh!"
+  ],
+  "purchasePriorityJa": [
+    "未開封BOX買取",
+    "PSA・鑑定品買取",
+    "シングルカード買取"
+  ],
+  "targetAreasJa": [
+    "松本市",
+    "安曇野市",
+    "塩尻市",
+    "岡谷市",
+    "諏訪市",
+    "茅野市",
+    "大町市",
+    "長野県中信エリア"
+  ]
+}
