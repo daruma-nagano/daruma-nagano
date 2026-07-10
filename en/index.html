@@ -16,6 +16,7 @@
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="./price-list.css">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"Daruma Kaitori Nagano","image":"https://daruma-nagano.github.io/daruma-nagano/assets/img/shop-banner.png","url":"https://daruma-nagano.github.io/daruma-nagano/en/","telephone":"+81-80-8372-3790","address":{"@type":"PostalAddress","postalCode":"390-0034","addressCountry":"JP","addressRegion":"Nagano","addressLocality":"Matsumoto","streetAddress":"Shunei Bldg. 1F, 2-3-30 Fukashi"},"geo":{"@type":"GeoCoordinates","address":"Shunei Bldg. 1F, 2-3-30 Fukashi, Matsumoto, Nagano"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Thursday","Friday"],"opens":"13:00","closes":"19:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"12:00","closes":"19:00"}],"sameAs":["https://x.com/kaitorinagano","https://www.instagram.com/darumakaitori.nagano","https://www.threads.com/@darumakaitori.nagano"],"legalName":"Nexus Trading Co., Ltd.","taxID":"T6100003008033","identifier":"No. 481322500084"}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://daruma-nagano.github.io/daruma-nagano/en/"}]}</script>
 </head>
@@ -76,6 +77,57 @@
         <div data-x-feed></div>
       </div>
     </section>
+<!-- Price List Section: paste this where you want the price list to appear -->
+<link rel="stylesheet" href="./price-list.css">
+<section class="price-list-section" id="price-list" data-price-list>
+  <div class="pl-wrap">
+    <span class="pl-kicker">Purchase Price List</span>
+    <div class="pl-title-row">
+      <h2>Latest Buylist</h2>
+      <p class="pl-lead">Please check the latest prices for Pokémon, One Piece and bulk cards. Prices and stock may change without prior notice. Contact us before visiting or shipping cards.</p>
+    </div>
+
+    <div class="pl-panel">
+      <div class="pl-toolbar">
+        <input class="pl-search" type="search" placeholder="Search item name, category, CASE, BOX, No Shrink..." data-pl-search>
+        <select class="pl-select" data-pl-type aria-label="Filter by product type">
+          <option value="All">All product types</option>
+          <option value="CASE">CASE</option>
+          <option value="BOX">BOX</option>
+          <option value="No Shrink">BOX No Shrink</option>
+          <option value="Bulk">Bulk</option>
+        </select>
+        <select class="pl-select" data-pl-sort aria-label="Sort price list">
+          <option value="updated">Latest updated</option>
+          <option value="priceDesc">Highest price</option>
+          <option value="priceAsc">Lowest price</option>
+          <option value="name">Name A-Z</option>
+        </select>
+      </div>
+      <div class="pl-tabs" aria-label="Price list categories">
+        <button class="pl-tab is-active" type="button" data-pl-category="All">All</button>
+        <button class="pl-tab" type="button" data-pl-category="Pokémon">Pokémon</button>
+        <button class="pl-tab" type="button" data-pl-category="One Piece">One Piece</button>
+        <button class="pl-tab" type="button" data-pl-category="Bulk">Bulk</button>
+      </div>
+      <div class="pl-meta">
+        <span><strong data-pl-count>0 items</strong> / Grouped by product name<br><small data-pl-status>Loading latest prices…</small> · Last update: <strong data-pl-updated>—</strong></span>
+        <span class="pl-view-toggle">
+          <button class="is-active" type="button" data-pl-view="card">Card</button>
+          <button type="button" data-pl-view="table">Compact</button>
+        </span>
+      </div>
+      <div class="pl-list" data-pl-list></div>
+      <div class="pl-empty" data-pl-empty>No matching items found.</div>
+      <div class="pl-note">
+        ※ Final purchase price may vary depending on condition, market price, remaining quantity and store policy. Please contact us for large quantities or CASE items marked “ASK”.<br>
+        <a class="pl-line-btn" href="https://lin.ee/" target="_blank" rel="noopener">Contact us on LINE</a>
+      </div>
+    </div>
+  </div>
+</section>
+<script src="./price-list-data.js"></script>
+<script src="./price-list.js"></script>
     <section class="section soft motion-section" id="access" data-motion-section data-ghost="ACCESS">
       <div class="container access-layout" data-motion-reveal>
         <div class="panel"><p class="motion-label" data-motion-no="ACCESS">Access & Parking</p><h2>About 7 minutes on foot from Matsumoto Station</h2><dl class="info-list"><div><dt>Address</dt><dd>Shunei Bldg. 1F, 2-3-30 Fukashi, Matsumoto, Nagano 390-0034</dd></div><div><dt>On foot</dt><dd>About 7 minutes from Matsumoto Station Oshiro Exit / East Exit.</dd></div><div><dt>Parking</dt><dd>No dedicated parking. Please use nearby paid parking.</dd></div></dl><p class="note">A Times Parking voucher service is available when selling or trading cards worth over ¥30,000.</p><div class="cta-row"><a class="btn primary" href="https://maps.app.goo.gl/VJ9paWerdHDKHwG36" target="_blank" rel="noopener">Open Google Map</a></div></div>
@@ -108,5 +160,6 @@
   <script src="../assets/js/x-feed.js"></script>
   <script src="../assets/js/homage-motion.js"></script>
   <script src="../assets/js/lang.js"></script>
+  <script src="./price-list.js"></script>
 </body>
 </html>
