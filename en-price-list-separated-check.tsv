@@ -1,0 +1,16 @@
+en price list separated check
+base main zip used	OK
+home en/index exists	OK
+home price-list section absent	OK
+home price-list scripts absent	OK
+home price-list nav link exists	OK
+price-list page exists	OK
+price-list page section exists	OK
+price-list css copied	OK
+price-list data copied	OK
+price-list js copied	OK
+price images copied	OK
+product groups detected	125
+price images detected	53
+ja price-list not added	OK
+line placeholder replaced	OK
