@@ -2,7 +2,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "25th Anniversary Collection",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-25th-anniversary-collection.png",
     "variants": [
       {
         "type": "CASE",
@@ -58,7 +58,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Alter Genesis",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-alter-genesis.png",
     "variants": [
       {
         "type": "CASE",
@@ -142,7 +142,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Battle Partners",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-battle-partners.png",
     "variants": [
       {
         "type": "CASE",
@@ -170,7 +170,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Battle Region",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-battle-region.png",
     "variants": [
       {
         "type": "CASE",
@@ -226,7 +226,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Blue Sky Stream",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-blue-sky-stream.png",
     "variants": [
       {
         "type": "CASE",
@@ -310,7 +310,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Crimson Haze",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-crimson-haze.png",
     "variants": [
       {
         "type": "CASE",
@@ -366,7 +366,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Dark Order",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-dark-order.png",
     "variants": [
       {
         "type": "CASE",
@@ -394,7 +394,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Dark Phantasma",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-dark-phantasma.png",
     "variants": [
       {
         "type": "CASE",
@@ -422,7 +422,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Double Blaze",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-double-blaze.png",
     "variants": [
       {
         "type": "CASE",
@@ -506,7 +506,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Eevee Heroes",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-eevee-heroes.png",
     "variants": [
       {
         "type": "CASE",
@@ -534,7 +534,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Explosive Walker",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-explosive-walker.png",
     "variants": [
       {
         "type": "CASE",
@@ -562,7 +562,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Fairy Rise",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-fairy-rise.png",
     "variants": [
       {
         "type": "CASE",
@@ -618,7 +618,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Full Metal Wall",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-full-metal-wall.png",
     "variants": [
       {
         "type": "CASE",
@@ -646,7 +646,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Fusion Arts",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-fusion-arts.png",
     "variants": [
       {
         "type": "CASE",
@@ -702,7 +702,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "GG End",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-gg-end.png",
     "variants": [
       {
         "type": "CASE",
@@ -814,7 +814,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Incandescent Arcana",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-incandescent-arcana.png",
     "variants": [
       {
         "type": "CASE",
@@ -870,7 +870,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Infinity Zone",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-infinity-zone.png",
     "variants": [
       {
         "type": "CASE",
@@ -898,7 +898,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Jet-Black Spirit",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-jet-black-spirit.png",
     "variants": [
       {
         "type": "CASE",
@@ -954,7 +954,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Legendary Heartbeat",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-legendary-heartbeat.png",
     "variants": [
       {
         "type": "CASE",
@@ -982,7 +982,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Lost Abyss",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-lost-abyss.png",
     "variants": [
       {
         "type": "CASE",
@@ -1122,7 +1122,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Miracle Twin",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-miracle-twin.png",
     "variants": [
       {
         "type": "CASE",
@@ -1262,7 +1262,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Paradigm Trigger",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-paradigm-trigger.png",
     "variants": [
       {
         "type": "CASE",
@@ -1318,7 +1318,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Peerless Fighters",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-peerless-fighters.png",
     "variants": [
       {
         "type": "CASE",
@@ -1374,7 +1374,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Pokemon GO",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-pokemon-go.png",
     "variants": [
       {
         "type": "CASE",
@@ -1430,7 +1430,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Rapid Strike Master",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-rapid-strike-master.png",
     "variants": [
       {
         "type": "CASE",
@@ -1458,7 +1458,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Rebellion Crash",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-rebellion-crash.png",
     "variants": [
       {
         "type": "CASE",
@@ -1486,7 +1486,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Remix Bout",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-remix-bout.png",
     "variants": [
       {
         "type": "CASE",
@@ -1542,7 +1542,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Scarlet ex",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-scarlet-ex.png",
     "variants": [
       {
         "type": "CASE",
@@ -1570,7 +1570,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Shield",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-shield.png",
     "variants": [
       {
         "type": "CASE",
@@ -1598,7 +1598,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Shiny Star V",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-shiny-star-v.png",
     "variants": [
       {
         "type": "CASE",
@@ -1654,7 +1654,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Silver Lance",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-silver-lance.png",
     "variants": [
       {
         "type": "CASE",
@@ -1682,7 +1682,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Single Strike Master",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-single-strike-master.png",
     "variants": [
       {
         "type": "CASE",
@@ -1766,7 +1766,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Space Juggler",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-space-juggler.png",
     "variants": [
       {
         "type": "CASE",
@@ -1794,7 +1794,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Star Birth",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-star-birth.png",
     "variants": [
       {
         "type": "CASE",
@@ -2039,7 +2039,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Thunderclap Spark",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-thunderclap-spark.png",
     "variants": [
       {
         "type": "CASE",
@@ -2067,7 +2067,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Time Gazer",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-time-gazer.png",
     "variants": [
       {
         "type": "CASE",
@@ -2179,7 +2179,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Violet ex",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-violet-ex.png",
     "variants": [
       {
         "type": "CASE",
@@ -2207,7 +2207,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "VMAX Climax",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-vmax-climax.png",
     "variants": [
       {
         "type": "CASE",
@@ -2235,7 +2235,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "VMAX Rising",
-    "image": "",
+    "image": "./assets/price-images/pok-mon-vmax-rising.png",
     "variants": [
       {
         "type": "CASE",
@@ -2347,7 +2347,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "One Piece",
     "item": "1st ANNIVERSARY SET (日本語版/ダンボール付未開封)",
-    "image": "",
+    "image": "./assets/price-images/one-piece-1st-anniversary-set.png",
     "variants": [
       {
         "type": "CASE",
@@ -2452,7 +2452,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "One Piece",
     "item": "ONE PIECE カードゲーム　2nd ANNIVERSARY SET2nd ANNIVERSARY SET(日本語版/ダンボール付未開封)",
-    "image": "",
+    "image": "./assets/price-images/one-piece-one-piece-2nd-anniversary-set2nd-anniversary-set.png",
     "variants": [
       {
         "type": "CASE",
