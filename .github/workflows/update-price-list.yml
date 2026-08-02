@@ -10,7 +10,8 @@ on:
         default: false
   schedule:
     # GitHub Actions cron uses UTC. 06:00 UTC = 15:00 JST.
-    - cron: "0 6 * * *"
+    - cron: "30 9,12,18 * * *"
+      timezone: "Asia/Tokyo"
 
 permissions:
   contents: write
