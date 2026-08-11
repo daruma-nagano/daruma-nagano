@@ -10,8 +10,10 @@ New products:
   automatically. Their variants are created from the rows registered in the
   sheet, and image is initialized as an empty string.
 
-Existing images, item order, non-target variants and all other fields are
-preserved.
+Existing images, non-target variants and all other fields are preserved.
+Before writing, products are stably sorted by the updateDate of the
+BOX / ✨ Shrink variant, newest first. Products without a target updateDate
+are placed last.
 """
 from __future__ import annotations
 
@@ -168,6 +170,24 @@ def insert_new_group(groups: list[dict[str, Any]], group: dict[str, Any]) -> Non
         groups.append(group)
 
 
+def sort_groups_by_target_update_date(groups: list[dict[str, Any]]) -> None:
+    """Stable-sort products by BOX / ✨ Shrink updateDate, newest first.
+
+    Python's sort is stable, so products with the same updateDate retain
+    their existing relative order. Products without a target date go last.
+    """
+    def target_date(group: dict[str, Any]) -> str:
+        for variant in group.get("variants", []):
+            if (
+                variant.get("type") == TARGET_TYPE
+                and variant.get("condition") == TARGET_CONDITION
+            ):
+                return str(variant.get("updateDate") or "")
+        return ""
+
+    groups.sort(key=target_date, reverse=True)
+
+
 def write_js(path: Path, groups: list[dict[str, Any]]) -> None:
     path.write_text(
         "window.DARUMA_PRICE_GROUPS = "
@@ -262,6 +282,10 @@ def main() -> int:
                 "status": "updated" if old != new else "unchanged",
                 "details": json.dumps({"old": old, "new": new}, ensure_ascii=False),
             })
+
+    # Initial website display follows the JS array order. Sort by the
+    # BOX / ✨ Shrink updateDate so recently updated products appear first.
+    sort_groups_by_target_update_date(groups)
 
     # Verify target fields for every product against the workbook.
     mismatches: list[str] = []
