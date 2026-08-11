@@ -5,12 +5,17 @@ Existing products:
   Only stock, price and updateDate are updated for variants where
   type == "BOX" and condition == "✨ Shrink".
 
-New products:
-  Products found in PRICE_LIST but not in price-list-data.js are added
-  automatically. Their variants are created from the rows registered in the
-  sheet, and image is initialized as an empty string.
+Name matching / new products:
+  ENboxname is used to canonicalize Japanese/English product names before
+  matching. Known English aliases are also normalized. Alias duplicates already
+  present in the JS are merged. Only truly new canonical products are added.
 
-Existing images, non-target variants and all other fields are preserved.
+Images:
+  Existing and newly added products are matched by category + item name against
+  data/image-url-map.json. A mapped image URL replaces the current image value.
+  If no mapping exists, the current image is preserved; new products remain empty.
+
+Non-target variants and all other fields are preserved.
 Before writing, products are stably sorted by the updateDate of the
 BOX / ✨ Shrink variant, newest first. Products without a target updateDate
 are placed last.
@@ -25,6 +30,7 @@ import re
 import sys
 import tempfile
 import urllib.request
+import unicodedata
 from collections import Counter, OrderedDict
 from datetime import date, datetime
 from pathlib import Path
@@ -48,6 +54,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--js", default="en/price-list/price-list-data.js")
     p.add_argument("--xlsx", help="Use a local workbook instead of downloading the public sheet")
     p.add_argument("--report", default="price-list-update-report.csv")
+    p.add_argument("--image-map", default="data/image-url-map.json")
     return p.parse_args()
 
 
@@ -110,13 +117,80 @@ def normalize_date(value: Any) -> str:
     raise RuntimeError(f"Unsupported update date value: {value!r}")
 
 
-def read_sheet_products(xlsx_path: Path) -> "OrderedDict[tuple[str, str], dict[str, Any]]":
-    """Read products in sheet order, including all registered variants."""
+def normalize_name(value: Any) -> str:
+    """Normalize names for alias matching without changing display spelling."""
+    text = unicodedata.normalize("NFKD", str(value or ""))
+    text = "".join(ch for ch in text if not unicodedata.combining(ch))
+    return "".join(ch for ch in text.casefold() if ch.isalnum())
+
+
+# Known naming variations seen between PRICE_LIST and the website.
+# Keys are raw aliases; values are canonical website names.
+MANUAL_ALIASES = {
+    "Terastal Fest ex": "Terastal Festival ex",
+    "Matchless Fighters": "Peerless Fighters",
+    "Nihil Zero": "Munikis Zero",
+    "Full Metal Force": "Full Metal Wall",
+    "Pokémon Card 151": "Pokemon Card 151",
+    "Pokemon Card 151": "Pokemon Card 151",
+    "Pokémon GO": "Pokemon GO",
+    "Movie Special Pack Great Detective Pikachu": "Movie Special Pack Great Detective Pikachu",
+    "ムービースペシャルパック「名探偵ピカチュウ」(SMP2)": "Movie Special Pack Great Detective Pikachu",
+    "Ultra Sun": "Ultra Sun",
+    "拡張パック「ウルトラサン」(SM5S)": "Ultra Sun",
+    "Islands Await You": "Islands Await You",
+    "拡張パック「キミを待つ島々」(SM2K)": "Islands Await You",
+    "Storm Emeralda": "Storm Emeralda",
+    "拡張パック「ストームエメラルダ」": "Storm Emeralda",
+}
+
+
+def read_name_map(wb: Any) -> dict[str, str]:
+    """Read Japanese -> English mappings from ENboxname and add known aliases."""
+    result: dict[str, str] = {}
+    if "ENboxname" in wb.sheetnames:
+        ws = wb["ENboxname"]
+        for row_no in range(1, ws.max_row + 1):
+            jp = ws.cell(row_no, 2).value
+            en = ws.cell(row_no, 3).value
+            if jp not in (None, "") and en not in (None, ""):
+                canonical = str(en).strip()
+                result[normalize_name(jp)] = canonical
+                result[normalize_name(en)] = canonical
+    for alias, canonical in MANUAL_ALIASES.items():
+        result[normalize_name(alias)] = canonical
+        result[normalize_name(canonical)] = canonical
+    return result
+
+
+def canonical_item_name(item: str, name_map: dict[str, str], existing_name_map: dict[str, str]) -> str:
+    key = normalize_name(item)
+    if key in name_map:
+        mapped = name_map[key]
+        # Prefer the exact spelling already used by the site when possible.
+        return existing_name_map.get(normalize_name(mapped), mapped)
+    if key in existing_name_map:
+        return existing_name_map[key]
+    return item.strip()
+
+
+def _variant_rank(variant: dict[str, Any]) -> tuple[str, int]:
+    """Newest updateDate wins; same date uses the later worksheet row."""
+    return (str(variant.get("updateDate") or ""), int(variant.get("_row") or 0))
+
+
+def read_sheet_products(
+    xlsx_path: Path,
+    existing_name_map: dict[str, str],
+) -> tuple["OrderedDict[tuple[str, str], dict[str, Any]]", dict[str, str]]:
+    """Read products and merge Japanese/English aliases into one canonical product."""
     wb = load_workbook(xlsx_path, data_only=True, read_only=False)
     if "Price-List" not in wb.sheetnames:
         raise RuntimeError("Worksheet 'Price-List' was not found")
     ws = wb["Price-List"]
+    name_map = read_name_map(wb)
 
+    # Each canonical product keeps one winning variant per type+condition.
     products: "OrderedDict[tuple[str, str], dict[str, Any]]" = OrderedDict()
 
     for category, cols in SECTIONS.items():
@@ -124,9 +198,11 @@ def read_sheet_products(xlsx_path: Path) -> "OrderedDict[tuple[str, str], dict[s
         for row_no in range(6, ws.max_row + 1):
             item_cell = ws.cell(row_no, cols["item"]).value
             if item_cell not in (None, ""):
-                item = str(item_cell).strip()
+                raw_item = str(item_cell).strip()
+                item = canonical_item_name(raw_item, name_map, existing_name_map)
                 current_key = (category, item)
-                products.setdefault(current_key, {"variants": [], "target_rows": []})
+                products.setdefault(current_key, {"variant_map": OrderedDict(), "aliases": []})
+                products[current_key]["aliases"].append(raw_item)
 
             if current_key is None:
                 continue
@@ -142,20 +218,81 @@ def read_sheet_products(xlsx_path: Path) -> "OrderedDict[tuple[str, str], dict[s
                 "stock": normalize_value(ws.cell(row_no, cols["stock"]).value),
                 "price": normalize_value(ws.cell(row_no, cols["price"]).value),
                 "updateDate": normalize_date(ws.cell(row_no, cols["date"]).value),
+                "_row": row_no,
             }
-            products[current_key]["variants"].append(variant)
+            vkey = (row_type, condition)
+            old = products[current_key]["variant_map"].get(vkey)
+            if old is None or _variant_rank(variant) >= _variant_rank(old):
+                products[current_key]["variant_map"][vkey] = variant
 
-            if row_type == TARGET_TYPE and condition == TARGET_CONDITION:
-                products[current_key]["target_rows"].append({
+    cleaned: "OrderedDict[tuple[str, str], dict[str, Any]]" = OrderedDict()
+    for key, info in products.items():
+        variants = []
+        target_rows = []
+        for variant in info["variant_map"].values():
+            row_no = variant.pop("_row")
+            variants.append(variant)
+            if variant["type"] == TARGET_TYPE and variant["condition"] == TARGET_CONDITION:
+                target_rows.append({
                     "stock": variant["stock"],
                     "price": variant["price"],
                     "updateDate": variant["updateDate"],
                     "excelRow": row_no,
                 })
+        if variants:
+            cleaned[key] = {
+                "variants": variants,
+                "target_rows": target_rows,
+                "aliases": list(dict.fromkeys(info["aliases"])),
+            }
+    return cleaned, name_map
 
-    # Drop accidental product headings that contain no actual variant rows.
-    return OrderedDict((k, v) for k, v in products.items() if v["variants"])
 
+def canonicalize_existing_groups(
+    groups: list[dict[str, Any]],
+    name_map: dict[str, str],
+) -> tuple[list[dict[str, Any]], list[str]]:
+    """Remove alias duplicates already created by older workflow versions.
+
+    Prefer the group whose item already equals the canonical name. Otherwise keep
+    the first group. Variant values will subsequently be refreshed from the sheet.
+    """
+    existing_spelling = {
+        normalize_name(str(g.get("item", ""))): str(g.get("item", ""))
+        for g in groups
+        if g.get("category") in ("Pokémon", "One Piece")
+    }
+    kept: "OrderedDict[tuple[str, str], dict[str, Any]]" = OrderedDict()
+    removed: list[str] = []
+    passthrough: list[dict[str, Any]] = []
+
+    for group in groups:
+        category = str(group.get("category", ""))
+        if category not in ("Pokémon", "One Piece"):
+            passthrough.append(group)
+            continue
+        raw_item = str(group.get("item", ""))
+        canonical = canonical_item_name(raw_item, name_map, existing_spelling)
+        key = (category, canonical)
+        candidate = copy.deepcopy(group)
+        candidate["item"] = canonical
+        if key not in kept:
+            kept[key] = candidate
+            continue
+
+        current = kept[key]
+        current_is_canonical = str(current.get("item")) == canonical
+        raw_is_canonical = raw_item == canonical
+        if raw_is_canonical and not current_is_canonical:
+            removed.append(str(current.get("item")))
+            kept[key] = candidate
+        else:
+            removed.append(raw_item)
+
+    result = list(kept.values())
+    # Preserve non-product categories at the end exactly as before.
+    result.extend(passthrough)
+    return result, removed
 
 def insert_new_group(groups: list[dict[str, Any]], group: dict[str, Any]) -> None:
     """Insert a new product at the end of its category block."""
@@ -188,6 +325,60 @@ def sort_groups_by_target_update_date(groups: list[dict[str, Any]]) -> None:
     groups.sort(key=target_date, reverse=True)
 
 
+
+
+def load_image_map(path: Path) -> dict[tuple[str, str], str]:
+    """Load category + item -> image URL mappings. Missing file is non-fatal."""
+    if not path.exists():
+        print(f"Image map not found; image update skipped: {path}")
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    items = payload.get("items", payload) if isinstance(payload, dict) else {}
+    result: dict[tuple[str, str], str] = {}
+    for raw_key, raw_url in items.items():
+        if not isinstance(raw_key, str) or not isinstance(raw_url, str) or not raw_url.strip():
+            continue
+        if "\t" not in raw_key:
+            continue
+        category, item = raw_key.split("\t", 1)
+        result[(category.strip(), item.strip())] = raw_url.strip()
+    return result
+
+
+def apply_images(
+    groups: list[dict[str, Any]],
+    image_map: dict[tuple[str, str], str],
+    report_rows: list[dict[str, Any]],
+    name_map: dict[str, str],
+) -> tuple[int, int]:
+    """Apply mapped images using canonical/normalized product names."""
+    normalized_images: dict[tuple[str, str], str] = {}
+    for (category, item), url in image_map.items():
+        canonical = name_map.get(normalize_name(item), item)
+        normalized_images[(category, normalize_name(canonical))] = url
+        normalized_images[(category, normalize_name(item))] = url
+
+    changed = 0
+    mapped = 0
+    for group in groups:
+        category = str(group.get("category", ""))
+        item = str(group.get("item", ""))
+        url = normalized_images.get((category, normalize_name(item)))
+        if not url:
+            continue
+        mapped += 1
+        old = str(group.get("image", "") or "")
+        if old != url:
+            group["image"] = url
+            changed += 1
+            report_rows.append({
+                "category": category,
+                "item": item,
+                "status": "image_updated",
+                "details": json.dumps({"old": old, "new": url}, ensure_ascii=False),
+            })
+    return changed, mapped
+
 def write_js(path: Path, groups: list[dict[str, Any]]) -> None:
     path.write_text(
         "window.DARUMA_PRICE_GROUPS = "
@@ -201,11 +392,22 @@ def main() -> int:
     args = parse_args()
     js_path = Path(args.js)
     report_path = Path(args.report)
+    image_map_path = Path(args.image_map)
     xlsx_path = Path(args.xlsx) if args.xlsx else download_xlsx()
 
     groups = load_js(js_path)
+    before_raw = copy.deepcopy(groups)
+
+    existing_name_map = {
+        normalize_name(str(g.get("item", ""))): str(g.get("item", ""))
+        for g in groups
+        if g.get("category") in ("Pokémon", "One Piece")
+    }
+    sheet_products, name_map = read_sheet_products(xlsx_path, existing_name_map)
+
+    # Clean alias duplicates left by older workflow runs before calculating updates.
+    groups, removed_alias_duplicates = canonicalize_existing_groups(groups, name_map)
     before = copy.deepcopy(groups)
-    sheet_products = read_sheet_products(xlsx_path)
 
     existing_keys = {
         (str(g.get("category", "")), str(g.get("item", ""))) for g in groups
@@ -231,6 +433,13 @@ def main() -> int:
     missing_from_sheet: list[tuple[str, str]] = []
     update_count = 0
     report_rows: list[dict[str, Any]] = []
+    for item in removed_alias_duplicates:
+        report_rows.append({
+            "category": "",
+            "item": item,
+            "status": "alias_duplicate_removed",
+            "details": "Merged into canonical product name",
+        })
 
     # Update existing products only. Newly added products already contain the
     # complete sheet variant data and should not be counted as existing updates.
@@ -283,6 +492,10 @@ def main() -> int:
                 "details": json.dumps({"old": old, "new": new}, ensure_ascii=False),
             })
 
+    # Apply image URLs after new products and price updates are in place.
+    image_map = load_image_map(image_map_path)
+    image_changed_count, image_mapped_count = apply_images(groups, image_map, report_rows, name_map)
+
     # Initial website display follows the JS array order. Sort by the
     # BOX / ✨ Shrink updateDate so recently updated products appear first.
     sort_groups_by_target_update_date(groups)
@@ -317,8 +530,7 @@ def main() -> int:
     for key in new_keys:
         group = group_map[key]
         expected = sheet_products[key]["variants"]
-        if group.get("image") != "":
-            new_variant_mismatches.append(f"new image is not empty: {key}")
+        # Image validation is handled by apply_images using normalized aliases.
         if group.get("variants") != expected:
             new_variant_mismatches.append(f"new variants differ from sheet: {key}")
 
@@ -334,7 +546,8 @@ def main() -> int:
             protected_changes.append(f"existing product removed: {key}")
             continue
         if old_group.get("image") != new_group.get("image"):
-            protected_changes.append(f"image changed: {key}")
+            if new_group.get("image") not in set(image_map.values()):
+                protected_changes.append(f"unexpected image change: {key}")
         if len(old_group.get("variants", [])) != len(new_group.get("variants", [])):
             protected_changes.append(f"variant count changed: {key}")
             continue
@@ -382,6 +595,9 @@ def main() -> int:
     print(f"Existing matched products: {len(matched_items)}")
     print(f"Existing target variants checked: {update_count}")
     print(f"New products added: {added_count}")
+    print(f"Alias duplicates removed: {len(removed_alias_duplicates)}")
+    print(f"Image map matches: {image_mapped_count}")
+    print(f"Images updated: {image_changed_count}")
     for key in new_keys:
         print(f"  ADDED: {key[0]} / {key[1]}")
     print(f"Existing items missing from sheet: {len(missing_from_sheet)}")
