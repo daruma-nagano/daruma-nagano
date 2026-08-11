@@ -30,7 +30,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Abyss Eye",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2600006465/20260521/1779348111960-9775dd4886eef7f4.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2600006465/20260809/1786229082543-7866c5a3c5446a1d.png",
     "variants": [
       {
         "type": "CASE",
@@ -86,7 +86,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Ancient Roar",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026785/20250920/1758340055229-75347e365dcc2a03.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026785/20260809/1786229088243-8ca07034d1019087.png",
     "variants": [
       {
         "type": "CASE",
@@ -114,7 +114,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Battle Partners",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500000113/20260415/1776210145024-57f18581d2f6c8d6.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500000113/20260809/1786229085675-9b17fc8387ccff5d.png",
     "variants": [
       {
         "type": "CASE",
@@ -142,7 +142,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Battle Region",
-    "image": "./assets/price-images/pok-mon-battle-region.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026237/20250920/1758340061395-cf9c9be80439afa3.png",
     "variants": [
       {
         "type": "CASE",
@@ -170,7 +170,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Black Bolt",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500002034/20250920/1758340049323-23766046dd7e6286.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500002034/20260809/1786229084249-be28c6175724559b.png",
     "variants": [
       {
         "type": "CASE",
@@ -226,7 +226,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Clay Burst",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026212/20250920/1758340057332-02863536f6579fab.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026212/20260809/1786229089523-f55227a890e47b5a.png",
     "variants": [
       {
         "type": "CASE",
@@ -254,7 +254,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Crimson Haze",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400000366/20250920/1758340053802-e888a2824fd7c30f.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400000366/20260809/1786229087307-eb5a1314636730c3.png",
     "variants": [
       {
         "type": "CASE",
@@ -282,7 +282,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Cyber Judge",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400000113/20250920/1758340054569-7e10194bb88da00c.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400000113/20260809/1786229087777-e9ce486f84b3392d.png",
     "variants": [
       {
         "type": "CASE",
@@ -350,8 +350,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
+        "stock": 1,
+        "price": 57800,
         "updateDate": "2026-08-11"
       },
       {
@@ -394,7 +394,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Future Flash",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026784/20250920/1758340055588-3c1010c5babd8470.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026784/20260809/1786229088494-1ef4f17fe8eedd4c.png",
     "variants": [
       {
         "type": "CASE",
@@ -422,7 +422,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Glory of Team Rocket",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500000693/20250920/1758340050674-0c5de6384d52721c.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500000693/20260809/1786229085167-2e85dc8211874adc.png",
     "variants": [
       {
         "type": "CASE",
@@ -450,7 +450,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Heat Wave Arena",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500000451/20251116/1763231905865-ef45fa5372610b88.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500000451/20260809/1786229085404-8d0e3c9552a5dc08.png",
     "variants": [
       {
         "type": "CASE",
@@ -506,7 +506,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Inferno X",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500003293/20251111/1762796041885-650700b33e00dade.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500003293/20260809/1786229083542-8ae9a9b2c90892cf.png",
     "variants": [
       {
         "type": "CASE",
@@ -646,7 +646,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Mask of Change",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400000463/20250920/1758340053479-b67d894605119aca.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400000463/20260809/1786229087075-56007144c6d9d681.png",
     "variants": [
       {
         "type": "CASE",
@@ -674,7 +674,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Mega Brave",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500002282/20250920/1758340048565-b0a9f2e50176118b.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500002282/20260809/1786229083762-f8336506487c071b.png",
     "variants": [
       {
         "type": "CASE",
@@ -702,7 +702,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Mega Dream ex",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500004624/20251217/1765910155443-e68c1354a27b637a.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500004624/20260809/1786229083313-5f7185060a01a508.png",
     "variants": [
       {
         "type": "CASE",
@@ -730,7 +730,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Mega Symphonia",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500002283/20250920/1758340048987-61c3f0f21b8ac666.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500002283/20260809/1786229084017-4e0e22229229b275.png",
     "variants": [
       {
         "type": "CASE",
@@ -786,7 +786,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Munikis Zero",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2600000698/20260122/1769053409317-10f777ec0078d51b.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2600000698/20260809/1786229083049-1533134bd7cedcef.png",
     "variants": [
       {
         "type": "CASE",
@@ -798,8 +798,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
+        "stock": 216,
+        "price": 8800,
         "updateDate": "2026-08-11"
       },
       {
@@ -814,7 +814,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Night Wanderer",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400001223/20250920/1758340053134-999bc18b7eb49703.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400001223/20260809/1786229086849-ce5a694f55503715.png",
     "variants": [
       {
         "type": "CASE",
@@ -842,7 +842,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Ninja Spinner",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2600002946/20260312/1773327453402-053f88c0b348faa6.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2600002946/20260809/1786229082784-5f4f18b4c73d58eb.png",
     "variants": [
       {
         "type": "CASE",
@@ -898,7 +898,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Paradise Dragona",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400001831/20250920/1758340052469-1ed78016a4e73fa4.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400001831/20260809/1786229086361-6ee50515363a9a36.png",
     "variants": [
       {
         "type": "CASE",
@@ -925,8 +925,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "Pokémon",
-    "item": "Pokemon Card 151",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026051/20250920/1758340056666-666204b8d7d2032b.png",
+    "item": "Pokémon Card 151",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026051/20260809/1786229089234-c3492e420a9ffbe7.png",
     "variants": [
       {
         "type": "CASE",
@@ -938,8 +938,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
+        "stock": 236,
+        "price": 57300,
         "updateDate": "2026-08-11"
       },
       {
@@ -953,8 +953,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "Pokémon",
-    "item": "Pokemon GO",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026013/20251207/1765053143824-36274e3b1d028bc3.png",
+    "item": "Pokémon GO",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026053/20250920/1758340060117-511f07faffff35c9.png",
     "variants": [
       {
         "type": "CASE",
@@ -966,8 +966,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
+        "stock": 16,
+        "price": 30800,
         "updateDate": "2026-08-11"
       },
       {
@@ -982,7 +982,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Raging Surf",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026207/20250920/1758340055917-bc8ebf6f0ef74e02.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026207/20260809/1786229088705-6c7cb6ef2aecf18a.png",
     "variants": [
       {
         "type": "CASE",
@@ -1010,7 +1010,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Ruler of the Black Flame",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026050/20250920/1758340056271-622d77fea6015305.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026050/20260809/1786229088982-75a71c25410120a5.png",
     "variants": [
       {
         "type": "CASE",
@@ -1038,7 +1038,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Scarlet ex",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026192/20250920/1758340058405-5b91988d8cafead6.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026192/20260809/1786229090220-63a28564a7b204c7.png",
     "variants": [
       {
         "type": "CASE",
@@ -1094,7 +1094,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Shiny Treasure ex",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026777/20260122/1769024006717-d30ad5de095cb156.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026777/20260809/1786229088018-ab6a11d6bc02b3d3.png",
     "variants": [
       {
         "type": "CASE",
@@ -1122,7 +1122,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Snow Hazard",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026034/20250920/1758340057732-5ff65daf46621dde.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026034/20260809/1786229089802-f5bb90138f1ee2f4.png",
     "variants": [
       {
         "type": "CASE",
@@ -1178,7 +1178,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Stellar Miracle",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400001224/20251107/1762489098914-a35ec6c31c47c842.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400001224/20260809/1786229086604-6d982cb4adce9cbd.png",
     "variants": [
       {
         "type": "CASE",
@@ -1206,7 +1206,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Super Electric Breaker",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400002368/20250920/1758340052025-97c28f726b4c103b.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400002368/20260809/1786229086138-1f963b773c3d2d75.png",
     "variants": [
       {
         "type": "CASE",
@@ -1262,7 +1262,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Terastal Festival ex",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400003662/20250923/1758553914115-6ae1fb7cfa5109c9.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400003662/20260809/1786229085916-b676dd629a2097e6.png",
     "variants": [
       {
         "type": "CASE",
@@ -1274,8 +1274,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
+        "stock": 62,
+        "price": 20300,
         "updateDate": "2026-08-11"
       },
       {
@@ -1346,7 +1346,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Triplet Beat",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026247/20250920/1758340058067-ed844504d7612ceb.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026247/20260809/1786229090015-2fc7b2968b82a6f1.png",
     "variants": [
       {
         "type": "CASE",
@@ -1374,7 +1374,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Violet ex",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026227/20250920/1758340058784-c873c51ca32d993d.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026227/20260809/1786229090479-42cc0fd3da16d70a.png",
     "variants": [
       {
         "type": "CASE",
@@ -1402,7 +1402,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "VMAX Climax",
-    "image": "./assets/price-images/pok-mon-vmax-climax.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026048/20250920/1758340062066-7f4f7e471f5e26ab.png",
     "variants": [
       {
         "type": "CASE",
@@ -1458,7 +1458,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "White Flare",
-    "image": "./assets/price-images/pok-mon-white-flare.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500002033/20260809/1786229084465-f32444449fbb3790.png",
     "variants": [
       {
         "type": "CASE",
@@ -1486,7 +1486,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Wild Force",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400000114/20250920/1758340054136-d6c554bf3afb750b.png",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400000114/20260809/1786229087546-621888728eec9fc0.png",
     "variants": [
       {
         "type": "CASE",
@@ -1513,204 +1513,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "Pokémon",
-    "item": "ムービースペシャルパック「名探偵ピカチュウ」(SMP2)",
-    "image": "",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 147600,
-        "updateDate": "2026-08-11"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "拡張パック「ウルトラサン」(SM5S)",
-    "image": "",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 89600,
-        "updateDate": "2026-08-11"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "拡張パック「キミを待つ島々」(SM2K)",
-    "image": "",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-08-11"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 1,
-        "price": 359600,
-        "updateDate": "2026-08-11"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "拡張パック「ストームエメラルダ」",
-    "image": "",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 2228,
-        "price": 19000,
-        "updateDate": "2026-08-11"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 483,
-        "price": 18800,
-        "updateDate": "2026-08-11"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Full Metal Force",
-    "image": "",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 57800,
-        "updateDate": "2026-08-11"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 2,
-        "price": 49200,
-        "updateDate": "2026-08-11"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Islands Await You",
-    "image": "",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 359800,
-        "updateDate": "2026-08-11"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 1,
-        "price": 359800,
-        "updateDate": "2026-08-11"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Matchless Fighters",
-    "image": "",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 42400,
-        "updateDate": "2026-08-11"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 1,
-        "price": 42400,
-        "updateDate": "2026-08-11"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
     "item": "Movie Special Pack Great Detective Pikachu",
-    "image": "",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026239/20251019/1760821537737-5f828136eb513b0f.png",
     "variants": [
       {
         "type": "CASE",
@@ -1737,148 +1541,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "Pokémon",
-    "item": "Nihil Zero",
-    "image": "",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 216,
-        "price": 8800,
-        "updateDate": "2026-08-11"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Pokémon Card 151",
-    "image": "",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 236,
-        "price": 57300,
-        "updateDate": "2026-08-11"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Pokémon GO",
-    "image": "",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 16,
-        "price": 30800,
-        "updateDate": "2026-08-11"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Storm Emeralda",
-    "image": "",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 2228,
-        "price": 19200,
-        "updateDate": "2026-08-11"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 483,
-        "price": 19000,
-        "updateDate": "2026-08-11"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Terastal Fest ex",
-    "image": "",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 62,
-        "price": 20300,
-        "updateDate": "2026-08-11"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
     "item": "Ultra Sun",
-    "image": "",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026167/20251019/1760821546117-78e46244dc699f41.png",
     "variants": [
       {
         "type": "CASE",
@@ -1900,6 +1564,90 @@ window.DARUMA_PRICE_GROUPS = [
         "stock": "ask",
         "price": "ask",
         "updateDate": ""
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Islands Await You",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026269/20260422/1776868201340-61b6683719c9d1d7.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 359800,
+        "updateDate": "2026-08-11"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 1,
+        "price": 359600,
+        "updateDate": "2026-08-11"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Storm Emeralda",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAX2600010605/20260809/1786229082311-e712cc1520d336a8.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 2228,
+        "price": 19200,
+        "updateDate": "2026-08-11"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 483,
+        "price": 18800,
+        "updateDate": "2026-08-11"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Peerless Fighters",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026246/20251019/1760821531354-c09919a37b48942f.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 42400,
+        "updateDate": "2026-08-11"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 1,
+        "price": 42400,
+        "updateDate": "2026-08-11"
       }
     ]
   },
@@ -2158,7 +1906,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "One Piece",
     "item": "プレミアムカードコレクション -6 assort vol.1-",
-    "image": "",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2600000703/20260803/1785727089076-e1ae00f8cf3bef1e.png",
     "variants": [
       {
         "type": "CASE",
@@ -2179,7 +1927,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "One Piece",
     "item": "プレミアムカードコレクション-Leader Collection-",
-    "image": "",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400002584/20260404/1775265077097-e6e2015bc9f847a3.png",
     "variants": [
       {
         "type": "CASE",
@@ -2200,7 +1948,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "One Piece",
     "item": "English 2nd ANNIVERSARY SET(日本語版/ダンボール付未開封)",
-    "image": "",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500003731/20260303/1772494347140-fa8aaafca29c6c25.png",
     "variants": [
       {
         "type": "CASE",
@@ -2327,34 +2075,6 @@ window.DARUMA_PRICE_GROUPS = [
         "stock": "ask",
         "price": "ask",
         "updateDate": ""
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Peerless Fighters",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026246/20251019/1760821531354-c09919a37b48942f.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-08-10"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 4.0,
-        "price": 43200.0,
-        "updateDate": "2026-07-08"
       }
     ]
   },
