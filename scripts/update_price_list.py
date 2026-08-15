@@ -248,6 +248,12 @@ def read_sheet_products(
                     "condition": condition,
                     "first_row": int(old.get("_row") or 0),
                     "duplicate_row": row_no,
+                    "first_stock": old.get("stock", ""),
+                    "duplicate_stock": variant.get("stock", ""),
+                    "first_price": old.get("price", ""),
+                    "duplicate_price": variant.get("price", ""),
+                    "first_update_date": old.get("updateDate", ""),
+                    "duplicate_update_date": variant.get("updateDate", ""),
                 })
             if old is None or _variant_rank(variant) >= _variant_rank(old):
                 products[current_key]["variant_map"][vkey] = variant
@@ -294,6 +300,68 @@ def _coerce_number(value: Any) -> float | None:
         return float(text)
     except ValueError:
         return None
+
+
+def validate_duplicate_variants(duplicate_variants: list[dict[str, Any]]) -> tuple[list[str], list[str]]:
+    """Classify duplicate input variants into fatal errors and safe warnings.
+
+    Policy:
+    - CASE / non-target variants: warning only because the Web updater does not modify them.
+    - BOX target variants with identical stock/price/updateDate: warning; later row is used.
+    - BOX target variants with different updateDate: warning; newest updateDate wins.
+    - BOX target variants with the same updateDate but conflicting stock/price: fatal error.
+      The source is ambiguous, so publishing must stop.
+    """
+    errors: list[str] = []
+    warnings: list[str] = []
+
+    for dup in duplicate_variants:
+        label = (
+            f"{dup['category']} / {dup['item']} / {dup['type']} / {dup['condition']} "
+            f"rows={dup['first_row']},{dup['duplicate_row']}"
+        )
+
+        is_target = (
+            dup.get("type") == TARGET_TYPE
+            and dup.get("condition") in TARGET_CONDITIONS
+        )
+        if not is_target:
+            warnings.append(f"duplicate non-target variant ignored: {label}")
+            continue
+
+        first_values = (
+            normalize_value(dup.get("first_stock")),
+            normalize_value(dup.get("first_price")),
+            str(dup.get("first_update_date") or ""),
+        )
+        duplicate_values = (
+            normalize_value(dup.get("duplicate_stock")),
+            normalize_value(dup.get("duplicate_price")),
+            str(dup.get("duplicate_update_date") or ""),
+        )
+
+        if first_values == duplicate_values:
+            warnings.append(f"exact duplicate input variant collapsed: {label}")
+            continue
+
+        first_date = str(dup.get("first_update_date") or "")
+        duplicate_date = str(dup.get("duplicate_update_date") or "")
+        if first_date != duplicate_date:
+            chosen_row = dup['duplicate_row'] if duplicate_date >= first_date else dup['first_row']
+            warnings.append(
+                f"stale duplicate input variant collapsed by newest updateDate: {label} "
+                f"dates={first_date or '-'}->{duplicate_date or '-'} chosen_row={chosen_row}"
+            )
+            continue
+
+        errors.append(
+            f"conflicting duplicate input variant: {label} "
+            f"same_updateDate={first_date or '-'} "
+            f"values=({dup.get('first_stock')!r},{dup.get('first_price')!r})/"
+            f"({dup.get('duplicate_stock')!r},{dup.get('duplicate_price')!r})"
+        )
+
+    return errors, warnings
 
 
 def validate_sheet_freshness(freshness: dict[str, str]) -> list[str]:
@@ -543,13 +611,9 @@ def main() -> int:
 
     input_errors: list[str] = []
     input_warnings: list[str] = []
-    if duplicate_sheet_variants:
-        for dup in duplicate_sheet_variants:
-            input_errors.append(
-                "duplicate input variant: "
-                f"{dup['category']} / {dup['item']} / {dup['type']} / {dup['condition']} "
-                f"rows={dup['first_row']},{dup['duplicate_row']}"
-            )
+    duplicate_errors, duplicate_warnings = validate_duplicate_variants(duplicate_sheet_variants)
+    input_errors.extend(duplicate_errors)
+    input_warnings.extend(duplicate_warnings)
     input_errors.extend(validate_sheet_freshness(sheet_freshness))
     value_errors, value_warnings = validate_target_values(sheet_products, before_map)
     input_errors.extend(value_errors)
@@ -804,7 +868,8 @@ def main() -> int:
     print(f"New-product mismatches: {len(new_variant_mismatches)}")
     print(f"Protected changes: {len(protected_changes)}")
     print(f"Input freshness: {sheet_freshness}")
-    print(f"Duplicate input variants: {len(duplicate_sheet_variants)}")
+    print(f"Duplicate input variants detected: {len(duplicate_sheet_variants)}")
+    print(f"Fatal conflicting duplicate variants: {len(duplicate_errors)}")
     print(f"Validation warnings: {len(input_warnings)}")
     for warning in input_warnings:
         print(f"WARNING: {warning}", file=sys.stderr)
