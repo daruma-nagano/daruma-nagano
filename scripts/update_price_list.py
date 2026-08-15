@@ -2,8 +2,8 @@
 """Update price-list-data.js from the public Google Sheets workbook.
 
 Existing products:
-  Only stock, price and updateDate are updated for variants where
-  type == "BOX" and condition == "✨ Shrink".
+  stock, price and updateDate are updated for BOX variants where condition is
+  either "✨ Shrink" or "👍 No Shrink". CASE and other variants are preserved.
 
 Name matching / new products:
   ENboxname is used to canonicalize Japanese/English product names before
@@ -26,6 +26,7 @@ import argparse
 import copy
 import csv
 import json
+import os
 import re
 import sys
 import tempfile
@@ -33,6 +34,7 @@ import urllib.request
 import unicodedata
 from collections import Counter, OrderedDict
 from datetime import date, datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from typing import Any
 
@@ -42,6 +44,14 @@ SHEET_ID = "1IXVH9SGgtwnFd3ni_Rg-scFaNEk7xQJMnvvj7Mdc4rQ"
 EXPORT_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=xlsx"
 TARGET_TYPE = "BOX"
 TARGET_CONDITION = "✨ Shrink"
+TARGET_CONDITIONS = {"✨ Shrink", "👍 No Shrink"}
+
+# Operational validation thresholds. Environment variables can override these
+# without changing source code.
+MAX_SHEET_AGE_DAYS = int(os.getenv("MAX_SHEET_AGE_DAYS", "2"))
+MAX_BOX_PRICE_JPY = int(os.getenv("MAX_BOX_PRICE_JPY", "2000000"))
+MAX_PRICE_CHANGE_RATIO = float(os.getenv("MAX_PRICE_CHANGE_RATIO", "0.50"))
+JST = ZoneInfo("Asia/Tokyo")
 
 SECTIONS = {
     "Pokémon": {"item": 2, "type": 4, "condition": 5, "stock": 6, "price": 7, "date": 8},
@@ -182,7 +192,12 @@ def _variant_rank(variant: dict[str, Any]) -> tuple[str, int]:
 def read_sheet_products(
     xlsx_path: Path,
     existing_name_map: dict[str, str],
-) -> tuple["OrderedDict[tuple[str, str], dict[str, Any]]", dict[str, str]]:
+) -> tuple[
+    "OrderedDict[tuple[str, str], dict[str, Any]]",
+    dict[str, str],
+    list[dict[str, Any]],
+    dict[str, str],
+]:
     """Read products and merge Japanese/English aliases into one canonical product."""
     wb = load_workbook(xlsx_path, data_only=True, read_only=False)
     if "Price-List" not in wb.sheetnames:
@@ -191,7 +206,10 @@ def read_sheet_products(
     name_map = read_name_map(wb)
 
     # Each canonical product keeps one winning variant per type+condition.
+    # Duplicates are still collected and treated as a validation error; the
+    # winning row is kept only so the diagnostic report can be completed.
     products: "OrderedDict[tuple[str, str], dict[str, Any]]" = OrderedDict()
+    duplicate_variants: list[dict[str, Any]] = []
 
     for category, cols in SECTIONS.items():
         current_key: tuple[str, str] | None = None
@@ -222,16 +240,31 @@ def read_sheet_products(
             }
             vkey = (row_type, condition)
             old = products[current_key]["variant_map"].get(vkey)
+            if old is not None:
+                duplicate_variants.append({
+                    "category": current_key[0],
+                    "item": current_key[1],
+                    "type": row_type,
+                    "condition": condition,
+                    "first_row": int(old.get("_row") or 0),
+                    "duplicate_row": row_no,
+                })
             if old is None or _variant_rank(variant) >= _variant_rank(old):
                 products[current_key]["variant_map"][vkey] = variant
 
     cleaned: "OrderedDict[tuple[str, str], dict[str, Any]]" = OrderedDict()
+    freshness: dict[str, str] = {}
     for key, info in products.items():
         variants = []
         target_rows = []
-        for variant in info["variant_map"].values():
-            row_no = variant.pop("_row")
+        for raw_variant in info["variant_map"].values():
+            variant = copy.deepcopy(raw_variant)
+            row_no = int(variant.pop("_row"))
             variants.append(variant)
+            if variant["type"] == TARGET_TYPE and variant["condition"] in TARGET_CONDITIONS:
+                update_date = str(variant.get("updateDate") or "")
+                if update_date and update_date > freshness.get(key[0], ""):
+                    freshness[key[0]] = update_date
             if variant["type"] == TARGET_TYPE and variant["condition"] == TARGET_CONDITION:
                 target_rows.append({
                     "stock": variant["stock"],
@@ -245,8 +278,103 @@ def read_sheet_products(
                 "target_rows": target_rows,
                 "aliases": list(dict.fromkeys(info["aliases"])),
             }
-    return cleaned, name_map
+    return cleaned, name_map, duplicate_variants, freshness
 
+
+
+def _coerce_number(value: Any) -> float | None:
+    if isinstance(value, bool) or value in (None, ""):
+        return None
+    if isinstance(value, (int, float)):
+        return float(value)
+    text = str(value).strip().replace(",", "").replace("¥", "")
+    if text.casefold() in {"ask", "-", ""}:
+        return None
+    try:
+        return float(text)
+    except ValueError:
+        return None
+
+
+def validate_sheet_freshness(freshness: dict[str, str]) -> list[str]:
+    errors: list[str] = []
+    today = datetime.now(JST).date()
+    for category in ("Pokémon", "One Piece"):
+        raw = freshness.get(category, "")
+        if not raw:
+            errors.append(f"{category}: no target updateDate was found in the input sheet")
+            continue
+        try:
+            latest = datetime.strptime(raw, "%Y-%m-%d").date()
+        except ValueError:
+            errors.append(f"{category}: invalid latest updateDate: {raw!r}")
+            continue
+        age = (today - latest).days
+        if age < 0:
+            errors.append(f"{category}: latest updateDate is in the future: {raw}")
+        elif age > MAX_SHEET_AGE_DAYS:
+            errors.append(
+                f"{category}: input sheet is stale: latest={raw}, age={age} days, "
+                f"limit={MAX_SHEET_AGE_DAYS} days"
+            )
+    return errors
+
+
+def validate_target_values(
+    sheet_products: "OrderedDict[tuple[str, str], dict[str, Any]]",
+    before_map: dict[tuple[str, str], dict[str, Any]],
+) -> tuple[list[str], list[str]]:
+    """Return fatal errors and non-fatal warnings for BOX target variants."""
+    errors: list[str] = []
+    warnings: list[str] = []
+
+    for key, info in sheet_products.items():
+        target_map = {
+            (str(v.get("type", "")), str(v.get("condition", ""))): v
+            for v in info.get("variants", [])
+            if v.get("type") == TARGET_TYPE and v.get("condition") in TARGET_CONDITIONS
+        }
+        for vkey, variant in target_map.items():
+            stock_raw = variant.get("stock")
+            price_raw = variant.get("price")
+            stock_num = _coerce_number(stock_raw)
+            price_num = _coerce_number(price_raw)
+
+            # Non-empty values other than ASK/- must be numeric.
+            if str(stock_raw or "").strip().casefold() not in {"", "ask", "-"} and stock_num is None:
+                errors.append(f"{key} {vkey}: invalid stock value {stock_raw!r}")
+            if stock_num is not None and (stock_num < 0 or not stock_num.is_integer()):
+                errors.append(f"{key} {vkey}: stock must be a non-negative integer: {stock_raw!r}")
+
+            if str(price_raw or "").strip().casefold() not in {"", "ask", "-"} and price_num is None:
+                errors.append(f"{key} {vkey}: invalid price value {price_raw!r}")
+            if price_num is not None and (price_num < 0 or price_num > MAX_BOX_PRICE_JPY):
+                errors.append(
+                    f"{key} {vkey}: price out of allowed range 0..{MAX_BOX_PRICE_JPY}: {price_raw!r}"
+                )
+
+            old_group = before_map.get(key)
+            if old_group and price_num is not None:
+                old_variant = next((
+                    v for v in old_group.get("variants", [])
+                    if str(v.get("type", "")) == vkey[0] and str(v.get("condition", "")) == vkey[1]
+                ), None)
+                old_price = _coerce_number(old_variant.get("price")) if old_variant else None
+                if old_price and old_price > 0:
+                    ratio = abs(price_num - old_price) / old_price
+                    if ratio > MAX_PRICE_CHANGE_RATIO:
+                        warnings.append(
+                            f"{key} {vkey}: price changed {ratio:.0%}: {old_price:g} -> {price_num:g}"
+                        )
+
+        shrink = _coerce_number(target_map.get((TARGET_TYPE, "✨ Shrink"), {}).get("price"))
+        no_shrink = _coerce_number(target_map.get((TARGET_TYPE, "👍 No Shrink"), {}).get("price"))
+        if shrink is not None and no_shrink is not None and no_shrink > shrink:
+            warnings.append(
+                f"{key}: No Shrink price ({no_shrink:g}) is higher than Shrink price ({shrink:g})"
+            )
+
+    return errors, warnings
 
 def canonicalize_existing_groups(
     groups: list[dict[str, Any]],
@@ -403,11 +531,29 @@ def main() -> int:
         for g in groups
         if g.get("category") in ("Pokémon", "One Piece")
     }
-    sheet_products, name_map = read_sheet_products(xlsx_path, existing_name_map)
+    sheet_products, name_map, duplicate_sheet_variants, sheet_freshness = read_sheet_products(xlsx_path, existing_name_map)
 
     # Clean alias duplicates left by older workflow runs before calculating updates.
     groups, removed_alias_duplicates = canonicalize_existing_groups(groups, name_map)
     before = copy.deepcopy(groups)
+    before_map = {
+        (str(g.get("category", "")), str(g.get("item", ""))): g
+        for g in before
+    }
+
+    input_errors: list[str] = []
+    input_warnings: list[str] = []
+    if duplicate_sheet_variants:
+        for dup in duplicate_sheet_variants:
+            input_errors.append(
+                "duplicate input variant: "
+                f"{dup['category']} / {dup['item']} / {dup['type']} / {dup['condition']} "
+                f"rows={dup['first_row']},{dup['duplicate_row']}"
+            )
+    input_errors.extend(validate_sheet_freshness(sheet_freshness))
+    value_errors, value_warnings = validate_target_values(sheet_products, before_map)
+    input_errors.extend(value_errors)
+    input_warnings.extend(value_warnings)
 
     existing_keys = {
         (str(g.get("category", "")), str(g.get("item", ""))) for g in groups
@@ -464,22 +610,43 @@ def main() -> int:
             variant
             for variant in group.get("variants", [])
             if variant.get("type") == TARGET_TYPE
-            and variant.get("condition") == TARGET_CONDITION
+            and variant.get("condition") in TARGET_CONDITIONS
         ]
         if not targets:
             continue
 
-        source_rows = info["target_rows"] if info else []
-        if not source_rows:
-            missing_from_sheet.append(key)
-            report_rows.append({
-                "category": key[0], "item": key[1], "status": "missing_in_sheet", "details": ""
-            })
-            continue
+        source_by_variant = {}
+        if info:
+            source_by_variant = {
+                (str(v.get("type", "")), str(v.get("condition", ""))): v
+                for v in info.get("variants", [])
+            }
 
-        matched_items.add(key)
-        for index, variant in enumerate(targets):
-            src = source_rows[min(index, len(source_rows) - 1)]
+        matched_any = False
+        for variant in targets:
+            vkey = (str(variant.get("type", "")), str(variant.get("condition", "")))
+            src = source_by_variant.get(vkey)
+            if src is None:
+                old = {field: variant.get(field) for field in ("stock", "price", "updateDate")}
+                variant["stock"] = "ask"
+                variant["price"] = "ask"
+                variant["updateDate"] = ""
+                new = {field: variant.get(field) for field in ("stock", "price", "updateDate")}
+                update_count += 1
+                report_rows.append({
+                    "category": key[0],
+                    "item": key[1],
+                    "status": "missing_current_variant_ask",
+                    "details": json.dumps({
+                        "type": vkey[0],
+                        "condition": vkey[1],
+                        "old": old,
+                        "new": new,
+                    }, ensure_ascii=False),
+                })
+                continue
+
+            matched_any = True
             old = {field: variant.get(field) for field in ("stock", "price", "updateDate")}
             for field in ("stock", "price", "updateDate"):
                 variant[field] = src[field]
@@ -489,7 +656,20 @@ def main() -> int:
                 "category": key[0],
                 "item": key[1],
                 "status": "updated" if old != new else "unchanged",
-                "details": json.dumps({"old": old, "new": new}, ensure_ascii=False),
+                "details": json.dumps({
+                    "type": vkey[0],
+                    "condition": vkey[1],
+                    "old": old,
+                    "new": new,
+                }, ensure_ascii=False),
+            })
+
+        if matched_any:
+            matched_items.add(key)
+        elif info is None:
+            missing_from_sheet.append(key)
+            report_rows.append({
+                "category": key[0], "item": key[1], "status": "missing_in_sheet", "details": ""
             })
 
     # Apply image URLs after new products and price updates are in place.
@@ -507,20 +687,30 @@ def main() -> int:
         info = sheet_products.get(key)
         if not info:
             continue
-        source_rows = info["target_rows"]
+        source_by_variant = {
+            (str(v.get("type", "")), str(v.get("condition", ""))): v
+            for v in info.get("variants", [])
+        }
         targets = [
             variant
             for variant in group.get("variants", [])
             if variant.get("type") == TARGET_TYPE
-            and variant.get("condition") == TARGET_CONDITION
+            and variant.get("condition") in TARGET_CONDITIONS
         ]
-        for index, variant in enumerate(targets):
-            if not source_rows:
+        for variant in targets:
+            vkey = (str(variant.get("type", "")), str(variant.get("condition", "")))
+            src = source_by_variant.get(vkey)
+            if src is None:
+                expected_missing = {"stock": "ask", "price": "ask", "updateDate": ""}
+                for field, expected_value in expected_missing.items():
+                    if variant.get(field) != expected_value:
+                        mismatches.append(
+                            f"{key} missing variant={vkey} field={field} expected={expected_value!r}"
+                        )
                 continue
-            src = source_rows[min(index, len(source_rows) - 1)]
             for field in ("stock", "price", "updateDate"):
                 if variant.get(field) != src[field]:
-                    mismatches.append(f"{key} variant={index} field={field}")
+                    mismatches.append(f"{key} variant={vkey} field={field}")
 
     # Verify newly added products exactly match all registered sheet variants.
     new_variant_mismatches: list[str] = []
@@ -554,7 +744,7 @@ def main() -> int:
         for old_variant, new_variant in zip(old_group.get("variants", []), new_group.get("variants", [])):
             target = (
                 new_variant.get("type") == TARGET_TYPE
-                and new_variant.get("condition") == TARGET_CONDITION
+                and new_variant.get("condition") in TARGET_CONDITIONS
             )
             if target:
                 old_copy = copy.deepcopy(old_variant)
@@ -573,13 +763,22 @@ def main() -> int:
         if count > 1
     ]
 
+    for message in input_warnings:
+        report_rows.append({
+            "category": "", "item": "", "status": "validation_warning", "details": message
+        })
+    for message in input_errors:
+        report_rows.append({
+            "category": "", "item": "", "status": "validation_error", "details": message
+        })
+
     report_path.parent.mkdir(parents=True, exist_ok=True)
     with report_path.open("w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=["category", "item", "status", "details"])
         writer.writeheader()
         writer.writerows(report_rows)
 
-    errors: list[str] = []
+    errors: list[str] = list(input_errors)
     if missing_from_sheet:
         errors.append(f"{len(missing_from_sheet)} existing items are missing from the sheet")
     if mismatches:
@@ -604,6 +803,11 @@ def main() -> int:
     print(f"Mismatches: {len(mismatches)}")
     print(f"New-product mismatches: {len(new_variant_mismatches)}")
     print(f"Protected changes: {len(protected_changes)}")
+    print(f"Input freshness: {sheet_freshness}")
+    print(f"Duplicate input variants: {len(duplicate_sheet_variants)}")
+    print(f"Validation warnings: {len(input_warnings)}")
+    for warning in input_warnings:
+        print(f"WARNING: {warning}", file=sys.stderr)
     print(f"Report: {report_path}")
 
     if errors:
