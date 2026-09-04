@@ -1,6 +1,83 @@
 window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
+    "item": "GX Battle Boost [SM4+]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026190/20250921/1758427493157-2dbb8315ee07dc1d.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 1900000,
+        "updateDate": "2026-09-04"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "The World's Strongest Warriors [OP-17]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAX2600013887/20260821/1787270443485-15fd113e808061b3.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 4,
+        "price": 16700,
+        "updateDate": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Alolan Moonlight",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026193/20251108/1762537749077-31c2538b853a8580.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-09-01"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
     "item": "Ancient Roar",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026785/20260809/1786229088243-8ca07034d1019087.png",
     "variants": [
@@ -225,7 +302,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "Pokémon",
-    "item": "Munikis Zero",
+    "item": "Nihil Zero",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2600000698/20260809/1786229083049-1533134bd7cedcef.png",
     "variants": [
       {
@@ -533,7 +610,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "OP-14",
+    "item": "The Azure Sea’s Seven [OP-14]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500004693/20260219/1771427465755-2c5f5dd6db3c2b58.png",
     "variants": [
       {
@@ -582,7 +659,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "OP-10",
+    "item": "Royal Blood [OP-10]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400003543/20251128/1764281895509-af31805ce6be3d20.png",
     "variants": [
       {
@@ -603,8 +680,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "EB-04",
-    "image": "./assets/price-images/one-piece-eb-04.png",
+    "item": "EGGHEAD CRISIS [EB-04]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2600001207/20260219/1771427451803-8660a8c00528cda8.png",
     "variants": [
       {
         "type": "CASE",
@@ -624,7 +701,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "OP-12",
+    "item": "Legacy of the Master [OP-12]",
     "image": "./assets/price-images/one-piece-op-12.png",
     "variants": [
       {
@@ -645,7 +722,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "OP-11",
+    "item": "A Fist of Divine Speed [OP-11]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500000391/20251204/1764798382935-7feff43448122ba3.png",
     "variants": [
       {
@@ -750,8 +827,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "OP-04",
-    "image": "./assets/price-images/one-piece-op-04.png",
+    "item": "Kingdoms of Intrigue [OP-04]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026781/20251204/1764798384035-e2f9605d7139542d.png",
     "variants": [
       {
         "type": "CASE",
@@ -995,7 +1072,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "Pokémon",
-    "item": "Terastal Festival ex",
+    "item": "Terastal Fest ex",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400003662/20260809/1786229085916-b676dd629a2097e6.png",
     "variants": [
       {
@@ -1135,7 +1212,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "EB-03",
+    "item": "ONE PIECE Heroines Edition [EB-03]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500004120/20260219/1771427455820-a333ca8eb937f8a0.png",
     "variants": [
       {
@@ -1184,7 +1261,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "OP-15",
+    "item": "Adventure on KAMI's Island [OP-15]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2600002414/20260315/1773544519340-f590f50746e40bdc.png",
     "variants": [
       {
@@ -1373,8 +1450,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "OP-06",
-    "image": "./assets/price-images/one-piece-op-06.png",
+    "item": "Wings of Captain [OP-06]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026783/20251204/1764798382502-822977bb3d04f4e7.png",
     "variants": [
       {
         "type": "CASE",
@@ -1563,7 +1640,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Skyscraping Perfection",
-    "image": "",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026236/20251008/1759858202915-c20319b7707d9671.png",
     "variants": [
       {
         "type": "CASE",
@@ -1618,7 +1695,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "Pokémon",
-    "item": "Full Metal Wall",
+    "item": "Full Metal Force",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026205/20250929/1759096310598-c8c6f3bb9c443332.png",
     "variants": [
       {
@@ -1646,7 +1723,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "OP-03",
+    "item": "Pillars of Strength [OP-03]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026780/20250924/1758646066521-2e5b28d610396491.png",
     "variants": [
       {
@@ -1835,7 +1912,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "OP-02",
+    "item": "Paramount War [OP-02]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026779/20250924/1758646066174-06f97f7129657f9f.png",
     "variants": [
       {
@@ -1856,8 +1933,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "Pokémon",
-    "item": "強化拡張パック「サン＆ムーン」(SM1+)",
-    "image": "",
+    "item": "Sun & Moon Enhanced Expansion [SM1+]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400001301/20251019/1760821552689-7d391a6948829d49.png",
     "variants": [
       {
         "type": "CASE",
@@ -1884,7 +1961,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "Pokémon",
-    "item": "Peerless Fighters",
+    "item": "Matchless Fighters",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026246/20251019/1760821531354-c09919a37b48942f.png",
     "variants": [
       {
@@ -1940,28 +2017,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "EB-05",
-    "image": "",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 2,
-        "price": 15500,
-        "updateDate": "2026-08-30"
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
-    "item": "OP-13",
+    "item": "Carrying on His Will [OP-13]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500004174/20260219/1771427469548-295136a56980c44f.png",
     "variants": [
       {
@@ -2038,8 +2094,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "OP-07",
-    "image": "./assets/price-images/one-piece-op-07.png",
+    "item": "500 Years in the Future [OP-07]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400000271/20251128/1764281895161-c4be8e9a5d275de1.png",
     "variants": [
       {
         "type": "CASE",
@@ -2115,7 +2171,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "PRB-01",
+    "item": "ONE PIECE CARD THE BEST [PRB-01]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400001238/20251214/1765680300749-92705a586e9cf475.png",
     "variants": [
       {
@@ -2164,7 +2220,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "PRB-02",
+    "item": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500002483/20260109/1767913824242-45421ee04e371791.png",
     "variants": [
       {
@@ -2186,7 +2242,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Rebel Clash",
-    "image": "",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026177/20251019/1760821532549-b627ea41fc94ddde.png",
     "variants": [
       {
         "type": "CASE",
@@ -2213,7 +2269,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "EB-02",
+    "item": "Anime 25th collection [EB-02]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500000153/20260219/1771427458797-24665b7851ac41dd.png",
     "variants": [
       {
@@ -2234,7 +2290,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "OP-09",
+    "item": "Emperors in the New World [OP-09]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400001641/20250924/1758646065435-3f500c21f8b466bf.png",
     "variants": [
       {
@@ -2255,8 +2311,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "EB-01",
-    "image": "./assets/price-images/one-piece-eb-01.png",
+    "item": "Memorial Collection [EB-01]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400000124/20251204/1764798383261-46a7a6a853d081f0.png",
     "variants": [
       {
         "type": "CASE",
@@ -2276,8 +2332,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "OP-05",
-    "image": "./assets/price-images/one-piece-op-05.png",
+    "item": "Awakening of the New Era [OP-05]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026782/20251204/1764798383650-9c67247f7fb7d43b.png",
     "variants": [
       {
         "type": "CASE",
@@ -2326,7 +2382,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Awakened Heroes",
-    "image": "",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400001864/20260422/1776868210420-06632dd13498e24d.png",
     "variants": [
       {
         "type": "CASE",
@@ -2466,7 +2522,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Ultra Force",
-    "image": "",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026168/20251019/1760821544953-e75b6ee26dd93c80.png",
     "variants": [
       {
         "type": "CASE",
@@ -2494,7 +2550,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Tag Bolt",
-    "image": "",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026169/20251019/1760821539765-d6cdc35648854f69.png",
     "variants": [
       {
         "type": "CASE",
@@ -2550,7 +2606,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Night Unison",
-    "image": "",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026199/20251008/1759857780328-e1dd1eb2caad379c.png",
     "variants": [
       {
         "type": "CASE",
@@ -2605,7 +2661,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "OP-16",
+    "item": "THE TIME OF BATTLE [OP-16]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2600007307/20260529/1780007326073-12b6f9233f1c83b5.png",
     "variants": [
       {
@@ -2710,7 +2766,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "OP-08",
+    "item": "Two Legends [OP-08]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400000604/20250924/1758646065818-fb714d0264e0c88d.png",
     "variants": [
       {
@@ -2759,8 +2815,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "OP-01",
-    "image": "./assets/price-images/one-piece-op-01.png",
+    "item": "ROMANCE DAWN [OP-01]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026778/20251204/1764798382104-da0d7aa98c364f63.png",
     "variants": [
       {
         "type": "CASE",
@@ -2781,7 +2837,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Charisma of the Ripped Sky",
-    "image": "",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026220/20251019/1760821541661-e6a63fc56fe7b127.png",
     "variants": [
       {
         "type": "CASE",
@@ -2836,8 +2892,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "Pokémon",
-    "item": "Super-Burst Impact",
-    "image": "",
+    "item": "Super Burst Impact",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026215/20251008/1759857984056-a9952e8cfa0e0f2e.png",
     "variants": [
       {
         "type": "CASE",
@@ -2865,7 +2921,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Collection Sun",
-    "image": "",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400001865/20251019/1760821551586-2bc30a5aa303bc6c.png",
     "variants": [
       {
         "type": "CASE",
@@ -2920,8 +2976,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "Pokémon",
-    "item": "拡張パック「爆熱の闘士」(XY11)",
-    "image": "",
+    "item": "Fever Burst Fighter [XY11]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026277/20251210/1765359276140-24a8951a195e3f0a.png",
     "variants": [
       {
         "type": "CASE",
@@ -2949,7 +3005,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Champion's Road",
-    "image": "",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026248/20251019/1760821542710-1005fcfa64f30047.png",
     "variants": [
       {
         "type": "CASE",
@@ -3032,7 +3088,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "1st ANNIVERSARY SET (日本語版/ダンボール付未開封)",
+    "item": "1st Anniversary Set (Japanese, sealed in outer carton)",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400000154/20260309/1773031826258-0a7f9efcc285aa15.png",
     "variants": [
       {
@@ -3053,7 +3109,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "ONE PIECE カードゲーム　2nd ANNIVERSARY SET2nd ANNIVERSARY SET(日本語版/ダンボール付未開封)",
+    "item": "2nd Anniversary Set (Japanese, sealed in outer carton)",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400003779/20251226/1766714390067-986bd7fa81af1dba.png",
     "variants": [
       {
@@ -3074,7 +3130,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "プレミアムカードコレクション - ベストセレクションvol.3-",
+    "item": "Premium Card Collection — Best Selection vol.3",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400002585/20250924/1758643292124-590e97b0aea6907d.png",
     "variants": [
       {
@@ -3095,7 +3151,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "プレミアムカードコレクション-ベストセレクション vol.2-",
+    "item": "Premium Card Collection — Best Selection vol.2",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400000525/20250924/1758643291776-48da23971747c48f.png",
     "variants": [
       {
@@ -3116,7 +3172,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "プレミアムカードコレクション -6 assort vol.1-",
+    "item": "Premium Card Collection — 6 Assort vol.1",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2600000703/20260803/1785727089076-e1ae00f8cf3bef1e.png",
     "variants": [
       {
@@ -3137,7 +3193,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "プレミアムカードコレクション-Leader Collection-",
+    "item": "Premium Card Collection — Leader Collection",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400002584/20260404/1775265077097-e6e2015bc9f847a3.png",
     "variants": [
       {
@@ -3158,7 +3214,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "English 2nd ANNIVERSARY SET(日本語版/ダンボール付未開封)",
+    "item": "2nd Anniversary Set (English edition, sealed in outer carton)",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500003731/20260303/1772494347140-fa8aaafca29c6c25.png",
     "variants": [
       {
@@ -3206,65 +3262,9 @@ window.DARUMA_PRICE_GROUPS = [
     ]
   },
   {
-    "category": "Pokémon",
-    "item": "Rebellion Crash",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026177/20251019/1760821532549-b627ea41fc94ddde.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-08-06"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-07-31"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Towering Perfection",
-    "image": "",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-08-05"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-08-09"
-      }
-    ]
-  },
-  {
     "category": "One Piece",
-    "item": "ダンボール付未開封/3rd ANNIVERSARY SET",
-    "image": "",
+    "item": "3rd Anniversary Set (sealed in outer carton)",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2600000311/20260201/1769894312658-50b7a0343755c355.png",
     "variants": [
       {
         "type": "CASE",
@@ -3284,8 +3284,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "プレミアムカードコレクション-ベストセレクション vol.5-",
-    "image": "",
+    "item": "Premium Card Collection — Best Selection vol.5",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2600000702/20260704/1783126796540-cdee9378a1c1d2ac.png",
     "variants": [
       {
         "type": "CASE",
@@ -3305,8 +3305,8 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "ST-18",
-    "image": "",
+    "item": "Starter Deck [ST-18]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2600007947/20260610/1781052919686-eb965d09a10eeb76.png",
     "variants": [
       {
         "type": "CASE",
@@ -3325,37 +3325,9 @@ window.DARUMA_PRICE_GROUPS = [
     ]
   },
   {
-    "category": "Pokémon",
-    "item": "Champion Road",
-    "image": "",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-07-11"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-07-11"
-      }
-    ]
-  },
-  {
     "category": "One Piece",
-    "item": "ヤマト LECAFIG(レカフィグ)",
-    "image": "",
+    "item": "Yamato LECAFIG figure",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500001396/20250924/1758643289929-e95f343c34cba549.png",
     "variants": [
       {
         "type": "CASE",
@@ -3375,7 +3347,7 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "スタートデッキ 麦わらの一味【未開封BOX】",
+    "item": "Start Deck: Straw Hat Crew (sealed box)",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400000181/20251123/1763861073410-f2edc7503f9733f5.png",
     "variants": [
       {
@@ -3397,7 +3369,7 @@ window.DARUMA_PRICE_GROUPS = [
   {
     "category": "Pokémon",
     "item": "Ultra Moon",
-    "image": "",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026219/20251019/1760821545591-300b69b3c97fb36b.png",
     "variants": [
       {
         "type": "CASE",
