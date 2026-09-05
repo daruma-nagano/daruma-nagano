@@ -16,7 +16,7 @@ window.DARUMA_PRICE_GROUPS = [
         "condition": "✨ Shrink",
         "stock": 1,
         "price": 1899700,
-        "updateDate": "2026-09-04"
+        "updateDate": "2026-09-05"
       },
       {
         "type": "BOX",
@@ -42,16 +42,16 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 15,
+        "stock": 18,
         "price": 25700,
-        "updateDate": "2026-09-04"
+        "updateDate": "2026-09-05"
       },
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 15,
+        "stock": 18,
         "price": 25700,
-        "updateDate": "2026-09-04"
+        "updateDate": "2026-09-05"
       }
     ]
   },
@@ -70,16 +70,16 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 1,
+        "stock": 20,
         "price": 15000,
-        "updateDate": "2026-09-04"
+        "updateDate": "2026-09-05"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 72,
+        "stock": 75,
         "price": 13200,
-        "updateDate": "2026-09-04"
+        "updateDate": "2026-09-05"
       }
     ]
   },
@@ -98,16 +98,1591 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 6,
+        "stock": 62,
         "price": 9000,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-04"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Pokémon Card 151",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026051/20260809/1786229089234-c3492e420a9ffbe7.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 141,
+        "price": 55700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-09-04"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Pokémon GO",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026053/20250920/1758340060117-511f07faffff35c9.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 19,
+        "price": 28200,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 7,
+        "price": 26800,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Raging Surf",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026207/20260809/1786229088705-6c7cb6ef2aecf18a.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 19,
+        "price": 17200,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 47,
+        "price": 14700,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Ruler of the Black Flame",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026050/20260809/1786229088982-75a71c25410120a5.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 27,
+        "price": 18700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 48,
+        "price": 18000,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Violet ex",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026227/20260809/1786229090479-42cc0fd3da16d70a.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 9,
+        "price": 10900,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 72,
+        "price": 9900,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "White Flare",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500002033/20260809/1786229084465-f32444449fbb3790.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 16,
+        "price": 22700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 16,
+        "price": 22700,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "The Azure Sea’s Seven [OP-14]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500004693/20260219/1771427465755-2c5f5dd6db3c2b58.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 17,
+        "price": 9300,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "Royal Blood [OP-10]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400003543/20251128/1764281895509-af31805ce6be3d20.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 10,
+        "price": 12200,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "EGGHEAD CRISIS [EB-04]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2600001207/20260219/1771427451803-8660a8c00528cda8.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 3,
+        "price": 12700,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "Legacy of the Master [OP-12]",
+    "image": "./assets/price-images/one-piece-op-12.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 5,
+        "price": 19200,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "A Fist of Divine Speed [OP-11]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500000391/20251204/1764798382935-7feff43448122ba3.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 36200,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "VSTAR Universe",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026043/20260605/1780603275395-e8030ce0ce3da370.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 82,
+        "price": 30700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Dark Phantasma",
+    "image": "./assets/price-images/pok-mon-dark-phantasma.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 24,
+        "price": 29700,
+        "updateDate": "2026-09-05"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
         "stock": 1,
-        "price": 8300,
+        "price": 26700,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Shiny Star V",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026045/20250920/1758340063837-b8c8806155587be2.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 71,
+        "price": 21500,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-04"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Glory of Team Rocket",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500000693/20260809/1786229085167-2e85dc8211874adc.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 181,
+        "price": 23700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 60,
+        "price": 22500,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Heat Wave Arena",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500000451/20260809/1786229085404-8d0e3c9552a5dc08.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 95,
+        "price": 20200,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 3,
+        "price": 18800,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Mega Brave",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500002282/20260809/1786229083762-f8336506487c071b.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 197,
+        "price": 9300,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 56,
+        "price": 8700,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Shiny Treasure ex",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026777/20260809/1786229088018-ab6a11d6bc02b3d3.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 326,
+        "price": 18200,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 71,
+        "price": 17300,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Stellar Miracle",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400001224/20260809/1786229086604-6d982cb4adce9cbd.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 103,
+        "price": 12000,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 116,
+        "price": 11400,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Terastal Fest ex",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400003662/20260809/1786229085916-b676dd629a2097e6.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 68,
+        "price": 19300,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-09-04"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Mega Dream ex",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500004624/20260809/1786229083313-5f7185060a01a508.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 62,
+        "price": 13500,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 30,
+        "price": 12800,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "25th Anniversary Collection",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026092/20250920/1758340062408-14ea22f504e6b97a.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 73,
+        "price": 73700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 13,
+        "price": 70000,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Fusion Arts",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026147/20250920/1758340062760-6f3983140740b72b.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 8,
+        "price": 55700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-09-04"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "ONE PIECE Heroines Edition [EB-03]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500004120/20260219/1771427455820-a333ca8eb937f8a0.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 22400,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "Adventure on KAMI's Island [OP-15]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2600002414/20260315/1773544519340-f590f50746e40bdc.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 148,
+        "price": 8600,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Triplet Beat",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026247/20260809/1786229090015-2fc7b2968b82a6f1.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 31,
+        "price": 19700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 66,
+        "price": 19000,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Lost Abyss",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026136/20250920/1758340059782-f1059c8355091787.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 25,
+        "price": 53700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "VMAX Climax",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026048/20250920/1758340062066-7f4f7e471f5e26ab.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 45,
+        "price": 37700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Super Electric Breaker",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400002368/20260809/1786229086138-1f963b773c3d2d75.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 21,
+        "price": 32200,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 5,
+        "price": 30600,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Blue Sky Stream",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026225/20250920/1758340063492-ca2c0c24bd0bd905.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 5,
+        "price": 289700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-07-31"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Inferno X",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500003293/20260809/1786229083542-8ae9a9b2c90892cf.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 19900,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 127,
+        "price": 17300,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Star Birth",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026144/20250920/1758340061735-fbbaa5ab1d805958.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 9,
+        "price": 22500,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Paradigm Trigger",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026164/20250920/1758340059122-a90eadc41a70bf4f.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 19,
+        "price": 22700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Tag All Stars",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026200/20251019/1760821534211-cb6103ccd8f86404.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 2,
+        "price": 209700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-08-23"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Sun & Moon Enhanced Expansion [SM1+]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400001301/20251019/1760821552689-7d391a6948829d49.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 193700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Rebel Clash",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026177/20251019/1760821532549-b627ea41fc94ddde.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 59700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-07-31"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "Anime 25th collection [EB-02]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500000153/20260219/1771427458797-24665b7851ac41dd.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 6,
+        "price": 34200,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "Awakening of the New Era [OP-05]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026782/20251204/1764798383650-9c67247f7fb7d43b.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 36,
+        "price": 63700,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Miracle Twin",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026170/20251019/1760821537150-ee036013b5f08753.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 5,
+        "price": 199700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-09-04"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Charisma of the Ripped Sky",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026220/20251019/1760821541661-e6a63fc56fe7b127.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 4,
+        "price": 519700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 1,
+        "price": 441700,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "VMAX Rising",
+    "image": "./assets/price-images/pok-mon-vmax-rising.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 114700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-09-04"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Ultra Sun",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026167/20251019/1760821546117-78e46244dc699f41.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 87700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 1,
+        "price": 78900,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Islands Await You",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026269/20260422/1776868201340-61b6683719c9d1d7.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 399700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-08-27"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Ancient Roar",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026785/20260809/1786229088243-8ca07034d1019087.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 25,
+        "price": 13700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 102,
+        "price": 12200,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Battle Partners",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500000113/20260809/1786229085675-9b17fc8387ccff5d.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 4,
+        "price": 10200,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 7,
+        "price": 9500,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Cyber Judge",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400000113/20260809/1786229087777-e9ce486f84b3392d.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 27,
+        "price": 12700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 139,
+        "price": 10600,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Journey Together",
+    "image": "./assets/price-images/pok-mon-journey-together.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": 139000.0,
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 4,
+        "price": 10200,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 7,
+        "price": 9500,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Snow Hazard",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026034/20260809/1786229089802-f5bb90138f1ee2f4.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 27,
+        "price": 13000,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 59,
+        "price": 11900,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Wild Force",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400000114/20260809/1786229087546-621888728eec9fc0.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 14200,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 66,
+        "price": 12600,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Storm Emeralda",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAX2600010605/20260809/1786229082311-e712cc1520d336a8.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 24,
+        "price": 13700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 15,
+        "price": 13300,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Battle Region",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026237/20250920/1758340061395-cf9c9be80439afa3.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 2,
+        "price": 13700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 4,
+        "price": 12300,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "Wings of Captain [OP-06]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026783/20251204/1764798382502-822977bb3d04f4e7.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 5,
+        "price": 26400,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Space Juggler",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026213/20250920/1758340061063-19678d5eb9f130c5.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 3,
+        "price": 15900,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Paradise Dragona",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400001831/20260809/1786229086361-6ee50515363a9a36.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 39,
+        "price": 16700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 23,
+        "price": 15500,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "Paramount War [OP-02]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026779/20250924/1758646066174-06f97f7129657f9f.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 2,
+        "price": 24200,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "Emperors in the New World [OP-09]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400001641/20250924/1758646065435-3f500c21f8b466bf.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 2,
+        "price": 21000,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Alolan Moonlight",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026193/20251108/1762537749077-31c2538b853a8580.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 299700,
+        "updateDate": "2026-09-05"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "Kingdoms of Intrigue [OP-04]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026781/20251204/1764798384035-e2f9605d7139542d.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 5,
+        "price": 20200,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "Pillars of Strength [OP-03]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026780/20250924/1758646066521-2e5b28d610396491.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 18700,
+        "updateDate": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "500 Years in the Future [OP-07]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400000271/20251128/1764281895161-c4be8e9a5d275de1.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 19200,
+        "updateDate": "2026-09-05"
       }
     ]
   },
@@ -126,8 +1701,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 8900,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-04"
       },
       {
@@ -154,8 +1729,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 2,
-        "price": 9100,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-04"
       },
       {
@@ -164,118 +1739,6 @@ window.DARUMA_PRICE_GROUPS = [
         "stock": "ask",
         "price": "ask",
         "updateDate": "2026-09-03"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Pokémon Card 151",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026051/20260809/1786229089234-c3492e420a9ffbe7.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 127,
-        "price": 57700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 22,
-        "price": 56000,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Pokémon GO",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026053/20250920/1758340060117-511f07faffff35c9.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 17,
-        "price": 28200,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 7,
-        "price": 26800,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Raging Surf",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026207/20260809/1786229088705-6c7cb6ef2aecf18a.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 3,
-        "price": 17200,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 51,
-        "price": 14700,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Ruler of the Black Flame",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026050/20260809/1786229088982-75a71c25410120a5.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 42,
-        "price": 18700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 38,
-        "price": 18000,
-        "updateDate": "2026-09-04"
       }
     ]
   },
@@ -294,93 +1757,16 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 9,
-        "price": 15100,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-04"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 84,
+        "stock": 37,
         "price": 13900,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Violet ex",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026227/20260809/1786229090479-42cc0fd3da16d70a.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 78,
-        "price": 10900,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 72,
-        "price": 9900,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "White Flare",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500002033/20260809/1786229084465-f32444449fbb3790.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 2,
-        "price": 22700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 2,
-        "price": 22700,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
-    "item": "The Azure Sea’s Seven [OP-14]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500004693/20260219/1771427465755-2c5f5dd6db3c2b58.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 16,
-        "price": 9300,
-        "updateDate": "2026-09-04"
+        "updateDate": "2026-09-05"
       }
     ]
   },
@@ -399,8 +1785,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 9,
-        "price": 14000,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-04"
       },
       {
@@ -409,692 +1795,6 @@ window.DARUMA_PRICE_GROUPS = [
         "stock": "ask",
         "price": "ask",
         "updateDate": "2026-09-01"
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
-    "item": "Royal Blood [OP-10]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400003543/20251128/1764281895509-af31805ce6be3d20.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 10,
-        "price": 12200,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
-    "item": "EGGHEAD CRISIS [EB-04]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2600001207/20260219/1771427451803-8660a8c00528cda8.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 12700,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
-    "item": "Legacy of the Master [OP-12]",
-    "image": "./assets/price-images/one-piece-op-12.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 2,
-        "price": 18700,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
-    "item": "A Fist of Divine Speed [OP-11]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500000391/20251204/1764798382935-7feff43448122ba3.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 37200,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "VSTAR Universe",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026043/20260605/1780603275395-e8030ce0ce3da370.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 82,
-        "price": 30700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Dark Phantasma",
-    "image": "./assets/price-images/pok-mon-dark-phantasma.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 21,
-        "price": 29700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-01"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Shiny Star V",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026045/20250920/1758340063837-b8c8806155587be2.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 77,
-        "price": 22500,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 9,
-        "price": 20200,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Glory of Team Rocket",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500000693/20260809/1786229085167-2e85dc8211874adc.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 163,
-        "price": 24200,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 37,
-        "price": 23000,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Heat Wave Arena",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500000451/20260809/1786229085404-8d0e3c9552a5dc08.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 88,
-        "price": 20700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 2,
-        "price": 19000,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Mega Brave",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500002282/20260809/1786229083762-f8336506487c071b.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 7,
-        "price": 9500,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 3,
-        "price": 8900,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Shiny Treasure ex",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026777/20260809/1786229088018-ab6a11d6bc02b3d3.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 316,
-        "price": 18500,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 81,
-        "price": 17600,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Stellar Miracle",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400001224/20260809/1786229086604-6d982cb4adce9cbd.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 115,
-        "price": 12000,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 108,
-        "price": 11400,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Terastal Fest ex",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400003662/20260809/1786229085916-b676dd629a2097e6.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 86,
-        "price": 19300,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 10,
-        "price": 18100,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Mega Dream ex",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500004624/20260809/1786229083313-5f7185060a01a508.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 14,
-        "price": 13500,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 6,
-        "price": 12800,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "25th Anniversary Collection",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026092/20250920/1758340062408-14ea22f504e6b97a.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 72,
-        "price": 75700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 12,
-        "price": 71900,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Fusion Arts",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026147/20250920/1758340062760-6f3983140740b72b.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 8,
-        "price": 59700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 7,
-        "price": 53700,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
-    "item": "ONE PIECE Heroines Edition [EB-03]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500004120/20260219/1771427455820-a333ca8eb937f8a0.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 22400,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
-    "item": "Adventure on KAMI's Island [OP-15]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2600002414/20260315/1773544519340-f590f50746e40bdc.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 143,
-        "price": 8700,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Triplet Beat",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026247/20260809/1786229090015-2fc7b2968b82a6f1.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 7,
-        "price": 19700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 48,
-        "price": 18800,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Lost Abyss",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026136/20250920/1758340059782-f1059c8355091787.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 24,
-        "price": 53700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "VMAX Climax",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026048/20250920/1758340062066-7f4f7e471f5e26ab.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 7,
-        "price": 39200,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Super Electric Breaker",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400002368/20260809/1786229086138-1f963b773c3d2d75.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 9,
-        "price": 32200,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 4,
-        "price": 30600,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Blue Sky Stream",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026225/20250920/1758340063492-ca2c0c24bd0bd905.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 4,
-        "price": 289700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-07-31"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Inferno X",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500003293/20260809/1786229083542-8ae9a9b2c90892cf.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 139,
-        "price": 19900,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 110,
-        "price": 18900,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Star Birth",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026144/20250920/1758340061735-fbbaa5ab1d805958.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 2,
-        "price": 22500,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Paradigm Trigger",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026164/20250920/1758340059122-a90eadc41a70bf4f.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 11,
-        "price": 23500,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-08-31"
       }
     ]
   },
@@ -1113,8 +1813,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 4,
-        "price": 63700,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-04"
       },
       {
@@ -1141,8 +1841,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 8,
-        "price": 172700,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-04"
       },
       {
@@ -1151,34 +1851,6 @@ window.DARUMA_PRICE_GROUPS = [
         "stock": "ask",
         "price": "ask",
         "updateDate": "2026-08-10"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Tag All Stars",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026200/20251019/1760821534211-cb6103ccd8f86404.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 3,
-        "price": 209700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-08-23"
       }
     ]
   },
@@ -1197,44 +1869,16 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 2,
-        "price": 24000,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-04"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 2,
-        "price": 21600,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Sun & Moon Enhanced Expansion [SM1+]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400001301/20251019/1760821552689-7d391a6948829d49.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 185700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
+        "stock": 4,
+        "price": 20400,
+        "updateDate": "2026-09-05"
       }
     ]
   },
@@ -1253,16 +1897,16 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 132700,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-04"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
         "stock": 1,
-        "price": 125700,
-        "updateDate": "2026-09-04"
+        "price": 119700,
+        "updateDate": "2026-09-05"
       }
     ]
   },
@@ -1281,106 +1925,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 8,
-        "price": 18200,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Rebel Clash",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026177/20251019/1760821532549-b627ea41fc94ddde.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
         "stock": "ask",
         "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 59700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-07-31"
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
-    "item": "Anime 25th collection [EB-02]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2500000153/20260219/1771427458797-24665b7851ac41dd.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 3,
-        "price": 34200,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
-    "item": "Awakening of the New Era [OP-05]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026782/20251204/1764798383650-9c67247f7fb7d43b.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 63700,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Miracle Twin",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026170/20251019/1760821537150-ee036013b5f08753.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 5,
-        "price": 204700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 1,
-        "price": 194700,
         "updateDate": "2026-09-04"
       }
     ]
@@ -1400,8 +1946,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 134700,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-04"
       },
       {
@@ -1428,121 +1974,9 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 3,
-        "price": 9300,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Charisma of the Ripped Sky",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026220/20251019/1760821541661-e6a63fc56fe7b127.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
         "stock": "ask",
         "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 4,
-        "price": 539700,
         "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 1,
-        "price": 458700,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "VMAX Rising",
-    "image": "./assets/price-images/pok-mon-vmax-rising.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 114700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 3,
-        "price": 91700,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Ultra Sun",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026167/20251019/1760821546117-78e46244dc699f41.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 89700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Islands Await You",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026269/20260422/1776868201340-61b6683719c9d1d7.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 399700,
-        "updateDate": "2026-09-04"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-08-27"
       }
     ]
   },
@@ -1569,62 +2003,6 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "Pokémon",
-    "item": "Ancient Roar",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026785/20260809/1786229088243-8ca07034d1019087.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 90,
-        "price": 11900,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Battle Partners",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2500000113/20260809/1786229085675-9b17fc8387ccff5d.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 89,
-        "price": 9400,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
     "item": "Clay Burst",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026212/20260809/1786229089523-f55227a890e47b5a.png",
     "variants": [
@@ -1645,121 +2023,9 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 32,
-        "price": 10700,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Cyber Judge",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400000113/20260809/1786229087777-e9ce486f84b3392d.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 125,
-        "price": 10600,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Journey Together",
-    "image": "./assets/price-images/pok-mon-journey-together.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": 139000.0,
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 89,
-        "price": 9400,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Snow Hazard",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026034/20260809/1786229089802-f5bb90138f1ee2f4.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 50,
-        "price": 11900,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Wild Force",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400000114/20260809/1786229087546-621888728eec9fc0.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 65,
-        "price": 12500,
-        "updateDate": "2026-09-04"
+        "stock": 43,
+        "price": 10900,
+        "updateDate": "2026-09-05"
       }
     ]
   },
@@ -1785,9 +2051,9 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
+        "stock": 4,
+        "price": 7800,
+        "updateDate": "2026-09-05"
       }
     ]
   },
@@ -1813,37 +2079,9 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 69,
-        "price": 10900,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Storm Emeralda",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAX2600010605/20260809/1786229082311-e712cc1520d336a8.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
+        "stock": 55,
+        "price": 11000,
+        "updateDate": "2026-09-05"
       }
     ]
   },
@@ -1869,114 +2107,9 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 88,
+        "stock": 72,
         "price": 13200,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Battle Region",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026237/20250920/1758340061395-cf9c9be80439afa3.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 7,
-        "price": 12300,
-        "updateDate": "2026-09-04"
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
-    "item": "Wings of Captain [OP-06]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026783/20251204/1764798382502-822977bb3d04f4e7.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Space Juggler",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026213/20250920/1758340061063-19678d5eb9f130c5.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Paradise Dragona",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2400001831/20260809/1786229086361-6ee50515363a9a36.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 20,
-        "price": 15400,
-        "updateDate": "2026-09-04"
+        "updateDate": "2026-09-05"
       }
     ]
   },
@@ -2093,27 +2226,6 @@ window.DARUMA_PRICE_GROUPS = [
     ]
   },
   {
-    "category": "One Piece",
-    "item": "Paramount War [OP-02]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026779/20250924/1758646066174-06f97f7129657f9f.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-03"
-      }
-    ]
-  },
-  {
     "category": "Pokémon",
     "item": "Amazing Volt Tackle",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026179/20250920/1758340064178-a8da1696b061d2b3.png",
@@ -2164,8 +2276,8 @@ window.DARUMA_PRICE_GROUPS = [
         "type": "BOX",
         "condition": "👍 No Shrink",
         "stock": 1,
-        "price": 230700,
-        "updateDate": "2026-09-04"
+        "price": 218700,
+        "updateDate": "2026-09-05"
       }
     ]
   },
@@ -2275,9 +2387,9 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 36,
+        "stock": 38,
         "price": 11800,
-        "updateDate": "2026-09-04"
+        "updateDate": "2026-09-05"
       }
     ]
   },
@@ -2299,97 +2411,6 @@ window.DARUMA_PRICE_GROUPS = [
         "stock": "ask",
         "price": "ask",
         "updateDate": "2026-09-02"
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
-    "item": "Emperors in the New World [OP-09]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400001641/20250924/1758646065435-3f500c21f8b466bf.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-02"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Alolan Moonlight",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026193/20251108/1762537749077-31c2538b853a8580.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-01"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
-    "item": "Kingdoms of Intrigue [OP-04]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026781/20251204/1764798384035-e2f9605d7139542d.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-01"
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
-    "item": "Pillars of Strength [OP-03]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026780/20250924/1758646066521-2e5b28d610396491.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-01"
       }
     ]
   },
@@ -2527,27 +2548,6 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-01"
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
-    "item": "500 Years in the Future [OP-07]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2400000271/20251128/1764281895161-c4be8e9a5d275de1.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
         "stock": "ask",
         "price": "ask",
         "updateDate": "2026-09-01"
@@ -2704,7 +2704,7 @@ window.DARUMA_PRICE_GROUPS = [
         "condition": "👍 No Shrink",
         "stock": 1,
         "price": 233700,
-        "updateDate": "2026-09-04"
+        "updateDate": "2026-09-05"
       }
     ]
   },
@@ -2731,8 +2731,8 @@ window.DARUMA_PRICE_GROUPS = [
         "type": "BOX",
         "condition": "👍 No Shrink",
         "stock": 1,
-        "price": 97600,
-        "updateDate": "2026-09-04"
+        "price": 92400,
+        "updateDate": "2026-09-05"
       }
     ]
   },
@@ -2975,8 +2975,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 2,
-        "price": 132700,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-04"
       }
     ]
