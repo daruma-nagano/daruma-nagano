@@ -14,15 +14,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 14,
-        "price": 23500,
+        "stock": 6,
+        "price": 23200,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 14,
-        "price": 23500,
+        "stock": 6,
+        "price": 23200,
         "updateDate": "2026-09-14"
       }
     ]
@@ -42,15 +42,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 110,
-        "price": 13500,
+        "stock": 3,
+        "price": 13200,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 76,
-        "price": 11400,
+        "stock": 78,
+        "price": 11300,
         "updateDate": "2026-09-14"
       }
     ]
@@ -70,15 +70,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 458,
-        "price": 49700,
+        "stock": 486,
+        "price": 49500,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 144,
-        "price": 48700,
+        "stock": 145,
+        "price": 48500,
         "updateDate": "2026-09-14"
       }
     ]
@@ -98,7 +98,7 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 2,
+        "stock": 4,
         "price": 26700,
         "updateDate": "2026-09-14"
       },
@@ -126,8 +126,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 146,
-        "price": 16700,
+        "stock": 161,
+        "price": 16800,
         "updateDate": "2026-09-14"
       },
       {
@@ -154,15 +154,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 9,
-        "price": 22700,
+        "stock": 15,
+        "price": 22200,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 9,
-        "price": 22700,
+        "stock": 15,
+        "price": 22200,
         "updateDate": "2026-09-14"
       }
     ]
@@ -182,14 +182,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 96,
+        "stock": 94,
         "price": 28500,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 5,
+        "stock": 1,
         "price": 27100,
         "updateDate": "2026-09-14"
       }
@@ -210,7 +210,7 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 3,
+        "stock": 2,
         "price": 28200,
         "updateDate": "2026-09-14"
       },
@@ -238,15 +238,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 176,
-        "price": 21700,
+        "stock": 167,
+        "price": 21200,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
         "stock": 32,
-        "price": 20600,
+        "price": 20100,
         "updateDate": "2026-09-14"
       }
     ]
@@ -266,14 +266,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 109,
+        "stock": 106,
         "price": 18500,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 11,
+        "stock": 6,
         "price": 16600,
         "updateDate": "2026-09-14"
       }
@@ -294,15 +294,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 529,
-        "price": 7800,
+        "stock": 434,
+        "price": 7700,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
         "stock": 29,
-        "price": 7000,
+        "price": 6900,
         "updateDate": "2026-09-14"
       }
     ]
@@ -322,15 +322,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 106,
-        "price": 12500,
+        "stock": 16,
+        "price": 12200,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 13,
-        "price": 10700,
+        "stock": 12,
+        "price": 11100,
         "updateDate": "2026-09-14"
       }
     ]
@@ -350,15 +350,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 545,
-        "price": 17500,
+        "stock": 479,
+        "price": 17200,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 1,
-        "price": 16600,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-14"
       }
     ]
@@ -378,14 +378,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 45,
+        "stock": 32,
         "price": 68700,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 6,
+        "stock": 5,
         "price": 61800,
         "updateDate": "2026-09-14"
       }
@@ -406,7 +406,7 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 5,
+        "stock": 4,
         "price": 20200,
         "updateDate": "2026-09-14"
       }
@@ -427,7 +427,7 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 3,
+        "stock": 4,
         "price": 277700,
         "updateDate": "2026-09-14"
       },
@@ -455,15 +455,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 502,
-        "price": 17000,
+        "stock": 486,
+        "price": 16800,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 6,
-        "price": 15300,
+        "stock": 2,
+        "price": 15500,
         "updateDate": "2026-09-14"
       }
     ]
@@ -483,7 +483,7 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 2,
+        "stock": 4,
         "price": 21700,
         "updateDate": "2026-09-14"
       },
@@ -511,14 +511,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 35,
+        "stock": 4,
         "price": 21700,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 2,
+        "stock": 1,
         "price": 18500,
         "updateDate": "2026-09-14"
       }
@@ -539,7 +539,7 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 8,
+        "stock": 5,
         "price": 64200,
         "updateDate": "2026-09-14"
       }
@@ -588,14 +588,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 81,
+        "stock": 46,
         "price": 11500,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 78,
+        "stock": 80,
         "price": 9400,
         "updateDate": "2026-09-14"
       }
@@ -616,14 +616,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 61,
+        "stock": 67,
         "price": 12700,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 67,
+        "stock": 68,
         "price": 11400,
         "updateDate": "2026-09-14"
       }
@@ -672,7 +672,7 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 12,
+        "stock": 10,
         "price": 20200,
         "updateDate": "2026-09-14"
       }
@@ -693,15 +693,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 226,
-        "price": 8200,
+        "stock": 17,
+        "price": 8100,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 90,
-        "price": 7400,
+        "stock": 56,
+        "price": 7300,
         "updateDate": "2026-09-14"
       }
     ]
@@ -721,14 +721,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 42,
+        "stock": 10,
         "price": 11500,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 87,
+        "stock": 92,
         "price": 9800,
         "updateDate": "2026-09-14"
       }
@@ -749,7 +749,7 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 15,
+        "stock": 18,
         "price": 139700,
         "updateDate": "2026-09-14"
       },
@@ -777,14 +777,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 54,
+        "stock": 25,
         "price": 16700,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 45,
+        "stock": 50,
         "price": 14300,
         "updateDate": "2026-09-14"
       }
@@ -805,15 +805,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 117,
-        "price": 12500,
+        "stock": 85,
+        "price": 12000,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 142,
-        "price": 11000,
+        "stock": 147,
+        "price": 10500,
         "updateDate": "2026-09-14"
       }
     ]
@@ -833,15 +833,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 11,
-        "price": 13000,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
         "stock": 9,
-        "price": 11500,
+        "price": 11700,
         "updateDate": "2026-09-14"
       }
     ]
@@ -861,15 +861,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 398,
-        "price": 8000,
+        "stock": 217,
+        "price": 7700,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 52,
-        "price": 7300,
+        "stock": 34,
+        "price": 7100,
         "updateDate": "2026-09-14"
       }
     ]
@@ -889,14 +889,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 45,
-        "price": 11200,
+        "stock": 21,
+        "price": 10700,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 83,
+        "stock": 87,
         "price": 9700,
         "updateDate": "2026-09-14"
       }
@@ -917,14 +917,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 109,
+        "stock": 45,
         "price": 7700,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 109,
+        "stock": 50,
         "price": 7200,
         "updateDate": "2026-09-14"
       }
@@ -945,15 +945,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 33,
-        "price": 12900,
+        "stock": 46,
+        "price": 12500,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 51,
-        "price": 11100,
+        "stock": 48,
+        "price": 10500,
         "updateDate": "2026-09-14"
       }
     ]
@@ -973,7 +973,7 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 2,
+        "stock": 3,
         "price": 134700,
         "updateDate": "2026-09-14"
       },
@@ -1029,8 +1029,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 4,
-        "price": 18200,
+        "stock": 3,
+        "price": 17700,
         "updateDate": "2026-09-14"
       }
     ]
@@ -1050,8 +1050,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 22,
-        "price": 17200,
+        "stock": 11,
+        "price": 17700,
         "updateDate": "2026-09-14"
       }
     ]
@@ -1099,16 +1099,16 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 418,
-        "price": 7300,
+        "stock": 61,
+        "price": 7400,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-13"
+        "stock": 6,
+        "price": 6600,
+        "updateDate": "2026-09-14"
       }
     ]
   },
@@ -1127,7 +1127,7 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 38,
+        "stock": 1,
         "price": 20700,
         "updateDate": "2026-09-14"
       },
@@ -1155,15 +1155,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 658,
-        "price": 11400,
+        "stock": 56,
+        "price": 11600,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 35,
-        "price": 10800,
+        "stock": 5,
+        "price": 11500,
         "updateDate": "2026-09-14"
       }
     ]
@@ -1183,16 +1183,16 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 4,
+        "stock": 6,
         "price": 53700,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-13"
+        "stock": 2,
+        "price": 48300,
+        "updateDate": "2026-09-14"
       }
     ]
   },
@@ -1211,14 +1211,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 19,
+        "stock": 4,
         "price": 13200,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 1,
+        "stock": 2,
         "price": 10600,
         "updateDate": "2026-09-14"
       }
@@ -1239,7 +1239,7 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 3,
+        "stock": 2,
         "price": 35200,
         "updateDate": "2026-09-14"
       }
@@ -1260,15 +1260,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 65,
+        "stock": 19,
         "price": 11000,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 50,
-        "price": 9900,
+        "stock": 56,
+        "price": 9400,
         "updateDate": "2026-09-14"
       }
     ]
@@ -1288,14 +1288,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 232,
-        "price": 16500,
+        "stock": 103,
+        "price": 16200,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 12,
+        "stock": 6,
         "price": 15000,
         "updateDate": "2026-09-14"
       }
@@ -1316,7 +1316,7 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 7,
+        "stock": 6,
         "price": 53700,
         "updateDate": "2026-09-14"
       },
@@ -1344,14 +1344,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 56,
+        "stock": 52,
         "price": 16700,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 31,
+        "stock": 28,
         "price": 15000,
         "updateDate": "2026-09-14"
       }
@@ -1372,15 +1372,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 89,
-        "price": 30000,
+        "stock": 97,
+        "price": 30100,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
         "stock": 44,
-        "price": 28500,
+        "price": 29300,
         "updateDate": "2026-09-14"
       }
     ]
@@ -1400,7 +1400,7 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 80,
+        "stock": 6,
         "price": 12700,
         "updateDate": "2026-09-14"
       },
@@ -1408,7 +1408,7 @@ window.DARUMA_PRICE_GROUPS = [
         "type": "BOX",
         "condition": "👍 No Shrink",
         "stock": 59,
-        "price": 11200,
+        "price": 12100,
         "updateDate": "2026-09-14"
       }
     ]
@@ -1428,7 +1428,7 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 73,
+        "stock": 68,
         "price": 35700,
         "updateDate": "2026-09-14"
       },
@@ -1484,15 +1484,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 408,
-        "price": 10700,
+        "stock": 231,
+        "price": 11100,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 42,
-        "price": 10400,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-14"
       }
     ]
@@ -1512,14 +1512,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 77,
+        "stock": 25,
         "price": 9700,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 112,
+        "stock": 65,
         "price": 9000,
         "updateDate": "2026-09-14"
       }
@@ -1540,14 +1540,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 77,
+        "stock": 25,
         "price": 9700,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 112,
+        "stock": 65,
         "price": 9000,
         "updateDate": "2026-09-14"
       }
@@ -1568,14 +1568,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 34,
-        "price": 14500,
+        "stock": 15,
+        "price": 14000,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 45,
+        "stock": 40,
         "price": 12700,
         "updateDate": "2026-09-14"
       }
@@ -1596,15 +1596,15 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 47,
-        "price": 19200,
+        "stock": 6,
+        "price": 18500,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 21,
-        "price": 18000,
+        "stock": 19,
+        "price": 18600,
         "updateDate": "2026-09-14"
       }
     ]
@@ -1624,8 +1624,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 3,
-        "price": 51200,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-14"
       },
       {
@@ -1652,14 +1652,14 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 2,
+        "stock": 3,
         "price": 15700,
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 1,
+        "stock": 2,
         "price": 12500,
         "updateDate": "2026-09-14"
       }
@@ -1680,7 +1680,7 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 5,
+        "stock": 10,
         "price": 32200,
         "updateDate": "2026-09-14"
       }
@@ -1729,8 +1729,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 42700,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-14"
       },
       {
@@ -1757,8 +1757,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 4,
-        "price": 12900,
+        "stock": 1,
+        "price": 12100,
         "updateDate": "2026-09-14"
       }
     ]
@@ -1779,7 +1779,7 @@ window.DARUMA_PRICE_GROUPS = [
         "type": "BOX",
         "condition": "✨ Shrink",
         "stock": 1,
-        "price": 16200,
+        "price": 15700,
         "updateDate": "2026-09-14"
       }
     ]
@@ -1800,7 +1800,7 @@ window.DARUMA_PRICE_GROUPS = [
         "type": "BOX",
         "condition": "✨ Shrink",
         "stock": 1,
-        "price": 22200,
+        "price": 21900,
         "updateDate": "2026-09-14"
       }
     ]
@@ -1821,7 +1821,7 @@ window.DARUMA_PRICE_GROUPS = [
         "type": "BOX",
         "condition": "✨ Shrink",
         "stock": 4,
-        "price": 24400,
+        "price": 25100,
         "updateDate": "2026-09-14"
       }
     ]
@@ -1869,16 +1869,16 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 5,
-        "price": 209700,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-08-23"
+        "stock": 1,
+        "price": 199700,
+        "updateDate": "2026-09-14"
       }
     ]
   },
@@ -1918,8 +1918,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 4,
-        "price": 11700,
+        "stock": 3,
+        "price": 11600,
         "updateDate": "2026-09-14"
       }
     ]
@@ -1967,16 +1967,16 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 51700,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-14"
       },
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-13"
+        "stock": 1,
+        "price": 44000,
+        "updateDate": "2026-09-14"
       }
     ]
   },
@@ -1995,8 +1995,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 2,
-        "price": 46700,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-14"
       },
       {
@@ -2023,8 +2023,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 1,
-        "price": 57700,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-14"
       },
       {
@@ -2051,8 +2051,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 4,
-        "price": 19700,
+        "stock": 3,
+        "price": 19200,
         "updateDate": "2026-09-14"
       }
     ]
@@ -2072,8 +2072,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 3,
-        "price": 11900,
+        "stock": 9,
+        "price": 10700,
         "updateDate": "2026-09-14"
       }
     ]
@@ -2093,8 +2093,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": 2,
-        "price": 19700,
+        "stock": "ask",
+        "price": "ask",
         "updateDate": "2026-09-14"
       },
       {
@@ -2157,27 +2157,6 @@ window.DARUMA_PRICE_GROUPS = [
   },
   {
     "category": "One Piece",
-    "item": "Kingdoms of Intrigue [OP-04]",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026781/20251204/1764798384035-e2f9605d7139542d.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-13"
-      }
-    ]
-  },
-  {
-    "category": "One Piece",
     "item": "The World's Strongest Warriors [OP-17]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAX2600013887/20260821/1787270443485-15fd113e808061b3.png",
     "variants": [
@@ -2191,9 +2170,9 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-13"
+        "stock": 5,
+        "price": 13000,
+        "updateDate": "2026-09-14"
       }
     ]
   },
@@ -2201,6 +2180,104 @@ window.DARUMA_PRICE_GROUPS = [
     "category": "One Piece",
     "item": "THE TIME OF BATTLE [OP-16]",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2600007307/20260529/1780007326073-12b6f9233f1c83b5.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 3,
+        "price": 8700,
+        "updateDate": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "Legacy of the Master [OP-12]",
+    "image": "./assets/price-images/one-piece-op-12.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 17700,
+        "updateDate": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Ultra Force",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026168/20251019/1760821544953-e75b6ee26dd93c80.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "ask",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 1,
+        "price": 79700,
+        "updateDate": "2026-09-14"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 1,
+        "price": 67800,
+        "updateDate": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "category": "Pokémon",
+    "item": "Jet-Black Spirit",
+    "image": "./assets/price-images/pok-mon-jet-black-spirit.png",
+    "variants": [
+      {
+        "type": "CASE",
+        "condition": "✨ Shrink",
+        "stock": "",
+        "price": "ask",
+        "updateDate": ""
+      },
+      {
+        "type": "BOX",
+        "condition": "✨ Shrink",
+        "stock": 2,
+        "price": 24000,
+        "updateDate": "2026-09-14"
+      },
+      {
+        "type": "BOX",
+        "condition": "👍 No Shrink",
+        "stock": 3,
+        "price": 18700,
+        "updateDate": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "category": "One Piece",
+    "item": "Kingdoms of Intrigue [OP-04]",
+    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAO2300026781/20251204/1764798384035-e2f9605d7139542d.png",
     "variants": [
       {
         "type": "CASE",
@@ -2289,9 +2366,9 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-08-26"
+        "stock": 1,
+        "price": 55100,
+        "updateDate": "2026-09-14"
       }
     ]
   },
@@ -2541,27 +2618,6 @@ window.DARUMA_PRICE_GROUPS = [
     ]
   },
   {
-    "category": "One Piece",
-    "item": "Legacy of the Master [OP-12]",
-    "image": "./assets/price-images/one-piece-op-12.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-12"
-      }
-    ]
-  },
-  {
     "category": "Pokémon",
     "item": "GG End",
     "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026250/20251019/1760821538361-6e2e13a97ba18a22.png",
@@ -2751,36 +2807,8 @@ window.DARUMA_PRICE_GROUPS = [
       {
         "type": "BOX",
         "condition": "👍 No Shrink",
-        "stock": 2,
-        "price": 115700,
-        "updateDate": "2026-09-14"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Ultra Force",
-    "image": "https://storage.googleapis.com/shinsoku-tcg-public/items/IAP2300026168/20251019/1760821544953-e75b6ee26dd93c80.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-10"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
         "stock": 1,
-        "price": 67800,
+        "price": 115700,
         "updateDate": "2026-09-14"
       }
     ]
@@ -2831,34 +2859,6 @@ window.DARUMA_PRICE_GROUPS = [
         "stock": "ask",
         "price": "ask",
         "updateDate": "2026-09-09"
-      }
-    ]
-  },
-  {
-    "category": "Pokémon",
-    "item": "Jet-Black Spirit",
-    "image": "./assets/price-images/pok-mon-jet-black-spirit.png",
-    "variants": [
-      {
-        "type": "CASE",
-        "condition": "✨ Shrink",
-        "stock": "",
-        "price": "ask",
-        "updateDate": ""
-      },
-      {
-        "type": "BOX",
-        "condition": "✨ Shrink",
-        "stock": "ask",
-        "price": "ask",
-        "updateDate": "2026-09-09"
-      },
-      {
-        "type": "BOX",
-        "condition": "👍 No Shrink",
-        "stock": 3,
-        "price": 18700,
-        "updateDate": "2026-09-14"
       }
     ]
   },
