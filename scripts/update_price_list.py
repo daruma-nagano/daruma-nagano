@@ -65,6 +65,16 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--xlsx", help="Use a local workbook instead of downloading the public sheet")
     p.add_argument("--report", default="price-list-update-report.csv")
     p.add_argument("--image-map", default="data/image-url-map.json")
+    p.add_argument(
+        "--prune-missing",
+        action="store_true",
+        help="シートに存在しなくなった商品をJSから削除する。既定は削除せず検証エラーにする。",
+    )
+    p.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="検証とレポート出力だけ行い、JSファイルは書き換えない。",
+    )
     return p.parse_args()
 
 
@@ -574,6 +584,38 @@ def sort_groups_by_target_update_date(groups: list[dict[str, Any]]) -> None:
 
 
 
+def prune_missing_groups(
+    groups: list[dict[str, Any]],
+    missing_keys: list[tuple[str, str]],
+) -> tuple[list[dict[str, Any]], list[tuple[str, str]]]:
+    """シートに存在しなくなった商品をJSから取り除く。
+
+    2026-09-23 追加:
+      スプレッドシート側で重複ブロックや旧表記を整理すると、
+      サイト側のJSにだけ残った商品が「シートに無い」と判定され、
+      検証エラーで更新が止まる。
+      整理を反映したいときに、この関数で該当商品を落とす。
+
+      呼び出し側で --prune-missing を指定したときだけ使う。
+      既定では削除せず検証エラーのままにして、
+      シートの破損や一時的な取得失敗でサイトの商品が消えるのを防ぐ。
+
+    戻り値は (残す商品, 実際に削除した商品キー)。
+    """
+    if not missing_keys:
+        return groups, []
+    targets = set(missing_keys)
+    kept: list[dict[str, Any]] = []
+    pruned: list[tuple[str, str]] = []
+    for group in groups:
+        key = (str(group.get("category", "")), str(group.get("item", "")))
+        if key in targets:
+            pruned.append(key)
+            continue
+        kept.append(group)
+    return kept, pruned
+
+
 def load_image_map(path: Path) -> dict[tuple[str, str], str]:
     """Load category + item -> image URL mappings. Missing file is non-fatal."""
     if not path.exists():
@@ -787,6 +829,21 @@ def main() -> int:
                 "category": key[0], "item": key[1], "status": "missing_in_sheet", "details": ""
             })
 
+    # シート整理を反映する場合、ここで対象商品を落とす。
+    # 画像適用・並べ替え・検証より前に行い、以降の件数を実際の内容に合わせる。
+    pruned_keys: set[tuple[str, str]] = set()
+    if args.prune_missing and missing_from_sheet:
+        groups, pruned_list = prune_missing_groups(groups, missing_from_sheet)
+        pruned_keys = set(pruned_list)
+        for key in pruned_list:
+            report_rows.append({
+                "category": key[0],
+                "item": key[1],
+                "status": "pruned_missing",
+                "details": "Removed because the product no longer exists in the sheet",
+            })
+        missing_from_sheet = [key for key in missing_from_sheet if key not in pruned_keys]
+
     # Apply image URLs after new products and price updates are in place.
     image_map = load_image_map(image_map_path)
     image_changed_count, image_mapped_count = apply_images(groups, image_map, report_rows, name_map)
@@ -848,7 +905,8 @@ def main() -> int:
         key = (str(old_group.get("category", "")), str(old_group.get("item", "")))
         new_group = current_map.get(key)
         if not new_group:
-            protected_changes.append(f"existing product removed: {key}")
+            if key not in pruned_keys:
+                protected_changes.append(f"existing product removed: {key}")
             continue
         if old_group.get("image") != new_group.get("image"):
             if new_group.get("image") not in set(image_map.values()):
@@ -917,6 +975,7 @@ def main() -> int:
     print(f"Existing items missing from sheet: {len(missing_from_sheet)}")
     print(f"Mismatches: {len(mismatches)}")
     print(f"New-product mismatches: {len(new_variant_mismatches)}")
+    print(f"Pruned missing products: {len(pruned_keys)}")
     print(f"Protected changes: {len(protected_changes)}")
     print(f"Input freshness: {sheet_freshness}")
     print(f"Duplicate input variants detected: {len(duplicate_sheet_variants)}")
@@ -931,6 +990,10 @@ def main() -> int:
         for error in errors:
             print(f"- {error}", file=sys.stderr)
         return 1
+
+    if args.dry_run:
+        print(f"[dry-run] {js_path} は書き換えていません。レポートだけ出力しました。")
+        return 0
 
     write_js(js_path, groups)
     print(f"Updated: {js_path}")

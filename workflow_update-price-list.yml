@@ -1,0 +1,96 @@
+name: Update price list
+
+on:
+  workflow_dispatch:
+    inputs:
+      prune_missing:
+        description: "シートから消えた商品をJSからも削除する（シート整理を反映するときだけ ON）"
+        type: boolean
+        default: false
+  schedule:
+    # Japan Standard Time (Asia/Tokyo)
+    - cron: "0 10 * * *"
+      timezone: "Asia/Tokyo"
+    - cron: "30 12 * * *"
+      timezone: "Asia/Tokyo"
+    - cron: "30 14 * * *"
+      timezone: "Asia/Tokyo"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-price-list
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip openpyxl
+
+      - name: Run unit tests
+        run: python -m unittest discover -s scripts -p "test_*.py" -v
+
+      - name: Update and validate price data
+        env:
+          MAX_SHEET_AGE_DAYS: "2"
+          MAX_BOX_PRICE_JPY: "2000000"
+          MAX_PRICE_CHANGE_RATIO: "0.50"
+          PRUNE_MISSING: ${{ inputs.prune_missing }}
+        shell: bash
+        run: |
+          ARGS=(--js en/price-list/price-list-data.js --image-map data/image-url-map.json)
+          if [ "$PRUNE_MISSING" = "true" ]; then
+            echo "シートから消えた商品をJSからも削除します。"
+            ARGS+=(--prune-missing)
+          fi
+          python scripts/update_price_list.py "${ARGS[@]}"
+
+      - name: Validate JavaScript syntax
+        run: node --check en/price-list/price-list-data.js
+
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: price-list-update-report-${{ github.run_id }}
+          path: price-list-update-report.csv
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Commit updated data
+        shell: bash
+        run: |
+          if git diff --quiet -- en/price-list/price-list-data.js; then
+            echo "No price changes detected."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add en/price-list/price-list-data.js
+          git commit -m "Update price list data"
+          git push
+
+      - name: Verify published price list
+        if: success()
+        run: |
+          python scripts/verify_published_price_list.py \
+            --local en/price-list/price-list-data.js \
+            --url https://daruma-nagano.github.io/daruma-nagano/en/price-list/price-list-data.js \
+            --attempts 12 \
+            --interval 15
