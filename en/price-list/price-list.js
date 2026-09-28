@@ -20,6 +20,16 @@
   const lowest = g => Math.min(...g.variants.map(v => isNum(v.price) ? v.price : Infinity));
   const highest = g => Math.max(...g.variants.map(v => isNum(v.price) ? v.price : -1));
   const latest = g => g.variants.map(v => String(v.updateDate || '')).sort().pop() || '';
+  const released = g => String(g.releaseDate || '');
+  const MONTH_NAMES = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  // 発売日は 'YYYY-MM-DD'、公表が月までの商品は 'YYYY-MM'。
+  function releaseLabel(value){
+    const m = /^(\d{4})-(\d{2})(?:-(\d{2}))?$/.exec(String(value || ''));
+    if(!m) return '';
+    const month = MONTH_NAMES[Number(m[2]) - 1];
+    if(!month) return '';
+    return m[3] ? `${month} ${Number(m[3])}, ${m[1]}` : `${month} ${m[1]}`;
+  }
   function variantMatches(v, filter){
     const t = String(v.type || '').toUpperCase();
     const c = String(v.condition || '').toLowerCase();
@@ -40,6 +50,16 @@
       .filter(g=> !q || [g.item,g.category,g.variants.map(v=>[v.type,v.condition,v.stock,v.price,v.updateDate,v.comment].join(' ')).join(' ')].join(' ').toLowerCase().includes(q));
     const mode=sort.value;
     groups.sort((a,b)=>{
+      if(mode==='release'){
+        // 発売日の新しい順。発売日が分からない商品は末尾に回し、
+        // その中では更新日の新しい順にする。
+        const ra=released(a), rb=released(b);
+        if(!ra && !rb) return latest(b).localeCompare(latest(a));
+        if(!ra) return 1;
+        if(!rb) return -1;
+        if(ra!==rb) return rb.localeCompare(ra);
+        return String(a.item||'').localeCompare(String(b.item||''));
+      }
       if(mode==='priceDesc') return highest(b)-highest(a);
       if(mode==='priceAsc') return lowest(a)-lowest(b);
       if(mode==='updated') return latest(b).localeCompare(latest(a));
@@ -64,7 +84,7 @@
       <article class="pl-card">
         <div class="pl-img-wrap">${g.image ? `<img class="pl-img" src="${safe(g.image)}" alt="${safe(g.item)}">` : `<span class="pl-img-placeholder">DARUMA</span>`}</div>
         <div class="pl-body">
-          <div class="pl-card-top"><h3 class="pl-item">${safe(g.item)}</h3><span class="pl-category">${safe(g.category)}</span></div>
+          <div class="pl-card-top"><h3 class="pl-item">${safe(g.item)}</h3><span class="pl-category">${safe(g.category)}${releaseLabel(g.releaseDate) ? ` · ${safe(releaseLabel(g.releaseDate))}` : ''}</span></div>
           <div class="pl-variants">${g.variants.map(renderVariant).join('')}</div>
         </div>
       </article>`).join('');

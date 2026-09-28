@@ -66,6 +66,11 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--report", default="price-list-update-report.csv")
     p.add_argument("--image-map", default="data/image-url-map.json")
     p.add_argument(
+        "--release-map",
+        default="data/release-dates.json",
+        help="発売日の対応表。無ければ発売日は付与せず、従来の並び順のままにする。",
+    )
+    p.add_argument(
         "--prune-missing",
         action="store_true",
         help="シートに存在しなくなった商品をJSから削除する。既定は削除せず検証エラーにする。",
@@ -564,22 +569,43 @@ def insert_new_group(groups: list[dict[str, Any]], group: dict[str, Any]) -> Non
         groups.append(group)
 
 
+def target_update_date(group: dict[str, Any]) -> str:
+    """BOX / ✨ Shrink の更新日。無ければ空文字。"""
+    for variant in group.get("variants", []):
+        if (
+            variant.get("type") == TARGET_TYPE
+            and variant.get("condition") == TARGET_CONDITION
+        ):
+            return str(variant.get("updateDate") or "")
+    return ""
+
+
 def sort_groups_by_target_update_date(groups: list[dict[str, Any]]) -> None:
     """Stable-sort products by BOX / ✨ Shrink updateDate, newest first.
 
     Python's sort is stable, so products with the same updateDate retain
     their existing relative order. Products without a target date go last.
     """
-    def target_date(group: dict[str, Any]) -> str:
-        for variant in group.get("variants", []):
-            if (
-                variant.get("type") == TARGET_TYPE
-                and variant.get("condition") == TARGET_CONDITION
-            ):
-                return str(variant.get("updateDate") or "")
-        return ""
+    groups.sort(key=target_update_date, reverse=True)
 
-    groups.sort(key=target_date, reverse=True)
+
+def sort_groups_by_release_date(groups: list[dict[str, Any]]) -> None:
+    """発売日の新しい順に並べ替える。
+
+    2026-09-28 追加:
+      従来は BOX ✨Shrink の更新日順だったため、毎日並び順が変わって
+      目的の商品を探しづらかった。発売日順にすると並びが安定する。
+
+      発売日が分からない商品（イベント配布品など）は末尾にまとめ、
+      その中では従来どおり更新日の新しい順にする。
+      発売日の対応表が無いときは全件が末尾扱いになるため、
+      並び順は従来（更新日順）と同じになる。
+    """
+    def key(group: dict[str, Any]) -> tuple[int, str, str]:
+        release = str(group.get("releaseDate") or "")
+        return (1 if release else 0, release, target_update_date(group))
+
+    groups.sort(key=key, reverse=True)
 
 
 
@@ -614,6 +640,70 @@ def prune_missing_groups(
             continue
         kept.append(group)
     return kept, pruned
+
+
+def load_release_map(path: Path) -> dict[tuple[str, str], str]:
+    """category + item -> 発売日 の対応表を読む。ファイルが無いのは異常ではない。
+
+    items はシンソク側のマスタから生成した分、manualItems はマスタに無い
+    商品の手入力分。同じ商品が両方にあるときは manualItems を採用する。
+    """
+    if not path.exists():
+        print(f"Release map not found; release dates skipped: {path}")
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(payload, dict):
+        return {}
+    result: dict[tuple[str, str], str] = {}
+    for section in ("items", "manualItems"):
+        entries = payload.get(section)
+        if not isinstance(entries, dict):
+            continue
+        for raw_key, raw_date in entries.items():
+            if not isinstance(raw_key, str) or not isinstance(raw_date, str):
+                continue
+            if "\t" not in raw_key or not raw_date.strip():
+                continue
+            category, item = raw_key.split("\t", 1)
+            result[(category.strip(), item.strip())] = raw_date.strip()
+    return result
+
+
+def apply_release_dates(
+    groups: list[dict[str, Any]],
+    release_map: dict[tuple[str, str], str],
+    name_map: dict[str, str],
+) -> tuple[int, int]:
+    """発売日を各商品に付与する。対応表に無い商品は releaseDate を付けない。
+
+    商品名は日本語表記と英語表記が入れ替わることがあるため、
+    対応表側と商品側の両方を正規化名と別名解決に通してから突き合わせる。
+    （対応表のキーは英語表記で固定しているのに、JS側の商品名が
+      日本語表記に入れ替わることがあるため、商品側の解決も必要。）
+
+    戻り値は (書き換えた件数, 対応表と一致した件数)。
+    """
+    normalized: dict[tuple[str, str], str] = {}
+    for (category, item), release_date in release_map.items():
+        canonical = name_map.get(normalize_name(item), item)
+        normalized[(category, normalize_name(canonical))] = release_date
+        normalized[(category, normalize_name(item))] = release_date
+
+    changed = 0
+    mapped = 0
+    for group in groups:
+        category = str(group.get("category", ""))
+        item = str(group.get("item", ""))
+        item_key = normalize_name(item)
+        canonical_key = normalize_name(name_map.get(item_key, item))
+        release_date = normalized.get((category, item_key)) or normalized.get((category, canonical_key))
+        if not release_date:
+            continue
+        mapped += 1
+        if str(group.get("releaseDate", "") or "") != release_date:
+            group["releaseDate"] = release_date
+            changed += 1
+    return changed, mapped
 
 
 def load_image_map(path: Path) -> dict[tuple[str, str], str]:
@@ -682,6 +772,7 @@ def main() -> int:
     js_path = Path(args.js)
     report_path = Path(args.report)
     image_map_path = Path(args.image_map)
+    release_map_path = Path(args.release_map)
     xlsx_path = Path(args.xlsx) if args.xlsx else download_xlsx()
 
     groups = load_js(js_path)
@@ -848,9 +939,14 @@ def main() -> int:
     image_map = load_image_map(image_map_path)
     image_changed_count, image_mapped_count = apply_images(groups, image_map, report_rows, name_map)
 
-    # Initial website display follows the JS array order. Sort by the
-    # BOX / ✨ Shrink updateDate so recently updated products appear first.
-    sort_groups_by_target_update_date(groups)
+    # 発売日を付与してから並べ替える。対応表が無いときは発売日が付かないため、
+    # 並び順は従来（更新日順）のままになる。
+    release_map = load_release_map(release_map_path)
+    release_changed_count, release_mapped_count = apply_release_dates(groups, release_map, name_map)
+
+    # Initial website display follows the JS array order. Sort by release date
+    # so the order stays stable; undated products keep the updateDate order.
+    sort_groups_by_release_date(groups)
 
     # Verify target fields for every product against the workbook.
     mismatches: list[str] = []
@@ -970,6 +1066,8 @@ def main() -> int:
     print(f"Alias duplicates removed: {len(removed_alias_duplicates)}")
     print(f"Image map matches: {image_mapped_count}")
     print(f"Images updated: {image_changed_count}")
+    print(f"Release map matches: {release_mapped_count}")
+    print(f"Release dates updated: {release_changed_count}")
     for key in new_keys:
         print(f"  ADDED: {key[0]} / {key[1]}")
     print(f"Existing items missing from sheet: {len(missing_from_sheet)}")
